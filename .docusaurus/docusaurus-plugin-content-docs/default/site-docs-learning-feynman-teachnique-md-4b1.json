@@ -1,0 +1,22 @@
+{
+  "unversionedId": "learning/learning",
+  "id": "learning/learning",
+  "title": "The Feynman Technique",
+  "description": "What is the Feynman technique?",
+  "source": "@site/docs/learning/feynman-teachnique.md",
+  "sourceDirName": "learning",
+  "slug": "/learning/learning",
+  "permalink": "/docs/learning/learning",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/learning/feynman-teachnique.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "learning",
+    "title": "The Feynman Technique"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/tutorial-basics/congratulations"
+  }
+}
