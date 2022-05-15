@@ -1,0 +1,19 @@
+{
+  "unversionedId": "testing/unit-testing",
+  "id": "testing/unit-testing",
+  "title": "Unit Testing",
+  "description": "",
+  "source": "@site/docs/testing/unit-testing.md",
+  "sourceDirName": "testing",
+  "slug": "/testing/unit-testing",
+  "permalink": "/docs/testing/unit-testing",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/testing/unit-testing.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MSW Setup",
+    "permalink": "/docs/testing/react/msw/setup"
+  }
+}

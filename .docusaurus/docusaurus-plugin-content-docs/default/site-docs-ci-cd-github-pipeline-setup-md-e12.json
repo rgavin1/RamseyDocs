@@ -1,0 +1,23 @@
+{
+  "unversionedId": "ci-cd/github/pipeline-setup",
+  "id": "ci-cd/github/pipeline-setup",
+  "title": "pipeline-setup",
+  "description": "",
+  "source": "@site/docs/ci-cd/github/pipeline-setup.md",
+  "sourceDirName": "ci-cd/github",
+  "slug": "/ci-cd/github/pipeline-setup",
+  "permalink": "/docs/ci-cd/github/pipeline-setup",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ci-cd/github/pipeline-setup.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API",
+    "permalink": "/docs/api/intro"
+  },
+  "next": {
+    "title": "pipeline-setup",
+    "permalink": "/docs/ci-cd/gitlab/pipeline-setup"
+  }
+}

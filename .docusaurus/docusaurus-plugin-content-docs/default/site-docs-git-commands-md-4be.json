@@ -1,0 +1,23 @@
+{
+  "unversionedId": "git/commands",
+  "id": "git/commands",
+  "title": "Git Commands",
+  "description": "",
+  "source": "@site/docs/git/commands.md",
+  "sourceDirName": "git",
+  "slug": "/git/commands",
+  "permalink": "/docs/git/commands",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/git/commands.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/docusaurus/tutorial-basics/congratulations"
+  },
+  "next": {
+    "title": "Hosting",
+    "permalink": "/docs/hosting/"
+  }
+}

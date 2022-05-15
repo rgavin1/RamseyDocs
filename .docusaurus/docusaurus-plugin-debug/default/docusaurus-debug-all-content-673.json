@@ -19,15 +19,218 @@
           "contentPathLocalized": "/Users/brooklynn2497/Desktop/GitHub/RamseyDocs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "intro",
-              "id": "intro",
+              "unversionedId": "api/intro",
+              "id": "api/intro",
+              "title": "API",
+              "description": "",
+              "source": "@site/docs/api/intro.md",
+              "sourceDirName": "api",
+              "slug": "/api/intro",
+              "permalink": "/docs/api/intro",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "pipeline-setup",
+                "permalink": "/docs/ci-cd/github/pipeline-setup"
+              }
+            },
+            {
+              "unversionedId": "ci-cd/github/pipeline-setup",
+              "id": "ci-cd/github/pipeline-setup",
+              "title": "pipeline-setup",
+              "description": "",
+              "source": "@site/docs/ci-cd/github/pipeline-setup.md",
+              "sourceDirName": "ci-cd/github",
+              "slug": "/ci-cd/github/pipeline-setup",
+              "permalink": "/docs/ci-cd/github/pipeline-setup",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ci-cd/github/pipeline-setup.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "API",
+                "permalink": "/docs/api/intro"
+              },
+              "next": {
+                "title": "pipeline-setup",
+                "permalink": "/docs/ci-cd/gitlab/pipeline-setup"
+              }
+            },
+            {
+              "unversionedId": "ci-cd/gitlab/pipeline-setup",
+              "id": "ci-cd/gitlab/pipeline-setup",
+              "title": "pipeline-setup",
+              "description": "",
+              "source": "@site/docs/ci-cd/gitlab/pipeline-setup.md",
+              "sourceDirName": "ci-cd/gitlab",
+              "slug": "/ci-cd/gitlab/pipeline-setup",
+              "permalink": "/docs/ci-cd/gitlab/pipeline-setup",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ci-cd/gitlab/pipeline-setup.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "pipeline-setup",
+                "permalink": "/docs/ci-cd/github/pipeline-setup"
+              },
+              "next": {
+                "title": "intro",
+                "permalink": "/docs/ci-cd/intro"
+              }
+            },
+            {
+              "unversionedId": "ci-cd/intro",
+              "id": "ci-cd/intro",
+              "title": "intro",
+              "description": "",
+              "source": "@site/docs/ci-cd/intro.md",
+              "sourceDirName": "ci-cd",
+              "slug": "/ci-cd/intro",
+              "permalink": "/docs/ci-cd/intro",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ci-cd/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "pipeline-setup",
+                "permalink": "/docs/ci-cd/gitlab/pipeline-setup"
+              },
+              "next": {
+                "title": "Debugging",
+                "permalink": "/docs/debugging/intro"
+              }
+            },
+            {
+              "unversionedId": "debugging/intro",
+              "id": "debugging/intro",
+              "title": "Debugging",
+              "description": "",
+              "source": "@site/docs/debugging/intro.md",
+              "sourceDirName": "debugging",
+              "slug": "/debugging/intro",
+              "permalink": "/docs/debugging/intro",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/debugging/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "intro",
+                "permalink": "/docs/ci-cd/intro"
+              },
+              "next": {
+                "title": "IPDB",
+                "permalink": "/docs/debugging/python/ipdb"
+              }
+            },
+            {
+              "unversionedId": "debugging/python/ipdb",
+              "id": "debugging/python/ipdb",
+              "title": "IPDB",
+              "description": "🚧 In Progress 🚧",
+              "source": "@site/docs/debugging/python/ipdb.md",
+              "sourceDirName": "debugging/python",
+              "slug": "/debugging/python/ipdb",
+              "permalink": "/docs/debugging/python/ipdb",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/debugging/python/ipdb.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Debugging",
+                "permalink": "/docs/debugging/intro"
+              },
+              "next": {
+                "title": "VS Code",
+                "permalink": "/docs/debugging/python/vscode"
+              }
+            },
+            {
+              "unversionedId": "debugging/python/vscode",
+              "id": "debugging/python/vscode",
+              "title": "VS Code",
+              "description": "🚧 In Progress 🚧",
+              "source": "@site/docs/debugging/python/vscode.md",
+              "sourceDirName": "debugging/python",
+              "slug": "/debugging/python/vscode",
+              "permalink": "/docs/debugging/python/vscode",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/debugging/python/vscode.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "IPDB",
+                "permalink": "/docs/debugging/python/ipdb"
+              },
+              "next": {
+                "title": "tip-and-tricks",
+                "permalink": "/docs/debugging/react/tip-and-tricks"
+              }
+            },
+            {
+              "unversionedId": "debugging/react/tip-and-tricks",
+              "id": "debugging/react/tip-and-tricks",
+              "title": "tip-and-tricks",
+              "description": "",
+              "source": "@site/docs/debugging/react/tip-and-tricks.md",
+              "sourceDirName": "debugging/react",
+              "slug": "/debugging/react/tip-and-tricks",
+              "permalink": "/docs/debugging/react/tip-and-tricks",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/debugging/react/tip-and-tricks.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "VS Code",
+                "permalink": "/docs/debugging/python/vscode"
+              },
+              "next": {
+                "title": "VS Code",
+                "permalink": "/docs/debugging/react/vscode"
+              }
+            },
+            {
+              "unversionedId": "debugging/react/vscode",
+              "id": "debugging/react/vscode",
+              "title": "VS Code",
+              "description": "",
+              "source": "@site/docs/debugging/react/vscode.md",
+              "sourceDirName": "debugging/react",
+              "slug": "/debugging/react/vscode",
+              "permalink": "/docs/debugging/react/vscode",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/debugging/react/vscode.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "tip-and-tricks",
+                "permalink": "/docs/debugging/react/tip-and-tricks"
+              },
+              "next": {
+                "title": "Tutorial Intro",
+                "permalink": "/docs/docusaurus/intro"
+              }
+            },
+            {
+              "unversionedId": "docusaurus/intro",
+              "id": "docusaurus/intro",
               "title": "Tutorial Intro",
               "description": "Let's discover Docusaurus in less than 5 minutes.",
-              "source": "@site/docs/intro.md",
-              "sourceDirName": ".",
-              "slug": "/intro",
-              "permalink": "/docs/intro",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "source": "@site/docs/docusaurus/intro.md",
+              "sourceDirName": "docusaurus",
+              "slug": "/docusaurus/intro",
+              "permalink": "/docs/docusaurus/intro",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docusaurus/intro.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -35,9 +238,341 @@
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "VS Code",
+                "permalink": "/docs/debugging/react/vscode"
+              },
               "next": {
                 "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "permalink": "/docs/docusaurus/tutorial-basics/create-a-page"
+              }
+            },
+            {
+              "unversionedId": "docusaurus/tutorial-basics/congratulations",
+              "id": "docusaurus/tutorial-basics/congratulations",
+              "title": "Congratulations!",
+              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+              "source": "@site/docs/docusaurus/tutorial-basics/congratulations.md",
+              "sourceDirName": "docusaurus/tutorial-basics",
+              "slug": "/docusaurus/tutorial-basics/congratulations",
+              "permalink": "/docs/docusaurus/tutorial-basics/congratulations",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docusaurus/tutorial-basics/congratulations.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deploy your site",
+                "permalink": "/docs/docusaurus/tutorial-basics/deploy-your-site"
+              },
+              "next": {
+                "title": "Git Commands",
+                "permalink": "/docs/git/commands"
+              }
+            },
+            {
+              "unversionedId": "docusaurus/tutorial-basics/create-a-blog-post",
+              "id": "docusaurus/tutorial-basics/create-a-blog-post",
+              "title": "Create a Blog Post",
+              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+              "source": "@site/docs/docusaurus/tutorial-basics/create-a-blog-post.md",
+              "sourceDirName": "docusaurus/tutorial-basics",
+              "slug": "/docusaurus/tutorial-basics/create-a-blog-post",
+              "permalink": "/docs/docusaurus/tutorial-basics/create-a-blog-post",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docusaurus/tutorial-basics/create-a-blog-post.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Document",
+                "permalink": "/docs/docusaurus/tutorial-basics/create-a-document"
+              },
+              "next": {
+                "title": "Markdown Features",
+                "permalink": "/docs/docusaurus/tutorial-basics/markdown-features"
+              }
+            },
+            {
+              "unversionedId": "docusaurus/tutorial-basics/create-a-document",
+              "id": "docusaurus/tutorial-basics/create-a-document",
+              "title": "Create a Document",
+              "description": "Documents are groups of pages connected through:",
+              "source": "@site/docs/docusaurus/tutorial-basics/create-a-document.md",
+              "sourceDirName": "docusaurus/tutorial-basics",
+              "slug": "/docusaurus/tutorial-basics/create-a-document",
+              "permalink": "/docs/docusaurus/tutorial-basics/create-a-document",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docusaurus/tutorial-basics/create-a-document.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Page",
+                "permalink": "/docs/docusaurus/tutorial-basics/create-a-page"
+              },
+              "next": {
+                "title": "Create a Blog Post",
+                "permalink": "/docs/docusaurus/tutorial-basics/create-a-blog-post"
+              }
+            },
+            {
+              "unversionedId": "docusaurus/tutorial-basics/create-a-page",
+              "id": "docusaurus/tutorial-basics/create-a-page",
+              "title": "Create a Page",
+              "description": "Add Markdown or React files to src/pages to create a standalone page:",
+              "source": "@site/docs/docusaurus/tutorial-basics/create-a-page.md",
+              "sourceDirName": "docusaurus/tutorial-basics",
+              "slug": "/docusaurus/tutorial-basics/create-a-page",
+              "permalink": "/docs/docusaurus/tutorial-basics/create-a-page",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docusaurus/tutorial-basics/create-a-page.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tutorial Intro",
+                "permalink": "/docs/docusaurus/intro"
+              },
+              "next": {
+                "title": "Create a Document",
+                "permalink": "/docs/docusaurus/tutorial-basics/create-a-document"
+              }
+            },
+            {
+              "unversionedId": "docusaurus/tutorial-basics/deploy-your-site",
+              "id": "docusaurus/tutorial-basics/deploy-your-site",
+              "title": "Deploy your site",
+              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+              "source": "@site/docs/docusaurus/tutorial-basics/deploy-your-site.md",
+              "sourceDirName": "docusaurus/tutorial-basics",
+              "slug": "/docusaurus/tutorial-basics/deploy-your-site",
+              "permalink": "/docs/docusaurus/tutorial-basics/deploy-your-site",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docusaurus/tutorial-basics/deploy-your-site.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Markdown Features",
+                "permalink": "/docs/docusaurus/tutorial-basics/markdown-features"
+              },
+              "next": {
+                "title": "Congratulations!",
+                "permalink": "/docs/docusaurus/tutorial-basics/congratulations"
+              }
+            },
+            {
+              "unversionedId": "docusaurus/tutorial-basics/markdown-features",
+              "id": "docusaurus/tutorial-basics/markdown-features",
+              "title": "Markdown Features",
+              "description": "Docusaurus supports Markdown and a few additional features.",
+              "source": "@site/docs/docusaurus/tutorial-basics/markdown-features.mdx",
+              "sourceDirName": "docusaurus/tutorial-basics",
+              "slug": "/docusaurus/tutorial-basics/markdown-features",
+              "permalink": "/docs/docusaurus/tutorial-basics/markdown-features",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docusaurus/tutorial-basics/markdown-features.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Blog Post",
+                "permalink": "/docs/docusaurus/tutorial-basics/create-a-blog-post"
+              },
+              "next": {
+                "title": "Deploy your site",
+                "permalink": "/docs/docusaurus/tutorial-basics/deploy-your-site"
+              }
+            },
+            {
+              "unversionedId": "git/commands",
+              "id": "git/commands",
+              "title": "Git Commands",
+              "description": "",
+              "source": "@site/docs/git/commands.md",
+              "sourceDirName": "git",
+              "slug": "/git/commands",
+              "permalink": "/docs/git/commands",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/git/commands.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Congratulations!",
+                "permalink": "/docs/docusaurus/tutorial-basics/congratulations"
+              },
+              "next": {
+                "title": "Hosting",
+                "permalink": "/docs/hosting/"
+              }
+            },
+            {
+              "unversionedId": "hosting/amazon/s3-cloudfront",
+              "id": "hosting/amazon/s3-cloudfront",
+              "title": "Deploy a React-based single-page application to Amazon S3 and CloudFront",
+              "description": "How to Deploy React App on AWS S3 and CloudFront [UPDATED 2021]",
+              "source": "@site/docs/hosting/amazon/s3-cloudfront.md",
+              "sourceDirName": "hosting/amazon",
+              "slug": "/hosting/amazon/hosting",
+              "permalink": "/docs/hosting/amazon/hosting",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hosting/amazon/s3-cloudfront.md",
+              "tags": [
+                {
+                  "label": "hosting",
+                  "permalink": "/docs/tags/hosting"
+                },
+                {
+                  "label": "aws",
+                  "permalink": "/docs/tags/aws"
+                },
+                {
+                  "label": "s3",
+                  "permalink": "/docs/tags/s-3"
+                },
+                {
+                  "label": "cloudfront",
+                  "permalink": "/docs/tags/cloudfront"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "slug": "hosting",
+                "title": "Deploy a React-based single-page application to Amazon S3 and CloudFront",
+                "authors": [
+                  {
+                    "name": "Ramsey Gavin",
+                    "title": "Software Engineer II",
+                    "url": "https://github.com/rgavin1",
+                    "image_url": "https://github.com/rgavin1.png"
+                  }
+                ],
+                "tags": [
+                  "hosting",
+                  "aws",
+                  "s3",
+                  "cloudfront"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Hosting",
+                "permalink": "/docs/hosting/"
+              },
+              "next": {
+                "title": "firebase",
+                "permalink": "/docs/hosting/google/firebase"
+              }
+            },
+            {
+              "unversionedId": "hosting/google/firebase",
+              "id": "hosting/google/firebase",
+              "title": "firebase",
+              "description": "",
+              "source": "@site/docs/hosting/google/firebase.md",
+              "sourceDirName": "hosting/google",
+              "slug": "/hosting/google/firebase",
+              "permalink": "/docs/hosting/google/firebase",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hosting/google/firebase.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deploy a React-based single-page application to Amazon S3 and CloudFront",
+                "permalink": "/docs/hosting/amazon/hosting"
+              },
+              "next": {
+                "title": "Azure",
+                "permalink": "/docs/hosting/microsoft/azure"
+              }
+            },
+            {
+              "unversionedId": "hosting/hosting",
+              "id": "hosting/hosting",
+              "title": "Hosting",
+              "description": "",
+              "source": "@site/docs/hosting/hosting.md",
+              "sourceDirName": "hosting",
+              "slug": "/hosting/",
+              "permalink": "/docs/hosting/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hosting/hosting.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Git Commands",
+                "permalink": "/docs/git/commands"
+              },
+              "next": {
+                "title": "Deploy a React-based single-page application to Amazon S3 and CloudFront",
+                "permalink": "/docs/hosting/amazon/hosting"
+              }
+            },
+            {
+              "unversionedId": "hosting/microsoft/azure",
+              "id": "hosting/microsoft/azure",
+              "title": "Azure",
+              "description": "🚧 In Progress 🚧",
+              "source": "@site/docs/hosting/microsoft/azure.md",
+              "sourceDirName": "hosting/microsoft",
+              "slug": "/hosting/microsoft/azure",
+              "permalink": "/docs/hosting/microsoft/azure",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hosting/microsoft/azure.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "firebase",
+                "permalink": "/docs/hosting/google/firebase"
+              },
+              "next": {
+                "title": "intro",
+                "permalink": "/docs/intro"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "intro",
+              "description": "Reset this page",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Azure",
+                "permalink": "/docs/hosting/microsoft/azure"
+              },
+              "next": {
+                "title": "The Feynman Technique",
+                "permalink": "/docs/learning/learning"
               }
             },
             {
@@ -58,204 +593,350 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/congratulations",
-              "id": "tutorial-basics/congratulations",
-              "title": "Congratulations!",
-              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/docs/tutorial-basics/congratulations.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/congratulations",
-              "permalink": "/docs/tutorial-basics/congratulations",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/congratulations.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
-              },
-              "next": {
-                "title": "The Feynman Technique",
-                "permalink": "/docs/learning/learning"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-blog-post",
-              "id": "tutorial-basics/create-a-blog-post",
-              "title": "Create a Blog Post",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/tutorial-basics/create-a-blog-post",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-blog-post.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
-              },
-              "next": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-document",
-              "id": "tutorial-basics/create-a-document",
-              "title": "Create a Document",
-              "description": "Documents are groups of pages connected through:",
-              "source": "@site/docs/tutorial-basics/create-a-document.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutorial-basics/create-a-document",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-document.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
-              },
-              "next": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-page",
-              "id": "tutorial-basics/create-a-page",
-              "title": "Create a Page",
-              "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/docs/tutorial-basics/create-a-page.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutorial-basics/create-a-page",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-page.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tutorial Intro",
+                "title": "intro",
                 "permalink": "/docs/intro"
               },
               "next": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
+                "title": "testing",
+                "permalink": "/docs/testing/"
               }
             },
             {
-              "unversionedId": "tutorial-basics/deploy-your-site",
-              "id": "tutorial-basics/deploy-your-site",
-              "title": "Deploy your site",
-              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/docs/tutorial-basics/deploy-your-site.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/tutorial-basics/deploy-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/deploy-your-site.md",
+              "unversionedId": "testing/integration",
+              "id": "testing/integration",
+              "title": "integration",
+              "description": "",
+              "source": "@site/docs/testing/integration.md",
+              "sourceDirName": "testing",
+              "slug": "/testing/integration",
+              "permalink": "/docs/testing/integration",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/testing/integration.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
+              "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
+                "title": "testing",
+                "permalink": "/docs/testing/"
               },
               "next": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
+                "title": "Selenium",
+                "permalink": "/docs/testing/python/selenium"
               }
             },
             {
-              "unversionedId": "tutorial-basics/markdown-features",
-              "id": "tutorial-basics/markdown-features",
-              "title": "Markdown Features",
-              "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/tutorial-basics/markdown-features.mdx",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/docs/tutorial-basics/markdown-features",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/markdown-features.mdx",
+              "unversionedId": "testing/python/selenium",
+              "id": "testing/python/selenium",
+              "title": "Selenium",
+              "description": "",
+              "source": "@site/docs/testing/python/selenium.md",
+              "sourceDirName": "testing/python",
+              "slug": "/testing/python/selenium",
+              "permalink": "/docs/testing/python/selenium",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/testing/python/selenium.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
+              "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+                "title": "integration",
+                "permalink": "/docs/testing/integration"
               },
               "next": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
+                "title": "Python Setup",
+                "permalink": "/docs/testing/python/setup"
+              }
+            },
+            {
+              "unversionedId": "testing/python/setup",
+              "id": "testing/python/setup",
+              "title": "Python Setup",
+              "description": "",
+              "source": "@site/docs/testing/python/setup.md",
+              "sourceDirName": "testing/python",
+              "slug": "/testing/python/setup",
+              "permalink": "/docs/testing/python/setup",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/testing/python/setup.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Selenium",
+                "permalink": "/docs/testing/python/selenium"
+              },
+              "next": {
+                "title": "MSW Setup",
+                "permalink": "/docs/testing/react/msw/setup"
+              }
+            },
+            {
+              "unversionedId": "testing/react/msw/setup",
+              "id": "testing/react/msw/setup",
+              "title": "MSW Setup",
+              "description": "",
+              "source": "@site/docs/testing/react/msw/setup.md",
+              "sourceDirName": "testing/react/msw",
+              "slug": "/testing/react/msw/setup",
+              "permalink": "/docs/testing/react/msw/setup",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/testing/react/msw/setup.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Python Setup",
+                "permalink": "/docs/testing/python/setup"
+              },
+              "next": {
+                "title": "Unit Testing",
+                "permalink": "/docs/testing/unit-testing"
+              }
+            },
+            {
+              "unversionedId": "testing/testing",
+              "id": "testing/testing",
+              "title": "testing",
+              "description": "",
+              "source": "@site/docs/testing/testing.md",
+              "sourceDirName": "testing",
+              "slug": "/testing/",
+              "permalink": "/docs/testing/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/testing/testing.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "The Feynman Technique",
+                "permalink": "/docs/learning/learning"
+              },
+              "next": {
+                "title": "integration",
+                "permalink": "/docs/testing/integration"
+              }
+            },
+            {
+              "unversionedId": "testing/unit-testing",
+              "id": "testing/unit-testing",
+              "title": "Unit Testing",
+              "description": "",
+              "source": "@site/docs/testing/unit-testing.md",
+              "sourceDirName": "testing",
+              "slug": "/testing/unit-testing",
+              "permalink": "/docs/testing/unit-testing",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/testing/unit-testing.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "MSW Setup",
+                "permalink": "/docs/testing/react/msw/setup"
               }
             }
           ],
           "sidebars": {
             "tutorialSidebar": [
               {
-                "type": "doc",
-                "id": "intro"
-              },
-              {
                 "type": "category",
-                "label": "Tutorial - Basics",
+                "label": "API",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-page"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/create-a-document"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/create-a-blog-post"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/markdown-features"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/deploy-your-site"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/congratulations"
+                    "id": "api/intro"
                   }
                 ]
+              },
+              {
+                "type": "category",
+                "label": "CI/CD",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "GitHub",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "ci-cd/github/pipeline-setup"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "GitLab",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "ci-cd/gitlab/pipeline-setup"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ci-cd/intro"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Debugging",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "debugging/intro"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Python",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "debugging/python/ipdb"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "debugging/python/vscode"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "React",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "debugging/react/tip-and-tricks"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "debugging/react/vscode"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Docusaurus",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "docusaurus/intro"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Tutorial - Basics",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "docusaurus/tutorial-basics/create-a-page"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "docusaurus/tutorial-basics/create-a-document"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "docusaurus/tutorial-basics/create-a-blog-post"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "docusaurus/tutorial-basics/markdown-features"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "docusaurus/tutorial-basics/deploy-your-site"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "docusaurus/tutorial-basics/congratulations"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Git",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "git/commands"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Hosting",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Amazon",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "hosting/amazon/s3-cloudfront"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Google",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "hosting/google/firebase"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Microsoft",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "hosting/microsoft/azure"
+                      }
+                    ]
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "hosting/hosting"
+                }
+              },
+              {
+                "type": "doc",
+                "id": "intro"
               },
               {
                 "type": "category",
@@ -268,10 +949,66 @@
                     "id": "learning/learning"
                   }
                 ]
+              },
+              {
+                "type": "category",
+                "label": "Testing",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "testing/integration"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Python",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "testing/python/selenium"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "testing/python/setup"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "React",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "Mock Service Worker",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "testing/react/msw/setup"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "doc",
+                    "id": "testing/unit-testing"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "testing/testing"
+                }
               }
             ]
           },
-          "mainDocId": "intro",
+          "mainDocId": "api/intro",
           "categoryGeneratedIndices": []
         }
       ]

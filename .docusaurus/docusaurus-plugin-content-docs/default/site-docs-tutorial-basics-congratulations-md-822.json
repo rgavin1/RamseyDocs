@@ -20,7 +20,7 @@
     "permalink": "/docs/tutorial-basics/deploy-your-site"
   },
   "next": {
-    "title": "The Feynman Technique",
-    "permalink": "/docs/learning/learning"
+    "title": "pipeline-setup",
+    "permalink": "/docs/ci-cd/github/pipeline-setup"
   }
 }

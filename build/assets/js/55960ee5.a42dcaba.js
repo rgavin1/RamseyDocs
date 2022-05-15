@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[4121],{8070:function(s){s.exports=JSON.parse('[{"name":"hosting","permalink":"/docs/tags/hosting","count":1},{"name":"aws","permalink":"/docs/tags/aws","count":1},{"name":"s3","permalink":"/docs/tags/s-3","count":1},{"name":"cloudfront","permalink":"/docs/tags/cloudfront","count":1}]')}}]);

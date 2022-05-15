@@ -1,0 +1,23 @@
+{
+  "unversionedId": "debugging/python/vscode",
+  "id": "debugging/python/vscode",
+  "title": "VS Code",
+  "description": "🚧 In Progress 🚧",
+  "source": "@site/docs/debugging/python/vscode.md",
+  "sourceDirName": "debugging/python",
+  "slug": "/debugging/python/vscode",
+  "permalink": "/docs/debugging/python/vscode",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/debugging/python/vscode.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "IPDB",
+    "permalink": "/docs/debugging/python/ipdb"
+  },
+  "next": {
+    "title": "tip-and-tricks",
+    "permalink": "/docs/debugging/react/tip-and-tricks"
+  }
+}

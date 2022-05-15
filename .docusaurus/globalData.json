@@ -8,8 +8,113 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "api/intro",
           "docs": [
+            {
+              "id": "api/intro",
+              "path": "/docs/api/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ci-cd/github/pipeline-setup",
+              "path": "/docs/ci-cd/github/pipeline-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ci-cd/gitlab/pipeline-setup",
+              "path": "/docs/ci-cd/gitlab/pipeline-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ci-cd/intro",
+              "path": "/docs/ci-cd/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "debugging/intro",
+              "path": "/docs/debugging/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "debugging/python/ipdb",
+              "path": "/docs/debugging/python/ipdb",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "debugging/python/vscode",
+              "path": "/docs/debugging/python/vscode",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "debugging/react/tip-and-tricks",
+              "path": "/docs/debugging/react/tip-and-tricks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "debugging/react/vscode",
+              "path": "/docs/debugging/react/vscode",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docusaurus/intro",
+              "path": "/docs/docusaurus/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docusaurus/tutorial-basics/congratulations",
+              "path": "/docs/docusaurus/tutorial-basics/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docusaurus/tutorial-basics/create-a-blog-post",
+              "path": "/docs/docusaurus/tutorial-basics/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docusaurus/tutorial-basics/create-a-document",
+              "path": "/docs/docusaurus/tutorial-basics/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docusaurus/tutorial-basics/create-a-page",
+              "path": "/docs/docusaurus/tutorial-basics/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docusaurus/tutorial-basics/deploy-your-site",
+              "path": "/docs/docusaurus/tutorial-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docusaurus/tutorial-basics/markdown-features",
+              "path": "/docs/docusaurus/tutorial-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "git/commands",
+              "path": "/docs/git/commands",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hosting/amazon/s3-cloudfront",
+              "path": "/docs/hosting/amazon/hosting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hosting/google/firebase",
+              "path": "/docs/hosting/google/firebase",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hosting/hosting",
+              "path": "/docs/hosting/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hosting/microsoft/azure",
+              "path": "/docs/hosting/microsoft/azure",
+              "sidebar": "tutorialSidebar"
+            },
             {
               "id": "intro",
               "path": "/docs/intro",
@@ -21,41 +126,41 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
+              "id": "testing/integration",
+              "path": "/docs/testing/integration",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
+              "id": "testing/python/selenium",
+              "path": "/docs/testing/python/selenium",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
+              "id": "testing/python/setup",
+              "path": "/docs/testing/python/setup",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
+              "id": "testing/react/msw/setup",
+              "path": "/docs/testing/react/msw/setup",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
+              "id": "testing/testing",
+              "path": "/docs/testing/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
+              "id": "testing/unit-testing",
+              "path": "/docs/testing/unit-testing",
               "sidebar": "tutorialSidebar"
             }
           ],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/docs/api/intro",
+                "label": "api/intro"
               }
             }
           }

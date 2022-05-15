@@ -1,0 +1,23 @@
+{
+  "unversionedId": "hosting/firebase/firebase",
+  "id": "hosting/firebase/firebase",
+  "title": "firebase",
+  "description": "",
+  "source": "@site/docs/hosting/firebase/firebase.md",
+  "sourceDirName": "hosting/firebase",
+  "slug": "/hosting/firebase/",
+  "permalink": "/docs/hosting/firebase/",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hosting/firebase/firebase.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "I would love to learn",
+    "permalink": "/docs/hosting/azure/hosting-on-azure"
+  },
+  "next": {
+    "title": "The Feynman Technique",
+    "permalink": "/docs/learning/learning"
+  }
+}

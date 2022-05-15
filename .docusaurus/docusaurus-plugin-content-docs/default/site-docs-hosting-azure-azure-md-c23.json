@@ -1,0 +1,23 @@
+{
+  "unversionedId": "hosting/azure/azure",
+  "id": "hosting/azure/azure",
+  "title": "I would love to learn",
+  "description": "",
+  "source": "@site/docs/hosting/azure/azure.md",
+  "sourceDirName": "hosting/azure",
+  "slug": "/hosting/azure/",
+  "permalink": "/docs/hosting/azure/",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hosting/azure/azure.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "S3 CloudFront",
+    "permalink": "/docs/hosting/aws/s3-cloudfront"
+  },
+  "next": {
+    "title": "firebase",
+    "permalink": "/docs/hosting/firebase/"
+  }
+}

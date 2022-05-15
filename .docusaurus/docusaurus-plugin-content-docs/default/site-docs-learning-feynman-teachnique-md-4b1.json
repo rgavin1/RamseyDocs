@@ -16,7 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Congratulations!",
-    "permalink": "/docs/tutorial-basics/congratulations"
+    "title": "intro",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "testing",
+    "permalink": "/docs/testing/"
   }
 }

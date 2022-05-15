@@ -1,0 +1,23 @@
+{
+  "unversionedId": "testing/testing",
+  "id": "testing/testing",
+  "title": "testing",
+  "description": "",
+  "source": "@site/docs/testing/testing.md",
+  "sourceDirName": "testing",
+  "slug": "/testing/",
+  "permalink": "/docs/testing/",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/testing/testing.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The Feynman Technique",
+    "permalink": "/docs/learning/learning"
+  },
+  "next": {
+    "title": "integration",
+    "permalink": "/docs/testing/integration"
+  }
+}

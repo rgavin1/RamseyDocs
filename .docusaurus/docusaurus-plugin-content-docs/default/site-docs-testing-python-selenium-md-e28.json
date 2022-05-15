@@ -1,0 +1,23 @@
+{
+  "unversionedId": "testing/python/selenium",
+  "id": "testing/python/selenium",
+  "title": "Selenium",
+  "description": "",
+  "source": "@site/docs/testing/python/selenium.md",
+  "sourceDirName": "testing/python",
+  "slug": "/testing/python/selenium",
+  "permalink": "/docs/testing/python/selenium",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/testing/python/selenium.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "integration",
+    "permalink": "/docs/testing/integration"
+  },
+  "next": {
+    "title": "Python Setup",
+    "permalink": "/docs/testing/python/setup"
+  }
+}

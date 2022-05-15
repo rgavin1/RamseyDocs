@@ -1,0 +1,23 @@
+{
+  "unversionedId": "debugging/intro",
+  "id": "debugging/intro",
+  "title": "Debugging",
+  "description": "",
+  "source": "@site/docs/debugging/intro.md",
+  "sourceDirName": "debugging",
+  "slug": "/debugging/intro",
+  "permalink": "/docs/debugging/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/debugging/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "intro",
+    "permalink": "/docs/ci-cd/intro"
+  },
+  "next": {
+    "title": "IPDB",
+    "permalink": "/docs/debugging/python/ipdb"
+  }
+}

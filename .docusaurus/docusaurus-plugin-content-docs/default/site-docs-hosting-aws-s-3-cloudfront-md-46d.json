@@ -1,0 +1,23 @@
+{
+  "unversionedId": "hosting/aws/s3-cloudfront",
+  "id": "hosting/aws/s3-cloudfront",
+  "title": "S3 CloudFront",
+  "description": "",
+  "source": "@site/docs/hosting/aws/s3-cloudfront.md",
+  "sourceDirName": "hosting/aws",
+  "slug": "/hosting/aws/s3-cloudfront",
+  "permalink": "/docs/hosting/aws/s3-cloudfront",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hosting/aws/s3-cloudfront.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hosting",
+    "permalink": "/docs/hosting/"
+  },
+  "next": {
+    "title": "firebase",
+    "permalink": "/docs/hosting/google/firebase"
+  }
+}

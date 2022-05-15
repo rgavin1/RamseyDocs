@@ -1,0 +1,23 @@
+{
+  "unversionedId": "debugging/react/tip-and-tricks",
+  "id": "debugging/react/tip-and-tricks",
+  "title": "tip-and-tricks",
+  "description": "",
+  "source": "@site/docs/debugging/react/tip-and-tricks.md",
+  "sourceDirName": "debugging/react",
+  "slug": "/debugging/react/tip-and-tricks",
+  "permalink": "/docs/debugging/react/tip-and-tricks",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/debugging/react/tip-and-tricks.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VS Code",
+    "permalink": "/docs/debugging/python/vscode"
+  },
+  "next": {
+    "title": "VS Code",
+    "permalink": "/docs/debugging/react/vscode"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "debugging/react/vscode",
+  "id": "debugging/react/vscode",
+  "title": "VS Code",
+  "description": "",
+  "source": "@site/docs/debugging/react/vscode.md",
+  "sourceDirName": "debugging/react",
+  "slug": "/debugging/react/vscode",
+  "permalink": "/docs/debugging/react/vscode",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/debugging/react/vscode.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "tip-and-tricks",
+    "permalink": "/docs/debugging/react/tip-and-tricks"
+  },
+  "next": {
+    "title": "Tutorial Intro",
+    "permalink": "/docs/docusaurus/intro"
+  }
+}

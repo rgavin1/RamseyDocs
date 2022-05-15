@@ -1,0 +1,23 @@
+{
+  "unversionedId": "testing/react/msw/setup",
+  "id": "testing/react/msw/setup",
+  "title": "MSW Setup",
+  "description": "",
+  "source": "@site/docs/testing/react/msw/setup.md",
+  "sourceDirName": "testing/react/msw",
+  "slug": "/testing/react/msw/setup",
+  "permalink": "/docs/testing/react/msw/setup",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/testing/react/msw/setup.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Python Setup",
+    "permalink": "/docs/testing/python/setup"
+  },
+  "next": {
+    "title": "Unit Testing",
+    "permalink": "/docs/testing/unit-testing"
+  }
+}

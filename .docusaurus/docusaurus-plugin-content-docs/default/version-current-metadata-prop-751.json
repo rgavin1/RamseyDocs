@@ -9,54 +9,243 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
-        "type": "link",
-        "label": "Tutorial Intro",
-        "href": "/docs/intro",
-        "docId": "intro"
-      },
-      {
         "type": "category",
-        "label": "Tutorial - Basics",
+        "label": "API",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Create a Page",
-            "href": "/docs/tutorial-basics/create-a-page",
-            "docId": "tutorial-basics/create-a-page"
-          },
-          {
-            "type": "link",
-            "label": "Create a Document",
-            "href": "/docs/tutorial-basics/create-a-document",
-            "docId": "tutorial-basics/create-a-document"
-          },
-          {
-            "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/docs/tutorial-basics/create-a-blog-post",
-            "docId": "tutorial-basics/create-a-blog-post"
-          },
-          {
-            "type": "link",
-            "label": "Markdown Features",
-            "href": "/docs/tutorial-basics/markdown-features",
-            "docId": "tutorial-basics/markdown-features"
-          },
-          {
-            "type": "link",
-            "label": "Deploy your site",
-            "href": "/docs/tutorial-basics/deploy-your-site",
-            "docId": "tutorial-basics/deploy-your-site"
-          },
-          {
-            "type": "link",
-            "label": "Congratulations!",
-            "href": "/docs/tutorial-basics/congratulations",
-            "docId": "tutorial-basics/congratulations"
+            "label": "API",
+            "href": "/docs/api/intro",
+            "docId": "api/intro"
           }
         ]
+      },
+      {
+        "type": "category",
+        "label": "CI/CD",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "GitHub",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "pipeline-setup",
+                "href": "/docs/ci-cd/github/pipeline-setup",
+                "docId": "ci-cd/github/pipeline-setup"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "GitLab",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "pipeline-setup",
+                "href": "/docs/ci-cd/gitlab/pipeline-setup",
+                "docId": "ci-cd/gitlab/pipeline-setup"
+              }
+            ]
+          },
+          {
+            "type": "link",
+            "label": "intro",
+            "href": "/docs/ci-cd/intro",
+            "docId": "ci-cd/intro"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Debugging",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Debugging",
+            "href": "/docs/debugging/intro",
+            "docId": "debugging/intro"
+          },
+          {
+            "type": "category",
+            "label": "Python",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "IPDB",
+                "href": "/docs/debugging/python/ipdb",
+                "docId": "debugging/python/ipdb"
+              },
+              {
+                "type": "link",
+                "label": "VS Code",
+                "href": "/docs/debugging/python/vscode",
+                "docId": "debugging/python/vscode"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "React",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "tip-and-tricks",
+                "href": "/docs/debugging/react/tip-and-tricks",
+                "docId": "debugging/react/tip-and-tricks"
+              },
+              {
+                "type": "link",
+                "label": "VS Code",
+                "href": "/docs/debugging/react/vscode",
+                "docId": "debugging/react/vscode"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Docusaurus",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Tutorial Intro",
+            "href": "/docs/docusaurus/intro",
+            "docId": "docusaurus/intro"
+          },
+          {
+            "type": "category",
+            "label": "Tutorial - Basics",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Create a Page",
+                "href": "/docs/docusaurus/tutorial-basics/create-a-page",
+                "docId": "docusaurus/tutorial-basics/create-a-page"
+              },
+              {
+                "type": "link",
+                "label": "Create a Document",
+                "href": "/docs/docusaurus/tutorial-basics/create-a-document",
+                "docId": "docusaurus/tutorial-basics/create-a-document"
+              },
+              {
+                "type": "link",
+                "label": "Create a Blog Post",
+                "href": "/docs/docusaurus/tutorial-basics/create-a-blog-post",
+                "docId": "docusaurus/tutorial-basics/create-a-blog-post"
+              },
+              {
+                "type": "link",
+                "label": "Markdown Features",
+                "href": "/docs/docusaurus/tutorial-basics/markdown-features",
+                "docId": "docusaurus/tutorial-basics/markdown-features"
+              },
+              {
+                "type": "link",
+                "label": "Deploy your site",
+                "href": "/docs/docusaurus/tutorial-basics/deploy-your-site",
+                "docId": "docusaurus/tutorial-basics/deploy-your-site"
+              },
+              {
+                "type": "link",
+                "label": "Congratulations!",
+                "href": "/docs/docusaurus/tutorial-basics/congratulations",
+                "docId": "docusaurus/tutorial-basics/congratulations"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Git",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Git Commands",
+            "href": "/docs/git/commands",
+            "docId": "git/commands"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Hosting",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "Amazon",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Deploy a React-based single-page application to Amazon S3 and CloudFront",
+                "href": "/docs/hosting/amazon/hosting",
+                "docId": "hosting/amazon/s3-cloudfront"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Google",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "firebase",
+                "href": "/docs/hosting/google/firebase",
+                "docId": "hosting/google/firebase"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Microsoft",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Azure",
+                "href": "/docs/hosting/microsoft/azure",
+                "docId": "hosting/microsoft/azure"
+              }
+            ]
+          }
+        ],
+        "href": "/docs/hosting/"
+      },
+      {
+        "type": "link",
+        "label": "intro",
+        "href": "/docs/intro",
+        "docId": "intro"
       },
       {
         "type": "category",
@@ -71,14 +260,203 @@
             "docId": "learning/learning"
           }
         ]
+      },
+      {
+        "type": "category",
+        "label": "Testing",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "integration",
+            "href": "/docs/testing/integration",
+            "docId": "testing/integration"
+          },
+          {
+            "type": "category",
+            "label": "Python",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Selenium",
+                "href": "/docs/testing/python/selenium",
+                "docId": "testing/python/selenium"
+              },
+              {
+                "type": "link",
+                "label": "Python Setup",
+                "href": "/docs/testing/python/setup",
+                "docId": "testing/python/setup"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "React",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "Mock Service Worker",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "MSW Setup",
+                    "href": "/docs/testing/react/msw/setup",
+                    "docId": "testing/react/msw/setup"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "link",
+            "label": "Unit Testing",
+            "href": "/docs/testing/unit-testing",
+            "docId": "testing/unit-testing"
+          }
+        ],
+        "href": "/docs/testing/"
       }
     ]
   },
   "docs": {
-    "intro": {
-      "id": "intro",
+    "api/intro": {
+      "id": "api/intro",
+      "title": "API",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "ci-cd/github/pipeline-setup": {
+      "id": "ci-cd/github/pipeline-setup",
+      "title": "pipeline-setup",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "ci-cd/gitlab/pipeline-setup": {
+      "id": "ci-cd/gitlab/pipeline-setup",
+      "title": "pipeline-setup",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "ci-cd/intro": {
+      "id": "ci-cd/intro",
+      "title": "intro",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "debugging/intro": {
+      "id": "debugging/intro",
+      "title": "Debugging",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "debugging/python/ipdb": {
+      "id": "debugging/python/ipdb",
+      "title": "IPDB",
+      "description": "🚧 In Progress 🚧",
+      "sidebar": "tutorialSidebar"
+    },
+    "debugging/python/vscode": {
+      "id": "debugging/python/vscode",
+      "title": "VS Code",
+      "description": "🚧 In Progress 🚧",
+      "sidebar": "tutorialSidebar"
+    },
+    "debugging/react/tip-and-tricks": {
+      "id": "debugging/react/tip-and-tricks",
+      "title": "tip-and-tricks",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "debugging/react/vscode": {
+      "id": "debugging/react/vscode",
+      "title": "VS Code",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "docusaurus/intro": {
+      "id": "docusaurus/intro",
       "title": "Tutorial Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "sidebar": "tutorialSidebar"
+    },
+    "docusaurus/tutorial-basics/congratulations": {
+      "id": "docusaurus/tutorial-basics/congratulations",
+      "title": "Congratulations!",
+      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+      "sidebar": "tutorialSidebar"
+    },
+    "docusaurus/tutorial-basics/create-a-blog-post": {
+      "id": "docusaurus/tutorial-basics/create-a-blog-post",
+      "title": "Create a Blog Post",
+      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+      "sidebar": "tutorialSidebar"
+    },
+    "docusaurus/tutorial-basics/create-a-document": {
+      "id": "docusaurus/tutorial-basics/create-a-document",
+      "title": "Create a Document",
+      "description": "Documents are groups of pages connected through:",
+      "sidebar": "tutorialSidebar"
+    },
+    "docusaurus/tutorial-basics/create-a-page": {
+      "id": "docusaurus/tutorial-basics/create-a-page",
+      "title": "Create a Page",
+      "description": "Add Markdown or React files to src/pages to create a standalone page:",
+      "sidebar": "tutorialSidebar"
+    },
+    "docusaurus/tutorial-basics/deploy-your-site": {
+      "id": "docusaurus/tutorial-basics/deploy-your-site",
+      "title": "Deploy your site",
+      "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+      "sidebar": "tutorialSidebar"
+    },
+    "docusaurus/tutorial-basics/markdown-features": {
+      "id": "docusaurus/tutorial-basics/markdown-features",
+      "title": "Markdown Features",
+      "description": "Docusaurus supports Markdown and a few additional features.",
+      "sidebar": "tutorialSidebar"
+    },
+    "git/commands": {
+      "id": "git/commands",
+      "title": "Git Commands",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "hosting/amazon/s3-cloudfront": {
+      "id": "hosting/amazon/s3-cloudfront",
+      "title": "Deploy a React-based single-page application to Amazon S3 and CloudFront",
+      "description": "How to Deploy React App on AWS S3 and CloudFront [UPDATED 2021]",
+      "sidebar": "tutorialSidebar"
+    },
+    "hosting/google/firebase": {
+      "id": "hosting/google/firebase",
+      "title": "firebase",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "hosting/hosting": {
+      "id": "hosting/hosting",
+      "title": "Hosting",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "hosting/microsoft/azure": {
+      "id": "hosting/microsoft/azure",
+      "title": "Azure",
+      "description": "🚧 In Progress 🚧",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "intro",
+      "description": "Reset this page",
       "sidebar": "tutorialSidebar"
     },
     "learning/learning": {
@@ -87,40 +465,40 @@
       "description": "What is the Feynman technique?",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/congratulations": {
-      "id": "tutorial-basics/congratulations",
-      "title": "Congratulations!",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+    "testing/integration": {
+      "id": "testing/integration",
+      "title": "integration",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/create-a-blog-post": {
-      "id": "tutorial-basics/create-a-blog-post",
-      "title": "Create a Blog Post",
-      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+    "testing/python/selenium": {
+      "id": "testing/python/selenium",
+      "title": "Selenium",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/create-a-document": {
-      "id": "tutorial-basics/create-a-document",
-      "title": "Create a Document",
-      "description": "Documents are groups of pages connected through:",
+    "testing/python/setup": {
+      "id": "testing/python/setup",
+      "title": "Python Setup",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/create-a-page": {
-      "id": "tutorial-basics/create-a-page",
-      "title": "Create a Page",
-      "description": "Add Markdown or React files to src/pages to create a standalone page:",
+    "testing/react/msw/setup": {
+      "id": "testing/react/msw/setup",
+      "title": "MSW Setup",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/deploy-your-site": {
-      "id": "tutorial-basics/deploy-your-site",
-      "title": "Deploy your site",
-      "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+    "testing/testing": {
+      "id": "testing/testing",
+      "title": "testing",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/markdown-features": {
-      "id": "tutorial-basics/markdown-features",
-      "title": "Markdown Features",
-      "description": "Docusaurus supports Markdown and a few additional features.",
+    "testing/unit-testing": {
+      "id": "testing/unit-testing",
+      "title": "Unit Testing",
+      "description": "",
       "sidebar": "tutorialSidebar"
     }
   }

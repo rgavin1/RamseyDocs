@@ -4,41 +4,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug','5a8'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config','5ae'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content','ee9'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData','829'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata','7cd'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry','c3d'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes','4af'),
-    exact: true
-  },
-  {
     path: '/blog',
     component: ComponentCreator('/blog','fe0'),
     exact: true
@@ -94,6 +59,31 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags',
+    component: ComponentCreator('/docs/tags','6d0'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/aws',
+    component: ComponentCreator('/docs/tags/aws','f70'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/cloudfront',
+    component: ComponentCreator('/docs/tags/cloudfront','115'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/hosting',
+    component: ComponentCreator('/docs/tags/hosting','b0b'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/s-3',
+    component: ComponentCreator('/docs/tags/s-3','e08'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page','2ee'),
     exact: true
@@ -105,8 +95,134 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','8bf'),
+    component: ComponentCreator('/docs','760'),
     routes: [
+      {
+        path: '/docs/api/intro',
+        component: ComponentCreator('/docs/api/intro','0c9'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/ci-cd/github/pipeline-setup',
+        component: ComponentCreator('/docs/ci-cd/github/pipeline-setup','5f8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/ci-cd/gitlab/pipeline-setup',
+        component: ComponentCreator('/docs/ci-cd/gitlab/pipeline-setup','431'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/ci-cd/intro',
+        component: ComponentCreator('/docs/ci-cd/intro','1f0'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/debugging/intro',
+        component: ComponentCreator('/docs/debugging/intro','699'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/debugging/python/ipdb',
+        component: ComponentCreator('/docs/debugging/python/ipdb','9ad'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/debugging/python/vscode',
+        component: ComponentCreator('/docs/debugging/python/vscode','6a9'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/debugging/react/tip-and-tricks',
+        component: ComponentCreator('/docs/debugging/react/tip-and-tricks','2aa'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/debugging/react/vscode',
+        component: ComponentCreator('/docs/debugging/react/vscode','21a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/docusaurus/intro',
+        component: ComponentCreator('/docs/docusaurus/intro','f64'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/docusaurus/tutorial-basics/congratulations',
+        component: ComponentCreator('/docs/docusaurus/tutorial-basics/congratulations','710'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/docusaurus/tutorial-basics/create-a-blog-post',
+        component: ComponentCreator('/docs/docusaurus/tutorial-basics/create-a-blog-post','61f'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/docusaurus/tutorial-basics/create-a-document',
+        component: ComponentCreator('/docs/docusaurus/tutorial-basics/create-a-document','800'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/docusaurus/tutorial-basics/create-a-page',
+        component: ComponentCreator('/docs/docusaurus/tutorial-basics/create-a-page','4b0'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/docusaurus/tutorial-basics/deploy-your-site',
+        component: ComponentCreator('/docs/docusaurus/tutorial-basics/deploy-your-site','eaa'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/docusaurus/tutorial-basics/markdown-features',
+        component: ComponentCreator('/docs/docusaurus/tutorial-basics/markdown-features','08c'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/git/commands',
+        component: ComponentCreator('/docs/git/commands','509'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/hosting/',
+        component: ComponentCreator('/docs/hosting/','838'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/hosting/amazon/hosting',
+        component: ComponentCreator('/docs/hosting/amazon/hosting','791'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/hosting/google/firebase',
+        component: ComponentCreator('/docs/hosting/google/firebase','e40'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/hosting/microsoft/azure',
+        component: ComponentCreator('/docs/hosting/microsoft/azure','512'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro','aed'),
@@ -120,38 +236,38 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/congratulations',
-        component: ComponentCreator('/docs/tutorial-basics/congratulations','793'),
+        path: '/docs/testing/',
+        component: ComponentCreator('/docs/testing/','b64'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/create-a-blog-post',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post','68e'),
+        path: '/docs/testing/integration',
+        component: ComponentCreator('/docs/testing/integration','716'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/create-a-document',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-document','c2d'),
+        path: '/docs/testing/python/selenium',
+        component: ComponentCreator('/docs/testing/python/selenium','214'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/create-a-page',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-page','f44'),
+        path: '/docs/testing/python/setup',
+        component: ComponentCreator('/docs/testing/python/setup','218'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/deploy-your-site',
-        component: ComponentCreator('/docs/tutorial-basics/deploy-your-site','e46'),
+        path: '/docs/testing/react/msw/setup',
+        component: ComponentCreator('/docs/testing/react/msw/setup','c9e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/markdown-features',
-        component: ComponentCreator('/docs/tutorial-basics/markdown-features','4b7'),
+        path: '/docs/testing/unit-testing',
+        component: ComponentCreator('/docs/testing/unit-testing','3d6'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

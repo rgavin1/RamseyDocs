@@ -1,0 +1,23 @@
+{
+  "unversionedId": "ci-cd/intro",
+  "id": "ci-cd/intro",
+  "title": "intro",
+  "description": "",
+  "source": "@site/docs/ci-cd/intro.md",
+  "sourceDirName": "ci-cd",
+  "slug": "/ci-cd/intro",
+  "permalink": "/docs/ci-cd/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ci-cd/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "pipeline-setup",
+    "permalink": "/docs/ci-cd/gitlab/pipeline-setup"
+  },
+  "next": {
+    "title": "Debugging",
+    "permalink": "/docs/debugging/intro"
+  }
+}

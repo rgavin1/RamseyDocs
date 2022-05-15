@@ -1,0 +1,19 @@
+{
+  "unversionedId": "api/intro",
+  "id": "api/intro",
+  "title": "API",
+  "description": "",
+  "source": "@site/docs/api/intro.md",
+  "sourceDirName": "api",
+  "slug": "/api/intro",
+  "permalink": "/docs/api/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "pipeline-setup",
+    "permalink": "/docs/ci-cd/github/pipeline-setup"
+  }
+}

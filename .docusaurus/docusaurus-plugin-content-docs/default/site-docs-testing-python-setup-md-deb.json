@@ -1,0 +1,23 @@
+{
+  "unversionedId": "testing/python/setup",
+  "id": "testing/python/setup",
+  "title": "Python Setup",
+  "description": "",
+  "source": "@site/docs/testing/python/setup.md",
+  "sourceDirName": "testing/python",
+  "slug": "/testing/python/setup",
+  "permalink": "/docs/testing/python/setup",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/testing/python/setup.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Selenium",
+    "permalink": "/docs/testing/python/selenium"
+  },
+  "next": {
+    "title": "MSW Setup",
+    "permalink": "/docs/testing/react/msw/setup"
+  }
+}

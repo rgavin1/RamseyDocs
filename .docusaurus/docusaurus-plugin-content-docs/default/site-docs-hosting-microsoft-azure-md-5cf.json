@@ -1,0 +1,23 @@
+{
+  "unversionedId": "hosting/microsoft/azure",
+  "id": "hosting/microsoft/azure",
+  "title": "Azure",
+  "description": "🚧 In Progress 🚧",
+  "source": "@site/docs/hosting/microsoft/azure.md",
+  "sourceDirName": "hosting/microsoft",
+  "slug": "/hosting/microsoft/azure",
+  "permalink": "/docs/hosting/microsoft/azure",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hosting/microsoft/azure.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "firebase",
+    "permalink": "/docs/hosting/google/firebase"
+  },
+  "next": {
+    "title": "intro",
+    "permalink": "/docs/intro"
+  }
+}
