@@ -119,6 +119,11 @@
     "tags": "55960ee5",
     "__routeContextModule": "d391db46"
   },
+  "/docs/tags/api-508": {
+    "component": "df203c0f",
+    "tag": "87a50603",
+    "__routeContextModule": "d391db46"
+  },
   "/docs/tags/aws-f70": {
     "component": "df203c0f",
     "tag": "762a62c9",
@@ -129,14 +134,29 @@
     "tag": "414d3773",
     "__routeContextModule": "d391db46"
   },
+  "/docs/tags/fastapi-21f": {
+    "component": "df203c0f",
+    "tag": "18ba9f4d",
+    "__routeContextModule": "d391db46"
+  },
   "/docs/tags/hosting-b0b": {
     "component": "df203c0f",
     "tag": "18e7f551",
     "__routeContextModule": "d391db46"
   },
+  "/docs/tags/python-3e6": {
+    "component": "df203c0f",
+    "tag": "d01e25c4",
+    "__routeContextModule": "d391db46"
+  },
   "/docs/tags/s-3-e08": {
     "component": "df203c0f",
     "tag": "d8802bd1",
+    "__routeContextModule": "d391db46"
+  },
+  "/docs/tags/venv-9b8": {
+    "component": "df203c0f",
+    "tag": "d076cb07",
     "__routeContextModule": "d391db46"
   },
   "/markdown-page-2ee": {
@@ -149,7 +169,7 @@
     "config": "5e9f5e1a",
     "__routeContextModule": "b10f1658"
   },
-  "/docs-760": {
+  "/docs-99d": {
     "component": "1be78505",
     "versionMetadata": "935f2afb",
     "__routeContextModule": "d391db46"
@@ -157,6 +177,14 @@
   "/docs/api/intro-0c9": {
     "component": "17896441",
     "content": "6262e02f"
+  },
+  "/docs/api/python/api-37d": {
+    "component": "17896441",
+    "content": "daedd372"
+  },
+  "/docs/api/python/api-c63": {
+    "component": "17896441",
+    "content": "ae649bbc"
   },
   "/docs/ci-cd/github/pipeline-setup-5f8": {
     "component": "17896441",
@@ -169,6 +197,14 @@
   "/docs/ci-cd/intro-1f0": {
     "component": "17896441",
     "content": "db1c59dd"
+  },
+  "/docs/databases/intro-c7e": {
+    "component": "17896441",
+    "content": "e3980381"
+  },
+  "/docs/databases/postgres/intro-014": {
+    "component": "17896441",
+    "content": "8188b4a5"
   },
   "/docs/debugging/intro-699": {
     "component": "17896441",

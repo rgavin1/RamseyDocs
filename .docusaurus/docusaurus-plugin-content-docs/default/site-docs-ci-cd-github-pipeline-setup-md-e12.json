@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "API",
-    "permalink": "/docs/api/intro"
+    "title": "How to setup a Virtual Environment on a Mac",
+    "permalink": "/docs/api/python/api"
   },
   "next": {
     "title": "pipeline-setup",

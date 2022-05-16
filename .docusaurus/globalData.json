@@ -16,6 +16,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "api/python/fastapi",
+              "path": "/docs/api/python/api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/python/setup-venv-mac",
+              "path": "/docs/api/python/api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "ci-cd/github/pipeline-setup",
               "path": "/docs/ci-cd/github/pipeline-setup",
               "sidebar": "tutorialSidebar"
@@ -28,6 +38,16 @@
             {
               "id": "ci-cd/intro",
               "path": "/docs/ci-cd/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "databases/intro",
+              "path": "/docs/databases/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "databases/postgres/intro",
+              "path": "/docs/databases/postgres/intro",
               "sidebar": "tutorialSidebar"
             },
             {

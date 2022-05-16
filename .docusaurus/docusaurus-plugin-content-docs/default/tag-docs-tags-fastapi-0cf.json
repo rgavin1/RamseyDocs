@@ -1,0 +1,13 @@
+{
+  "name": "fastapi",
+  "permalink": "/docs/tags/fastapi",
+  "docs": [
+    {
+      "id": "api/python/fastapi",
+      "title": "How to setup a Fastapi web server",
+      "description": "Step 1: Setup the virtual environment. Follow this link to How to setup a Virtual Environment on a Mac",
+      "permalink": "/docs/api/python/api"
+    }
+  ],
+  "allTagsPath": "/docs/tags"
+}

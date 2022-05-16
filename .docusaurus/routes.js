@@ -64,6 +64,11 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/api',
+    component: ComponentCreator('/docs/tags/api','508'),
+    exact: true
+  },
+  {
     path: '/docs/tags/aws',
     component: ComponentCreator('/docs/tags/aws','f70'),
     exact: true
@@ -74,13 +79,28 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/fastapi',
+    component: ComponentCreator('/docs/tags/fastapi','21f'),
+    exact: true
+  },
+  {
     path: '/docs/tags/hosting',
     component: ComponentCreator('/docs/tags/hosting','b0b'),
     exact: true
   },
   {
+    path: '/docs/tags/python',
+    component: ComponentCreator('/docs/tags/python','3e6'),
+    exact: true
+  },
+  {
     path: '/docs/tags/s-3',
     component: ComponentCreator('/docs/tags/s-3','e08'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/venv',
+    component: ComponentCreator('/docs/tags/venv','9b8'),
     exact: true
   },
   {
@@ -95,11 +115,23 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','760'),
+    component: ComponentCreator('/docs','99d'),
     routes: [
       {
         path: '/docs/api/intro',
         component: ComponentCreator('/docs/api/intro','0c9'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/api/python/api',
+        component: ComponentCreator('/docs/api/python/api','37d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/api/python/api',
+        component: ComponentCreator('/docs/api/python/api','c63'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -118,6 +150,18 @@ export default [
       {
         path: '/docs/ci-cd/intro',
         component: ComponentCreator('/docs/ci-cd/intro','1f0'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/databases/intro',
+        component: ComponentCreator('/docs/databases/intro','c7e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/databases/postgres/intro',
+        component: ComponentCreator('/docs/databases/postgres/intro','014'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

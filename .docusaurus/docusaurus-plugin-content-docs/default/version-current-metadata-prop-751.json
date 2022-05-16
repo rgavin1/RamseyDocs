@@ -19,6 +19,26 @@
             "label": "API",
             "href": "/docs/api/intro",
             "docId": "api/intro"
+          },
+          {
+            "type": "category",
+            "label": "Python",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "How to setup a Fastapi web server",
+                "href": "/docs/api/python/api",
+                "docId": "api/python/fastapi"
+              },
+              {
+                "type": "link",
+                "label": "How to setup a Virtual Environment on a Mac",
+                "href": "/docs/api/python/api",
+                "docId": "api/python/setup-venv-mac"
+              }
+            ]
           }
         ]
       },
@@ -61,6 +81,34 @@
             "label": "intro",
             "href": "/docs/ci-cd/intro",
             "docId": "ci-cd/intro"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Databases",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "intro",
+            "href": "/docs/databases/intro",
+            "docId": "databases/intro"
+          },
+          {
+            "type": "category",
+            "label": "Postgres",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "intro",
+                "href": "/docs/databases/postgres/intro",
+                "docId": "databases/postgres/intro"
+              }
+            ]
           }
         ]
       },
@@ -333,6 +381,18 @@
       "description": "",
       "sidebar": "tutorialSidebar"
     },
+    "api/python/fastapi": {
+      "id": "api/python/fastapi",
+      "title": "How to setup a Fastapi web server",
+      "description": "Step 1: Setup the virtual environment. Follow this link to How to setup a Virtual Environment on a Mac",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/python/setup-venv-mac": {
+      "id": "api/python/setup-venv-mac",
+      "title": "How to setup a Virtual Environment on a Mac",
+      "description": "Step 1: Run the command to create venv",
+      "sidebar": "tutorialSidebar"
+    },
     "ci-cd/github/pipeline-setup": {
       "id": "ci-cd/github/pipeline-setup",
       "title": "pipeline-setup",
@@ -347,6 +407,18 @@
     },
     "ci-cd/intro": {
       "id": "ci-cd/intro",
+      "title": "intro",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "databases/intro": {
+      "id": "databases/intro",
+      "title": "intro",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "databases/postgres/intro": {
+      "id": "databases/postgres/intro",
       "title": "intro",
       "description": "",
       "sidebar": "tutorialSidebar"

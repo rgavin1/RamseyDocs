@@ -13,7 +13,7 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "pipeline-setup",
-    "permalink": "/docs/ci-cd/github/pipeline-setup"
+    "title": "How to setup a Fastapi web server",
+    "permalink": "/docs/api/python/api"
   }
 }

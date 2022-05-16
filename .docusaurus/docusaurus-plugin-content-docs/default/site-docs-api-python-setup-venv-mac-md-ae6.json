@@ -1,0 +1,47 @@
+{
+  "unversionedId": "api/python/setup-venv-mac",
+  "id": "api/python/setup-venv-mac",
+  "title": "How to setup a Virtual Environment on a Mac",
+  "description": "Step 1: Run the command to create venv",
+  "source": "@site/docs/api/python/setup-venv-mac.md",
+  "sourceDirName": "api/python",
+  "slug": "/api/python/api",
+  "permalink": "/docs/api/python/api",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/python/setup-venv-mac.md",
+  "tags": [
+    {
+      "label": "python",
+      "permalink": "/docs/tags/python"
+    },
+    {
+      "label": "venv",
+      "permalink": "/docs/tags/venv"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "slug": "api",
+    "title": "How to setup a Virtual Environment on a Mac",
+    "authors": [
+      {
+        "name": "Ramsey Gavin",
+        "title": "Software Engineer II",
+        "url": "https://github.com/rgavin1",
+        "image_url": "https://github.com/rgavin1.png"
+      }
+    ],
+    "tags": [
+      "python",
+      "venv"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to setup a Fastapi web server",
+    "permalink": "/docs/api/python/api"
+  },
+  "next": {
+    "title": "pipeline-setup",
+    "permalink": "/docs/ci-cd/github/pipeline-setup"
+  }
+}

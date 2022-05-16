@@ -1,0 +1,23 @@
+{
+  "unversionedId": "api/python/intro",
+  "id": "api/python/intro",
+  "title": "intro",
+  "description": "",
+  "source": "@site/docs/api/python/intro.md",
+  "sourceDirName": "api/python",
+  "slug": "/api/python/intro",
+  "permalink": "/docs/api/python/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/python/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "fastapi",
+    "permalink": "/docs/api/python/fastapi"
+  },
+  "next": {
+    "title": "How to setup a Virtual Environment on a Mac",
+    "permalink": "/docs/api/python/api"
+  }
+}

@@ -1,5 +1,25 @@
 [
   {
+    "name": "python",
+    "permalink": "/docs/tags/python",
+    "count": 2
+  },
+  {
+    "name": "venv",
+    "permalink": "/docs/tags/venv",
+    "count": 2
+  },
+  {
+    "name": "fastapi",
+    "permalink": "/docs/tags/fastapi",
+    "count": 1
+  },
+  {
+    "name": "api",
+    "permalink": "/docs/tags/api",
+    "count": 1
+  },
+  {
     "name": "hosting",
     "permalink": "/docs/tags/hosting",
     "count": 1

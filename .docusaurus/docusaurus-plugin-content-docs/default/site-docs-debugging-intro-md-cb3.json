@@ -14,7 +14,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "intro",
-    "permalink": "/docs/ci-cd/intro"
+    "permalink": "/docs/databases/postgres/intro"
   },
   "next": {
     "title": "IPDB",

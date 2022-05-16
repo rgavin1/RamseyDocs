@@ -1,0 +1,23 @@
+{
+  "unversionedId": "databases/intro",
+  "id": "databases/intro",
+  "title": "intro",
+  "description": "",
+  "source": "@site/docs/databases/intro.md",
+  "sourceDirName": "databases",
+  "slug": "/databases/intro",
+  "permalink": "/docs/databases/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/databases/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "intro",
+    "permalink": "/docs/ci-cd/intro"
+  },
+  "next": {
+    "title": "intro",
+    "permalink": "/docs/databases/postgres/intro"
+  }
+}
