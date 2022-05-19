@@ -1,0 +1,68 @@
+{
+  "unversionedId": "databases/postgres/drivers/postgresql-driver",
+  "id": "databases/postgres/drivers/postgresql-driver",
+  "title": "What is Database driver?",
+  "description": "",
+  "source": "@site/docs/databases/postgres/drivers/intro.md",
+  "sourceDirName": "databases/postgres/drivers",
+  "slug": "/databases/postgres/drivers/postgresql-driver",
+  "permalink": "/docs/databases/postgres/drivers/postgresql-driver",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/databases/postgres/drivers/intro.md",
+  "tags": [
+    {
+      "label": "postgresql",
+      "permalink": "/docs/tags/postgresql"
+    },
+    {
+      "label": "postgres",
+      "permalink": "/docs/tags/postgres"
+    },
+    {
+      "label": "database",
+      "permalink": "/docs/tags/database"
+    },
+    {
+      "label": "relational",
+      "permalink": "/docs/tags/relational"
+    },
+    {
+      "label": "sql",
+      "permalink": "/docs/tags/sql"
+    },
+    {
+      "label": "psycopg",
+      "permalink": "/docs/tags/psycopg"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "slug": "postgresql-driver",
+    "id": "postgresql-driver",
+    "title": "What is Database driver?",
+    "authors": [
+      {
+        "name": "Ramsey Gavin",
+        "title": "Software Engineer II",
+        "url": "https://github.com/rgavin1",
+        "image_url": "https://github.com/rgavin1.png"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "postgres",
+      "database",
+      "relational",
+      "sql",
+      "psycopg"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Database 101",
+    "permalink": "/docs/databases/databases"
+  },
+  "next": {
+    "title": "Psycopg - PostgreSQL database adapter for python",
+    "permalink": "/docs/databases/postgres/drivers/postgresql-driver-psycopg"
+  }
+}

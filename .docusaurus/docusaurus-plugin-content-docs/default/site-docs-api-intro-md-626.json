@@ -2,7 +2,7 @@
   "unversionedId": "api/intro",
   "id": "api/intro",
   "title": "API",
-  "description": "",
+  "description": "Python API Development - Comprehensive Course for Beginners",
   "source": "@site/docs/api/intro.md",
   "sourceDirName": "api",
   "slug": "/api/intro",

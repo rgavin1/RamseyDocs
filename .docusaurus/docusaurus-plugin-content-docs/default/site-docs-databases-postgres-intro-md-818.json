@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "intro",
-    "permalink": "/docs/databases/intro"
+    "title": "Psycopg - PostgreSQL database adapter for python",
+    "permalink": "/docs/databases/postgres/drivers/postgresql-driver-psycopg"
   },
   "next": {
     "title": "Debugging",

@@ -4,6 +4,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug','5a8'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config','5ae'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content','ee9'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData','829'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata','7cd'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry','c3d'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes','4af'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog','fe0'),
     exact: true
@@ -79,6 +114,16 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/database',
+    component: ComponentCreator('/docs/tags/database','3d2'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/driver',
+    component: ComponentCreator('/docs/tags/driver','813'),
+    exact: true
+  },
+  {
     path: '/docs/tags/fastapi',
     component: ComponentCreator('/docs/tags/fastapi','21f'),
     exact: true
@@ -89,13 +134,53 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/learning',
+    component: ComponentCreator('/docs/tags/learning','18f'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/postgres',
+    component: ComponentCreator('/docs/tags/postgres','509'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/postgresql',
+    component: ComponentCreator('/docs/tags/postgresql','3ef'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/psycopg',
+    component: ComponentCreator('/docs/tags/psycopg','25a'),
+    exact: true
+  },
+  {
     path: '/docs/tags/python',
     component: ComponentCreator('/docs/tags/python','3e6'),
     exact: true
   },
   {
+    path: '/docs/tags/questions',
+    component: ComponentCreator('/docs/tags/questions','d89'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/relational',
+    component: ComponentCreator('/docs/tags/relational','f06'),
+    exact: true
+  },
+  {
     path: '/docs/tags/s-3',
     component: ComponentCreator('/docs/tags/s-3','e08'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/sql',
+    component: ComponentCreator('/docs/tags/sql','093'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/teaching',
+    component: ComponentCreator('/docs/tags/teaching','5bc'),
     exact: true
   },
   {
@@ -115,7 +200,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','99d'),
+    component: ComponentCreator('/docs','ead'),
     routes: [
       {
         path: '/docs/api/intro',
@@ -132,6 +217,12 @@ export default [
       {
         path: '/docs/api/python/api',
         component: ComponentCreator('/docs/api/python/api','c63'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/api/python/models/models',
+        component: ComponentCreator('/docs/api/python/models/models','bb1'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -154,8 +245,20 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/databases/intro',
-        component: ComponentCreator('/docs/databases/intro','c7e'),
+        path: '/docs/databases/databases',
+        component: ComponentCreator('/docs/databases/databases','88d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/databases/postgres/drivers/postgresql-driver',
+        component: ComponentCreator('/docs/databases/postgres/drivers/postgresql-driver','a08'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/databases/postgres/drivers/postgresql-driver-psycopg',
+        component: ComponentCreator('/docs/databases/postgres/drivers/postgresql-driver-psycopg','14e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -274,8 +377,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/learning/learning',
-        component: ComponentCreator('/docs/learning/learning','5b5'),
+        path: '/docs/learning/5-w-s-and-h-questions',
+        component: ComponentCreator('/docs/learning/5-w-s-and-h-questions','9f7'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/learning/feynman-technique',
+        component: ComponentCreator('/docs/learning/feynman-technique','64a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

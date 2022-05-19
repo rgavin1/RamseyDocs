@@ -1,0 +1,19 @@
+{
+  "name": "psycopg",
+  "permalink": "/docs/tags/psycopg",
+  "docs": [
+    {
+      "id": "databases/postgres/drivers/postgresql-driver-psycopg",
+      "title": "Psycopg - PostgreSQL database adapter for python",
+      "description": "What is Psycopg?",
+      "permalink": "/docs/databases/postgres/drivers/postgresql-driver-psycopg"
+    },
+    {
+      "id": "databases/postgres/drivers/postgresql-driver",
+      "title": "What is Database driver?",
+      "description": "",
+      "permalink": "/docs/databases/postgres/drivers/postgresql-driver"
+    }
+  ],
+  "allTagsPath": "/docs/tags"
+}

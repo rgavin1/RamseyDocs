@@ -2,7 +2,7 @@
   {
     "name": "python",
     "permalink": "/docs/tags/python",
-    "count": 2
+    "count": 3
   },
   {
     "name": "venv",
@@ -18,6 +18,41 @@
     "name": "api",
     "permalink": "/docs/tags/api",
     "count": 1
+  },
+  {
+    "name": "driver",
+    "permalink": "/docs/tags/driver",
+    "count": 1
+  },
+  {
+    "name": "postgresql",
+    "permalink": "/docs/tags/postgresql",
+    "count": 3
+  },
+  {
+    "name": "database",
+    "permalink": "/docs/tags/database",
+    "count": 3
+  },
+  {
+    "name": "postgres",
+    "permalink": "/docs/tags/postgres",
+    "count": 2
+  },
+  {
+    "name": "relational",
+    "permalink": "/docs/tags/relational",
+    "count": 2
+  },
+  {
+    "name": "sql",
+    "permalink": "/docs/tags/sql",
+    "count": 2
+  },
+  {
+    "name": "psycopg",
+    "permalink": "/docs/tags/psycopg",
+    "count": 2
   },
   {
     "name": "hosting",
@@ -37,6 +72,21 @@
   {
     "name": "cloudfront",
     "permalink": "/docs/tags/cloudfront",
+    "count": 1
+  },
+  {
+    "name": "learning",
+    "permalink": "/docs/tags/learning",
+    "count": 2
+  },
+  {
+    "name": "questions",
+    "permalink": "/docs/tags/questions",
+    "count": 1
+  },
+  {
+    "name": "teaching",
+    "permalink": "/docs/tags/teaching",
     "count": 1
   }
 ]

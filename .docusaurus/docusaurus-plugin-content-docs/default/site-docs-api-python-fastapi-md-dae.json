@@ -51,7 +51,7 @@
     "permalink": "/docs/api/intro"
   },
   "next": {
-    "title": "How to setup a Virtual Environment on a Mac",
-    "permalink": "/docs/api/python/api"
+    "title": "How to connect a PostgreSQL database using a Psycopg driver",
+    "permalink": "/docs/api/python/models/models"
   }
 }

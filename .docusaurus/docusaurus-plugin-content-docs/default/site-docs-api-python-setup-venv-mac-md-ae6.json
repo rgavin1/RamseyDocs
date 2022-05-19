@@ -37,8 +37,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "How to setup a Fastapi web server",
-    "permalink": "/docs/api/python/api"
+    "title": "How to connect a PostgreSQL database using a Psycopg driver",
+    "permalink": "/docs/api/python/models/models"
   },
   "next": {
     "title": "pipeline-setup",

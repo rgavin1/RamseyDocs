@@ -22,7 +22,7 @@
               "unversionedId": "api/intro",
               "id": "api/intro",
               "title": "API",
-              "description": "",
+              "description": "Python API Development - Comprehensive Course for Beginners",
               "source": "@site/docs/api/intro.md",
               "sourceDirName": "api",
               "slug": "/api/intro",
@@ -90,6 +90,58 @@
                 "permalink": "/docs/api/intro"
               },
               "next": {
+                "title": "How to connect a PostgreSQL database using a Psycopg driver",
+                "permalink": "/docs/api/python/models/models"
+              }
+            },
+            {
+              "unversionedId": "api/python/models/pydantic",
+              "id": "api/python/models/pydantic",
+              "title": "How to connect a PostgreSQL database using a Psycopg driver",
+              "description": "Psycopg Documentation",
+              "source": "@site/docs/api/python/models/pydantic.md",
+              "sourceDirName": "api/python/models",
+              "slug": "/api/python/models/models",
+              "permalink": "/docs/api/python/models/models",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/python/models/pydantic.md",
+              "tags": [
+                {
+                  "label": "python",
+                  "permalink": "/docs/tags/python"
+                },
+                {
+                  "label": "driver",
+                  "permalink": "/docs/tags/driver"
+                },
+                {
+                  "label": "postgresql",
+                  "permalink": "/docs/tags/postgresql"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "slug": "models",
+                "title": "How to connect a PostgreSQL database using a Psycopg driver",
+                "authors": [
+                  {
+                    "name": "Ramsey Gavin",
+                    "title": "Software Engineer II",
+                    "url": "https://github.com/rgavin1",
+                    "image_url": "https://github.com/rgavin1.png"
+                  }
+                ],
+                "tags": [
+                  "python",
+                  "driver",
+                  "postgresql"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How to setup a Fastapi web server",
+                "permalink": "/docs/api/python/api"
+              },
+              "next": {
                 "title": "How to setup a Virtual Environment on a Mac",
                 "permalink": "/docs/api/python/api"
               }
@@ -133,8 +185,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "How to setup a Fastapi web server",
-                "permalink": "/docs/api/python/api"
+                "title": "How to connect a PostgreSQL database using a Psycopg driver",
+                "permalink": "/docs/api/python/models/models"
               },
               "next": {
                 "title": "pipeline-setup",
@@ -206,27 +258,183 @@
                 "permalink": "/docs/ci-cd/gitlab/pipeline-setup"
               },
               "next": {
-                "title": "intro",
-                "permalink": "/docs/databases/intro"
+                "title": "Database 101",
+                "permalink": "/docs/databases/databases"
               }
             },
             {
-              "unversionedId": "databases/intro",
-              "id": "databases/intro",
-              "title": "intro",
-              "description": "",
+              "unversionedId": "databases/databases",
+              "id": "databases/databases",
+              "title": "Database 101",
+              "description": "What is a database?",
               "source": "@site/docs/databases/intro.md",
               "sourceDirName": "databases",
-              "slug": "/databases/intro",
-              "permalink": "/docs/databases/intro",
+              "slug": "/databases/databases",
+              "permalink": "/docs/databases/databases",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/databases/intro.md",
-              "tags": [],
+              "tags": [
+                {
+                  "label": "database",
+                  "permalink": "/docs/tags/database"
+                }
+              ],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "slug": "databases",
+                "id": "databases",
+                "title": "Database 101",
+                "authors": [
+                  {
+                    "name": "Ramsey Gavin",
+                    "title": "Software Engineer II",
+                    "url": "https://github.com/rgavin1",
+                    "image_url": "https://github.com/rgavin1.png"
+                  }
+                ],
+                "tags": [
+                  "database"
+                ]
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "intro",
                 "permalink": "/docs/ci-cd/intro"
+              },
+              "next": {
+                "title": "What is Database driver?",
+                "permalink": "/docs/databases/postgres/drivers/postgresql-driver"
+              }
+            },
+            {
+              "unversionedId": "databases/postgres/drivers/postgresql-driver",
+              "id": "databases/postgres/drivers/postgresql-driver",
+              "title": "What is Database driver?",
+              "description": "",
+              "source": "@site/docs/databases/postgres/drivers/intro.md",
+              "sourceDirName": "databases/postgres/drivers",
+              "slug": "/databases/postgres/drivers/postgresql-driver",
+              "permalink": "/docs/databases/postgres/drivers/postgresql-driver",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/databases/postgres/drivers/intro.md",
+              "tags": [
+                {
+                  "label": "postgresql",
+                  "permalink": "/docs/tags/postgresql"
+                },
+                {
+                  "label": "postgres",
+                  "permalink": "/docs/tags/postgres"
+                },
+                {
+                  "label": "database",
+                  "permalink": "/docs/tags/database"
+                },
+                {
+                  "label": "relational",
+                  "permalink": "/docs/tags/relational"
+                },
+                {
+                  "label": "sql",
+                  "permalink": "/docs/tags/sql"
+                },
+                {
+                  "label": "psycopg",
+                  "permalink": "/docs/tags/psycopg"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "slug": "postgresql-driver",
+                "id": "postgresql-driver",
+                "title": "What is Database driver?",
+                "authors": [
+                  {
+                    "name": "Ramsey Gavin",
+                    "title": "Software Engineer II",
+                    "url": "https://github.com/rgavin1",
+                    "image_url": "https://github.com/rgavin1.png"
+                  }
+                ],
+                "tags": [
+                  "postgresql",
+                  "postgres",
+                  "database",
+                  "relational",
+                  "sql",
+                  "psycopg"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Database 101",
+                "permalink": "/docs/databases/databases"
+              },
+              "next": {
+                "title": "Psycopg - PostgreSQL database adapter for python",
+                "permalink": "/docs/databases/postgres/drivers/postgresql-driver-psycopg"
+              }
+            },
+            {
+              "unversionedId": "databases/postgres/drivers/postgresql-driver-psycopg",
+              "id": "databases/postgres/drivers/postgresql-driver-psycopg",
+              "title": "Psycopg - PostgreSQL database adapter for python",
+              "description": "What is Psycopg?",
+              "source": "@site/docs/databases/postgres/drivers/psycopg.md",
+              "sourceDirName": "databases/postgres/drivers",
+              "slug": "/databases/postgres/drivers/postgresql-driver-psycopg",
+              "permalink": "/docs/databases/postgres/drivers/postgresql-driver-psycopg",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/databases/postgres/drivers/psycopg.md",
+              "tags": [
+                {
+                  "label": "postgresql",
+                  "permalink": "/docs/tags/postgresql"
+                },
+                {
+                  "label": "postgres",
+                  "permalink": "/docs/tags/postgres"
+                },
+                {
+                  "label": "database",
+                  "permalink": "/docs/tags/database"
+                },
+                {
+                  "label": "relational",
+                  "permalink": "/docs/tags/relational"
+                },
+                {
+                  "label": "sql",
+                  "permalink": "/docs/tags/sql"
+                },
+                {
+                  "label": "psycopg",
+                  "permalink": "/docs/tags/psycopg"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "slug": "postgresql-driver-psycopg",
+                "id": "postgresql-driver-psycopg",
+                "title": "Psycopg - PostgreSQL database adapter for python",
+                "authors": [
+                  {
+                    "name": "Ramsey Gavin",
+                    "title": "Software Engineer II",
+                    "url": "https://github.com/rgavin1",
+                    "image_url": "https://github.com/rgavin1.png"
+                  }
+                ],
+                "tags": [
+                  "postgresql",
+                  "postgres",
+                  "database",
+                  "relational",
+                  "sql",
+                  "psycopg"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "What is Database driver?",
+                "permalink": "/docs/databases/postgres/drivers/postgresql-driver"
               },
               "next": {
                 "title": "intro",
@@ -248,8 +456,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "intro",
-                "permalink": "/docs/databases/intro"
+                "title": "Psycopg - PostgreSQL database adapter for python",
+                "permalink": "/docs/databases/postgres/drivers/postgresql-driver-psycopg"
               },
               "next": {
                 "title": "Debugging",
@@ -721,30 +929,100 @@
                 "permalink": "/docs/hosting/microsoft/azure"
               },
               "next": {
-                "title": "The Feynman Technique",
-                "permalink": "/docs/learning/learning"
+                "title": "5 W's and H Questions",
+                "permalink": "/docs/learning/5-w-s-and-h-questions"
               }
             },
             {
-              "unversionedId": "learning/learning",
-              "id": "learning/learning",
-              "title": "The Feynman Technique",
-              "description": "What is the Feynman technique?",
-              "source": "@site/docs/learning/feynman-teachnique.md",
+              "unversionedId": "learning/5-w-s-and-h-questions",
+              "id": "learning/5-w-s-and-h-questions",
+              "title": "5 W's and H Questions",
+              "description": "Asking and Answering the 5 W's and H Questions",
+              "source": "@site/docs/learning/5w-h-questions.md",
               "sourceDirName": "learning",
-              "slug": "/learning/learning",
-              "permalink": "/docs/learning/learning",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/learning/feynman-teachnique.md",
-              "tags": [],
+              "slug": "/learning/5-w-s-and-h-questions",
+              "permalink": "/docs/learning/5-w-s-and-h-questions",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/learning/5w-h-questions.md",
+              "tags": [
+                {
+                  "label": "learning",
+                  "permalink": "/docs/tags/learning"
+                },
+                {
+                  "label": "questions",
+                  "permalink": "/docs/tags/questions"
+                }
+              ],
               "version": "current",
               "frontMatter": {
-                "id": "learning",
-                "title": "The Feynman Technique"
+                "slug": "5-w-s-and-h-questions",
+                "id": "5-w-s-and-h-questions",
+                "title": "5 W's and H Questions",
+                "authors": [
+                  {
+                    "name": "Ramsey Gavin",
+                    "title": "Software Engineer II",
+                    "url": "https://github.com/rgavin1",
+                    "image_url": "https://github.com/rgavin1.png"
+                  }
+                ],
+                "tags": [
+                  "learning",
+                  "questions"
+                ]
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "intro",
                 "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "The Feynman Technique",
+                "permalink": "/docs/learning/feynman-technique"
+              }
+            },
+            {
+              "unversionedId": "learning/feynman-technique",
+              "id": "learning/feynman-technique",
+              "title": "The Feynman Technique",
+              "description": "What is the Feynman technique?",
+              "source": "@site/docs/learning/feynman-teachnique.md",
+              "sourceDirName": "learning",
+              "slug": "/learning/feynman-technique",
+              "permalink": "/docs/learning/feynman-technique",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/learning/feynman-teachnique.md",
+              "tags": [
+                {
+                  "label": "learning",
+                  "permalink": "/docs/tags/learning"
+                },
+                {
+                  "label": "teaching",
+                  "permalink": "/docs/tags/teaching"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "id": "feynman-technique",
+                "slug": "feynman-technique",
+                "title": "The Feynman Technique",
+                "authors": [
+                  {
+                    "name": "Ramsey Gavin",
+                    "title": "Software Engineer II",
+                    "url": "https://github.com/rgavin1",
+                    "image_url": "https://github.com/rgavin1.png"
+                  }
+                ],
+                "tags": [
+                  "learning",
+                  "teaching"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "5 W's and H Questions",
+                "permalink": "/docs/learning/5-w-s-and-h-questions"
               },
               "next": {
                 "title": "testing",
@@ -859,7 +1137,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "The Feynman Technique",
-                "permalink": "/docs/learning/learning"
+                "permalink": "/docs/learning/feynman-technique"
               },
               "next": {
                 "title": "integration",
@@ -907,6 +1185,18 @@
                       {
                         "type": "doc",
                         "id": "api/python/fastapi"
+                      },
+                      {
+                        "type": "category",
+                        "label": "Models",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "api/python/models/pydantic"
+                          }
+                        ]
                       },
                       {
                         "type": "doc",
@@ -960,7 +1250,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "databases/intro"
+                    "id": "databases/databases"
                   },
                   {
                     "type": "category",
@@ -968,6 +1258,22 @@
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
+                      {
+                        "type": "category",
+                        "label": "Drivers",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "databases/postgres/drivers/postgresql-driver"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "databases/postgres/drivers/postgresql-driver-psycopg"
+                          }
+                        ]
+                      },
                       {
                         "type": "doc",
                         "id": "databases/postgres/intro"
@@ -1136,7 +1442,11 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "learning/learning"
+                    "id": "learning/5-w-s-and-h-questions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "learning/feynman-technique"
                   }
                 ]
               },

@@ -1,0 +1,52 @@
+{
+  "unversionedId": "api/python/models/pydantic",
+  "id": "api/python/models/pydantic",
+  "title": "How to connect a PostgreSQL database using a Psycopg driver",
+  "description": "Psycopg Documentation",
+  "source": "@site/docs/api/python/models/pydantic.md",
+  "sourceDirName": "api/python/models",
+  "slug": "/api/python/models/models",
+  "permalink": "/docs/api/python/models/models",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/python/models/pydantic.md",
+  "tags": [
+    {
+      "label": "python",
+      "permalink": "/docs/tags/python"
+    },
+    {
+      "label": "driver",
+      "permalink": "/docs/tags/driver"
+    },
+    {
+      "label": "postgresql",
+      "permalink": "/docs/tags/postgresql"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "slug": "models",
+    "title": "How to connect a PostgreSQL database using a Psycopg driver",
+    "authors": [
+      {
+        "name": "Ramsey Gavin",
+        "title": "Software Engineer II",
+        "url": "https://github.com/rgavin1",
+        "image_url": "https://github.com/rgavin1.png"
+      }
+    ],
+    "tags": [
+      "python",
+      "driver",
+      "postgresql"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to setup a Fastapi web server",
+    "permalink": "/docs/api/python/api"
+  },
+  "next": {
+    "title": "How to setup a Virtual Environment on a Mac",
+    "permalink": "/docs/api/python/api"
+  }
+}

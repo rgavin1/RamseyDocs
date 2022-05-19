@@ -1,0 +1,13 @@
+{
+  "name": "models",
+  "permalink": "/docs/tags/models",
+  "docs": [
+    {
+      "id": "api/python/models/pydantic",
+      "title": "Pydantic",
+      "description": "",
+      "permalink": "/docs/api/python/models/models"
+    }
+  ],
+  "allTagsPath": "/docs/tags"
+}

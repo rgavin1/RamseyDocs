@@ -1,0 +1,48 @@
+{
+  "unversionedId": "learning/5-w-s-and-h-questions",
+  "id": "learning/5-w-s-and-h-questions",
+  "title": "5 W's and H Questions",
+  "description": "Asking and Answering the 5 W's and H Questions",
+  "source": "@site/docs/learning/5w-h-questions.md",
+  "sourceDirName": "learning",
+  "slug": "/learning/5-w-s-and-h-questions",
+  "permalink": "/docs/learning/5-w-s-and-h-questions",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/learning/5w-h-questions.md",
+  "tags": [
+    {
+      "label": "learning",
+      "permalink": "/docs/tags/learning"
+    },
+    {
+      "label": "questions",
+      "permalink": "/docs/tags/questions"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "slug": "5-w-s-and-h-questions",
+    "id": "5-w-s-and-h-questions",
+    "title": "5 W's and H Questions",
+    "authors": [
+      {
+        "name": "Ramsey Gavin",
+        "title": "Software Engineer II",
+        "url": "https://github.com/rgavin1",
+        "image_url": "https://github.com/rgavin1.png"
+      }
+    ],
+    "tags": [
+      "learning",
+      "questions"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "intro",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "The Feynman Technique",
+    "permalink": "/docs/learning/feynman-technique"
+  }
+}

@@ -3,6 +3,12 @@
   "permalink": "/docs/tags/python",
   "docs": [
     {
+      "id": "api/python/models/pydantic",
+      "title": "How to connect a PostgreSQL database using a Psycopg driver",
+      "description": "Psycopg Documentation",
+      "permalink": "/docs/api/python/models/models"
+    },
+    {
       "id": "api/python/fastapi",
       "title": "How to setup a Fastapi web server",
       "description": "Step 1: Setup the virtual environment. Follow this link to How to setup a Virtual Environment on a Mac",

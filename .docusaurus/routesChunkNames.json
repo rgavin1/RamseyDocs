@@ -1,314 +1,409 @@
 {
+  "/__docusaurus/debug-5a8": {
+    "component": "component---theme-debug-config-23-a-2ff",
+    "__routeContextModule": "__routeContextModule---docusaurus-debugab-5-699"
+  },
+  "/__docusaurus/debug/config-5ae": {
+    "component": "component---theme-debug-config-23-a-2ff",
+    "__routeContextModule": "__routeContextModule---docusaurus-debugab-5-699"
+  },
+  "/__docusaurus/debug/content-ee9": {
+    "component": "component---theme-debug-contentba-8-ce7",
+    "allContent": "allContent---docusaurus-debug-content-246-9aa",
+    "__routeContextModule": "__routeContextModule---docusaurus-debugab-5-699"
+  },
+  "/__docusaurus/debug/globalData-829": {
+    "component": "component---theme-debug-global-dataede-0fa",
+    "__routeContextModule": "__routeContextModule---docusaurus-debugab-5-699"
+  },
+  "/__docusaurus/debug/metadata-7cd": {
+    "component": "component---theme-debug-site-metadata-68-e-3d4",
+    "__routeContextModule": "__routeContextModule---docusaurus-debugab-5-699"
+  },
+  "/__docusaurus/debug/registry-c3d": {
+    "component": "component---theme-debug-registry-679-501",
+    "__routeContextModule": "__routeContextModule---docusaurus-debugab-5-699"
+  },
+  "/__docusaurus/debug/routes-4af": {
+    "component": "component---theme-debug-routes-946-699",
+    "__routeContextModule": "__routeContextModule---docusaurus-debugab-5-699"
+  },
   "/blog-fe0": {
-    "component": "a6aa9e1f",
-    "sidebar": "814f3328",
+    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "7661071f"
+        "content": "content---blog-766-e3c"
       },
       {
-        "content": "f4f34a3a"
+        "content": "content---blogf-4-f-cd7"
       },
       {
-        "content": "8717b14a"
+        "content": "content---blog-871-381"
       },
       {
-        "content": "925b3f96"
+        "content": "content---blog-925-e00"
       }
     ],
-    "metadata": "b2b675dd",
-    "__routeContextModule": "78b9a066"
+    "metadata": "metadata---blogb-2-b-df1",
+    "__routeContextModule": "__routeContextModule---blog-78-b-40e"
   },
   "/blog/archive-f42": {
-    "component": "9e4087bc",
-    "archive": "b2f554cd",
-    "__routeContextModule": "78b9a066"
+    "component": "component---theme-blog-archive-page-9-e-4-1d8",
+    "archive": "archive---blog-archiveb-2-f-393",
+    "__routeContextModule": "__routeContextModule---blog-78-b-40e"
   },
   "/blog/first-blog-post-bed": {
-    "component": "ccc49370",
-    "sidebar": "814f3328",
-    "content": "e273c56f",
-    "__routeContextModule": "78b9a066"
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-first-blog-poste-27-4a1",
+    "__routeContextModule": "__routeContextModule---blog-78-b-40e"
   },
   "/blog/long-blog-post-de9": {
-    "component": "ccc49370",
-    "sidebar": "814f3328",
-    "content": "73664a40",
-    "__routeContextModule": "78b9a066"
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-long-blog-post-736-bc7",
+    "__routeContextModule": "__routeContextModule---blog-78-b-40e"
   },
   "/blog/mdx-blog-post-3f2": {
-    "component": "ccc49370",
-    "sidebar": "814f3328",
-    "content": "59362658",
-    "__routeContextModule": "78b9a066"
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-mdx-blog-post-593-37b",
+    "__routeContextModule": "__routeContextModule---blog-78-b-40e"
   },
   "/blog/tags-548": {
-    "component": "01a85c17",
-    "sidebar": "814f3328",
-    "tags": "a7023ddc",
-    "__routeContextModule": "78b9a066"
+    "component": "component---theme-blog-tags-list-page-01-a-d0b",
+    "sidebar": "sidebar---blog-814-8ac",
+    "tags": "tags---blog-tagsa-70-da2",
+    "__routeContextModule": "__routeContextModule---blog-78-b-40e"
   },
   "/blog/tags/docusaurus-d5a": {
-    "component": "6875c492",
-    "sidebar": "814f3328",
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "7661071f"
+        "content": "content---blog-766-e3c"
       },
       {
-        "content": "f4f34a3a"
+        "content": "content---blogf-4-f-cd7"
       },
       {
-        "content": "8717b14a"
+        "content": "content---blog-871-381"
       },
       {
-        "content": "925b3f96"
+        "content": "content---blog-925-e00"
       }
     ],
-    "metadata": "a80da1cf",
-    "listMetadata": "608ae6a4",
-    "__routeContextModule": "78b9a066"
+    "metadata": "metadata---blog-tags-docusaurusa-80-728",
+    "listMetadata": "listMetadata---blog-tags-docusaurus-608-c09",
+    "__routeContextModule": "__routeContextModule---blog-78-b-40e"
   },
   "/blog/tags/facebook-7f3": {
-    "component": "6875c492",
-    "sidebar": "814f3328",
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "7661071f"
+        "content": "content---blog-766-e3c"
       }
     ],
-    "metadata": "031793e1",
-    "listMetadata": "096bfee4",
-    "__routeContextModule": "78b9a066"
+    "metadata": "metadata---blog-tags-facebook-031-c52",
+    "listMetadata": "listMetadata---blog-tags-facebook-096-d31",
+    "__routeContextModule": "__routeContextModule---blog-78-b-40e"
   },
   "/blog/tags/hello-547": {
-    "component": "6875c492",
-    "sidebar": "814f3328",
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "7661071f"
+        "content": "content---blog-766-e3c"
       },
       {
-        "content": "8717b14a"
+        "content": "content---blog-871-381"
       }
     ],
-    "metadata": "30a24c52",
-    "listMetadata": "66406991",
-    "__routeContextModule": "78b9a066"
+    "metadata": "metadata---blog-tags-hello-30-a-bed",
+    "listMetadata": "listMetadata---blog-tags-hello-664-70a",
+    "__routeContextModule": "__routeContextModule---blog-78-b-40e"
   },
   "/blog/tags/hola-2e4": {
-    "component": "6875c492",
-    "sidebar": "814f3328",
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "925b3f96"
+        "content": "content---blog-925-e00"
       }
     ],
-    "metadata": "e16015ca",
-    "listMetadata": "4c9e35b1",
-    "__routeContextModule": "78b9a066"
+    "metadata": "metadata---blog-tags-holae-16-18a",
+    "listMetadata": "listMetadata---blog-tags-hola-4-c-9-a24",
+    "__routeContextModule": "__routeContextModule---blog-78-b-40e"
   },
   "/blog/welcome-b82": {
-    "component": "ccc49370",
-    "sidebar": "814f3328",
-    "content": "d9f32620",
-    "__routeContextModule": "78b9a066"
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-welcomed-9-f-ffb",
+    "__routeContextModule": "__routeContextModule---blog-78-b-40e"
   },
   "/docs/tags-6d0": {
-    "component": "3720c009",
-    "tags": "55960ee5",
-    "__routeContextModule": "d391db46"
+    "component": "component---theme-doc-tags-list-page-372-89e",
+    "tags": "tags---docs-tags-559-5e5",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
   "/docs/tags/api-508": {
-    "component": "df203c0f",
-    "tag": "87a50603",
-    "__routeContextModule": "d391db46"
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-api-87-a-926",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
   "/docs/tags/aws-f70": {
-    "component": "df203c0f",
-    "tag": "762a62c9",
-    "__routeContextModule": "d391db46"
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-aws-762-9c1",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
   "/docs/tags/cloudfront-115": {
-    "component": "df203c0f",
-    "tag": "414d3773",
-    "__routeContextModule": "d391db46"
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-cloudfront-414-27f",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
+  "/docs/tags/database-3d2": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-databaseabf-153",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
+  "/docs/tags/driver-813": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-driver-1-d-6-5b2",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
   "/docs/tags/fastapi-21f": {
-    "component": "df203c0f",
-    "tag": "18ba9f4d",
-    "__routeContextModule": "d391db46"
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-fastapi-18-b-1ff",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
   "/docs/tags/hosting-b0b": {
-    "component": "df203c0f",
-    "tag": "18e7f551",
-    "__routeContextModule": "d391db46"
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-hosting-18-e-ea1",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
+  "/docs/tags/learning-18f": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-learningd-4-a-79b",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
+  "/docs/tags/postgres-509": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-postgresc-69-eb7",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
+  "/docs/tags/postgresql-3ef": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-postgresql-617-1b4",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
+  "/docs/tags/psycopg-25a": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-psycopg-0-e-9-28b",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
   "/docs/tags/python-3e6": {
-    "component": "df203c0f",
-    "tag": "d01e25c4",
-    "__routeContextModule": "d391db46"
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-pythond-01-9b3",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
+  "/docs/tags/questions-d89": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-questionsc-0-d-dd0",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
+  "/docs/tags/relational-f06": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-relational-2-d-3-904",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
   "/docs/tags/s-3-e08": {
-    "component": "df203c0f",
-    "tag": "d8802bd1",
-    "__routeContextModule": "d391db46"
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-s-3-d-88-2fa",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
+  "/docs/tags/sql-093": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-sqlc-0-a-610",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
+  "/docs/tags/teaching-5bc": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-teaching-760-d2a",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
   "/docs/tags/venv-9b8": {
-    "component": "df203c0f",
-    "tag": "d076cb07",
-    "__routeContextModule": "d391db46"
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-venvd-07-17d",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
   "/markdown-page-2ee": {
-    "component": "1f391b9e",
-    "content": "393be207",
-    "__routeContextModule": "b10f1658"
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---markdown-page-393-028",
+    "__routeContextModule": "__routeContextModule---markdown-pageb-10-687"
   },
   "/projects-853": {
-    "component": "a8f03678",
-    "config": "5e9f5e1a",
-    "__routeContextModule": "b10f1658"
+    "component": "component---site-src-pages-projects-tsxa-8-f-73b",
+    "config": "config---projects-5-e-9-d4c",
+    "__routeContextModule": "__routeContextModule---markdown-pageb-10-687"
   },
-  "/docs-99d": {
-    "component": "1be78505",
-    "versionMetadata": "935f2afb",
-    "__routeContextModule": "d391db46"
+  "/docs-ead": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---docs-935-398",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
   "/docs/api/intro-0c9": {
-    "component": "17896441",
-    "content": "6262e02f"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-api-intro-626-312"
   },
   "/docs/api/python/api-37d": {
-    "component": "17896441",
-    "content": "daedd372"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-api-python-apidae-f96"
   },
   "/docs/api/python/api-c63": {
-    "component": "17896441",
-    "content": "ae649bbc"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-api-python-apiae-6-91f"
+  },
+  "/docs/api/python/models/models-bb1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-api-python-models-pydantic-670-e05"
   },
   "/docs/ci-cd/github/pipeline-setup-5f8": {
-    "component": "17896441",
-    "content": "e1229846"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-ci-cd-github-pipeline-setupe-12-232"
   },
   "/docs/ci-cd/gitlab/pipeline-setup-431": {
-    "component": "17896441",
-    "content": "cf11adcd"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-ci-cd-gitlab-pipeline-setupcf-1-354"
   },
   "/docs/ci-cd/intro-1f0": {
-    "component": "17896441",
-    "content": "db1c59dd"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-ci-cd-introdb-1-35d"
   },
-  "/docs/databases/intro-c7e": {
-    "component": "17896441",
-    "content": "e3980381"
+  "/docs/databases/databases-88d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-databases-introe-39-18b"
+  },
+  "/docs/databases/postgres/drivers/postgresql-driver-a08": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-databases-postgres-drivers-postgresql-driverd-80-1f8"
+  },
+  "/docs/databases/postgres/drivers/postgresql-driver-psycopg-14e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-databases-postgres-drivers-postgresql-driver-0-b-5-a12"
   },
   "/docs/databases/postgres/intro-014": {
-    "component": "17896441",
-    "content": "8188b4a5"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-databases-postgres-intro-818-b99"
   },
   "/docs/debugging/intro-699": {
-    "component": "17896441",
-    "content": "cb33b96c"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-debugging-introcb-3-e5c"
   },
   "/docs/debugging/python/ipdb-9ad": {
-    "component": "17896441",
-    "content": "0f5dd3eb"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-debugging-python-ipdb-0-f-5-e01"
   },
   "/docs/debugging/python/vscode-6a9": {
-    "component": "17896441",
-    "content": "0028d7a3"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-debugging-python-vscode-002-064"
   },
   "/docs/debugging/react/tip-and-tricks-2aa": {
-    "component": "17896441",
-    "content": "851e862e"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-debugging-react-tip-and-tricks-851-29c"
   },
   "/docs/debugging/react/vscode-21a": {
-    "component": "17896441",
-    "content": "0d40329e"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-debugging-react-vscode-0-d-4-ff3"
   },
   "/docs/docusaurus/intro-f64": {
-    "component": "17896441",
-    "content": "21038ea1"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-docusaurus-intro-210-698"
   },
   "/docs/docusaurus/tutorial-basics/congratulations-710": {
-    "component": "17896441",
-    "content": "61e90c63"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-docusaurus-tutorial-basics-congratulations-61-e-c2b"
   },
   "/docs/docusaurus/tutorial-basics/create-a-blog-post-61f": {
-    "component": "17896441",
-    "content": "5f78db55"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-docusaurus-tutorial-basics-create-a-blog-post-5-f-7-e0b"
   },
   "/docs/docusaurus/tutorial-basics/create-a-document-800": {
-    "component": "17896441",
-    "content": "b4b3f14b"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-docusaurus-tutorial-basics-create-a-documentb-4-b-521"
   },
   "/docs/docusaurus/tutorial-basics/create-a-page-4b0": {
-    "component": "17896441",
-    "content": "f7a7512f"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-docusaurus-tutorial-basics-create-a-pagef-7-a-40c"
   },
   "/docs/docusaurus/tutorial-basics/deploy-your-site-eaa": {
-    "component": "17896441",
-    "content": "42554004"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-docusaurus-tutorial-basics-deploy-your-site-425-2f4"
   },
   "/docs/docusaurus/tutorial-basics/markdown-features-08c": {
-    "component": "17896441",
-    "content": "a2967914"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-docusaurus-tutorial-basics-markdown-featuresa-29-c64"
   },
   "/docs/git/commands-509": {
-    "component": "17896441",
-    "content": "4be5291f"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-git-commands-4-be-625"
   },
   "/docs/hosting/-838": {
-    "component": "17896441",
-    "content": "ebe7c622"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-hosting-ebe-25a"
   },
   "/docs/hosting/amazon/hosting-791": {
-    "component": "17896441",
-    "content": "2821876b"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-hosting-amazon-hosting-282-2eb"
   },
   "/docs/hosting/google/firebase-e40": {
-    "component": "17896441",
-    "content": "d926cb7c"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-hosting-google-firebased-92-1cf"
   },
   "/docs/hosting/microsoft/azure-512": {
-    "component": "17896441",
-    "content": "5cf9b7a4"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-hosting-microsoft-azure-5-cf-363"
   },
   "/docs/intro-aed": {
-    "component": "17896441",
-    "content": "0e384e19"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
   },
-  "/docs/learning/learning-5b5": {
-    "component": "17896441",
-    "content": "4b1144fa"
+  "/docs/learning/5-w-s-and-h-questions-9f7": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-learning-learningd-37-166"
+  },
+  "/docs/learning/feynman-technique-64a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-learning-learning-4-b-1-42f"
   },
   "/docs/testing/-b64": {
-    "component": "17896441",
-    "content": "e1262149"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-testing-e-12-75f"
   },
   "/docs/testing/integration-716": {
-    "component": "17896441",
-    "content": "67cb98d7"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-testing-integration-67-c-c53"
   },
   "/docs/testing/python/selenium-214": {
-    "component": "17896441",
-    "content": "e2881bfa"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-testing-python-seleniume-28-ed6"
   },
   "/docs/testing/python/setup-218": {
-    "component": "17896441",
-    "content": "debf8a6b"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-testing-python-setupdeb-b83"
   },
   "/docs/testing/react/msw/setup-c9e": {
-    "component": "17896441",
-    "content": "5b34cfe6"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-testing-react-msw-setup-5-b-3-51f"
   },
   "/docs/testing/unit-testing-3d6": {
-    "component": "17896441",
-    "content": "f85a1a6c"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-testing-unit-testingf-85-7d8"
   },
   "/-ab9": {
-    "component": "1df93b7f",
-    "config": "5e9f5e1a",
-    "__routeContextModule": "b10f1658"
+    "component": "component---site-src-pages-index-tsx-1-df-d3e",
+    "config": "config---projects-5-e-9-d4c",
+    "__routeContextModule": "__routeContextModule---markdown-pageb-10-687"
   }
 }

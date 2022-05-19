@@ -1,23 +1,45 @@
 {
-  "unversionedId": "learning/learning",
-  "id": "learning/learning",
+  "unversionedId": "learning/feynman-technique",
+  "id": "learning/feynman-technique",
   "title": "The Feynman Technique",
   "description": "What is the Feynman technique?",
   "source": "@site/docs/learning/feynman-teachnique.md",
   "sourceDirName": "learning",
-  "slug": "/learning/learning",
-  "permalink": "/docs/learning/learning",
+  "slug": "/learning/feynman-technique",
+  "permalink": "/docs/learning/feynman-technique",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/learning/feynman-teachnique.md",
-  "tags": [],
+  "tags": [
+    {
+      "label": "learning",
+      "permalink": "/docs/tags/learning"
+    },
+    {
+      "label": "teaching",
+      "permalink": "/docs/tags/teaching"
+    }
+  ],
   "version": "current",
   "frontMatter": {
-    "id": "learning",
-    "title": "The Feynman Technique"
+    "id": "feynman-technique",
+    "slug": "feynman-technique",
+    "title": "The Feynman Technique",
+    "authors": [
+      {
+        "name": "Ramsey Gavin",
+        "title": "Software Engineer II",
+        "url": "https://github.com/rgavin1",
+        "image_url": "https://github.com/rgavin1.png"
+      }
+    ],
+    "tags": [
+      "learning",
+      "teaching"
+    ]
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "intro",
-    "permalink": "/docs/intro"
+    "title": "5 W's and H Questions",
+    "permalink": "/docs/learning/5-w-s-and-h-questions"
   },
   "next": {
     "title": "testing",

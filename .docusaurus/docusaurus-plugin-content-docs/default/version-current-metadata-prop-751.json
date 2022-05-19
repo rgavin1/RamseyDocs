@@ -33,6 +33,20 @@
                 "docId": "api/python/fastapi"
               },
               {
+                "type": "category",
+                "label": "Models",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "How to connect a PostgreSQL database using a Psycopg driver",
+                    "href": "/docs/api/python/models/models",
+                    "docId": "api/python/models/pydantic"
+                  }
+                ]
+              },
+              {
                 "type": "link",
                 "label": "How to setup a Virtual Environment on a Mac",
                 "href": "/docs/api/python/api",
@@ -92,9 +106,9 @@
         "items": [
           {
             "type": "link",
-            "label": "intro",
-            "href": "/docs/databases/intro",
-            "docId": "databases/intro"
+            "label": "Database 101",
+            "href": "/docs/databases/databases",
+            "docId": "databases/databases"
           },
           {
             "type": "category",
@@ -102,6 +116,26 @@
             "collapsible": true,
             "collapsed": true,
             "items": [
+              {
+                "type": "category",
+                "label": "Drivers",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "What is Database driver?",
+                    "href": "/docs/databases/postgres/drivers/postgresql-driver",
+                    "docId": "databases/postgres/drivers/postgresql-driver"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Psycopg - PostgreSQL database adapter for python",
+                    "href": "/docs/databases/postgres/drivers/postgresql-driver-psycopg",
+                    "docId": "databases/postgres/drivers/postgresql-driver-psycopg"
+                  }
+                ]
+              },
               {
                 "type": "link",
                 "label": "intro",
@@ -303,9 +337,15 @@
         "items": [
           {
             "type": "link",
+            "label": "5 W's and H Questions",
+            "href": "/docs/learning/5-w-s-and-h-questions",
+            "docId": "learning/5-w-s-and-h-questions"
+          },
+          {
+            "type": "link",
             "label": "The Feynman Technique",
-            "href": "/docs/learning/learning",
-            "docId": "learning/learning"
+            "href": "/docs/learning/feynman-technique",
+            "docId": "learning/feynman-technique"
           }
         ]
       },
@@ -378,13 +418,19 @@
     "api/intro": {
       "id": "api/intro",
       "title": "API",
-      "description": "",
+      "description": "Python API Development - Comprehensive Course for Beginners",
       "sidebar": "tutorialSidebar"
     },
     "api/python/fastapi": {
       "id": "api/python/fastapi",
       "title": "How to setup a Fastapi web server",
       "description": "Step 1: Setup the virtual environment. Follow this link to How to setup a Virtual Environment on a Mac",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/python/models/pydantic": {
+      "id": "api/python/models/pydantic",
+      "title": "How to connect a PostgreSQL database using a Psycopg driver",
+      "description": "Psycopg Documentation",
       "sidebar": "tutorialSidebar"
     },
     "api/python/setup-venv-mac": {
@@ -411,10 +457,22 @@
       "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "databases/intro": {
-      "id": "databases/intro",
-      "title": "intro",
+    "databases/databases": {
+      "id": "databases/databases",
+      "title": "Database 101",
+      "description": "What is a database?",
+      "sidebar": "tutorialSidebar"
+    },
+    "databases/postgres/drivers/postgresql-driver": {
+      "id": "databases/postgres/drivers/postgresql-driver",
+      "title": "What is Database driver?",
       "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "databases/postgres/drivers/postgresql-driver-psycopg": {
+      "id": "databases/postgres/drivers/postgresql-driver-psycopg",
+      "title": "Psycopg - PostgreSQL database adapter for python",
+      "description": "What is Psycopg?",
       "sidebar": "tutorialSidebar"
     },
     "databases/postgres/intro": {
@@ -531,8 +589,14 @@
       "description": "Reset this page",
       "sidebar": "tutorialSidebar"
     },
-    "learning/learning": {
-      "id": "learning/learning",
+    "learning/5-w-s-and-h-questions": {
+      "id": "learning/5-w-s-and-h-questions",
+      "title": "5 W's and H Questions",
+      "description": "Asking and Answering the 5 W's and H Questions",
+      "sidebar": "tutorialSidebar"
+    },
+    "learning/feynman-technique": {
+      "id": "learning/feynman-technique",
       "title": "The Feynman Technique",
       "description": "What is the Feynman technique?",
       "sidebar": "tutorialSidebar"
