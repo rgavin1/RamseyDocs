@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "intro",
-    "permalink": "/docs/databases/postgres/intro"
+    "title": "SQLAlchemy",
+    "permalink": "/docs/databases/postgres/orms/sqlalchemy"
   },
   "next": {
     "title": "IPDB",

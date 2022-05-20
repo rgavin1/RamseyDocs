@@ -1,7 +1,7 @@
 ---
 slug: databases
 id: databases
-title: Database 101
+title: Intro to Databases
 authors:
   - name: Ramsey Gavin
     title: Software Engineer II

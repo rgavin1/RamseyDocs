@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Psycopg - PostgreSQL database adapter for python",
-    "permalink": "/docs/databases/postgres/drivers/postgresql-driver-psycopg"
+    "title": "How to connect a PostgreSQL database using a Psycopg driver",
+    "permalink": "/docs/databases/postgres/drivers/psycopg"
   },
   "next": {
-    "title": "Debugging",
-    "permalink": "/docs/debugging/intro"
+    "title": "Object Relational Mappers (ORMs)",
+    "permalink": "/docs/databases/postgres/orms/orms"
   }
 }

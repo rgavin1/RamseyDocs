@@ -1,44 +1,31 @@
 {
-  "unversionedId": "databases/postgres/drivers/postgresql-driver-psycopg",
-  "id": "databases/postgres/drivers/postgresql-driver-psycopg",
-  "title": "Psycopg - PostgreSQL database adapter for python",
-  "description": "What is Psycopg?",
+  "unversionedId": "databases/postgres/drivers/psycopg",
+  "id": "databases/postgres/drivers/psycopg",
+  "title": "How to connect a PostgreSQL database using a Psycopg driver",
+  "description": "Psycopg Documentation",
   "source": "@site/docs/databases/postgres/drivers/psycopg.md",
   "sourceDirName": "databases/postgres/drivers",
-  "slug": "/databases/postgres/drivers/postgresql-driver-psycopg",
-  "permalink": "/docs/databases/postgres/drivers/postgresql-driver-psycopg",
+  "slug": "/databases/postgres/drivers/psycopg",
+  "permalink": "/docs/databases/postgres/drivers/psycopg",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/databases/postgres/drivers/psycopg.md",
   "tags": [
     {
+      "label": "python",
+      "permalink": "/docs/tags/python"
+    },
+    {
+      "label": "driver",
+      "permalink": "/docs/tags/driver"
+    },
+    {
       "label": "postgresql",
       "permalink": "/docs/tags/postgresql"
-    },
-    {
-      "label": "postgres",
-      "permalink": "/docs/tags/postgres"
-    },
-    {
-      "label": "database",
-      "permalink": "/docs/tags/database"
-    },
-    {
-      "label": "relational",
-      "permalink": "/docs/tags/relational"
-    },
-    {
-      "label": "sql",
-      "permalink": "/docs/tags/sql"
-    },
-    {
-      "label": "psycopg",
-      "permalink": "/docs/tags/psycopg"
     }
   ],
   "version": "current",
   "frontMatter": {
-    "slug": "postgresql-driver-psycopg",
-    "id": "postgresql-driver-psycopg",
-    "title": "Psycopg - PostgreSQL database adapter for python",
+    "slug": "psycopg",
+    "title": "How to connect a PostgreSQL database using a Psycopg driver",
     "authors": [
       {
         "name": "Ramsey Gavin",
@@ -48,12 +35,9 @@
       }
     ],
     "tags": [
-      "postgresql",
-      "postgres",
-      "database",
-      "relational",
-      "sql",
-      "psycopg"
+      "python",
+      "driver",
+      "postgresql"
     ]
   },
   "sidebar": "tutorialSidebar",

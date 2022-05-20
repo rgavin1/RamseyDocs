@@ -58,11 +58,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Database 101",
+    "title": "Intro to Databases",
     "permalink": "/docs/databases/databases"
   },
   "next": {
-    "title": "Psycopg - PostgreSQL database adapter for python",
-    "permalink": "/docs/databases/postgres/drivers/postgresql-driver-psycopg"
+    "title": "How to connect a PostgreSQL database using a Psycopg driver",
+    "permalink": "/docs/databases/postgres/drivers/psycopg"
   }
 }

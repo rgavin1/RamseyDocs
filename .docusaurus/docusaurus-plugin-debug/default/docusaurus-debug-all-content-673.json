@@ -34,7 +34,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "How to setup a Fastapi web server",
-                "permalink": "/docs/api/python/api"
+                "permalink": "/docs/api/python/fastapi"
               }
             },
             {
@@ -44,8 +44,8 @@
               "description": "Step 1: Setup the virtual environment. Follow this link to How to setup a Virtual Environment on a Mac",
               "source": "@site/docs/api/python/fastapi.md",
               "sourceDirName": "api/python",
-              "slug": "/api/python/api",
-              "permalink": "/docs/api/python/api",
+              "slug": "/api/python/fastapi",
+              "permalink": "/docs/api/python/fastapi",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/python/fastapi.md",
               "tags": [
                 {
@@ -67,7 +67,7 @@
               ],
               "version": "current",
               "frontMatter": {
-                "slug": "api",
+                "slug": "fastapi",
                 "title": "How to setup a Fastapi web server",
                 "authors": [
                   {
@@ -90,60 +90,8 @@
                 "permalink": "/docs/api/intro"
               },
               "next": {
-                "title": "How to connect a PostgreSQL database using a Psycopg driver",
-                "permalink": "/docs/api/python/models/models"
-              }
-            },
-            {
-              "unversionedId": "api/python/models/pydantic",
-              "id": "api/python/models/pydantic",
-              "title": "How to connect a PostgreSQL database using a Psycopg driver",
-              "description": "Psycopg Documentation",
-              "source": "@site/docs/api/python/models/pydantic.md",
-              "sourceDirName": "api/python/models",
-              "slug": "/api/python/models/models",
-              "permalink": "/docs/api/python/models/models",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/python/models/pydantic.md",
-              "tags": [
-                {
-                  "label": "python",
-                  "permalink": "/docs/tags/python"
-                },
-                {
-                  "label": "driver",
-                  "permalink": "/docs/tags/driver"
-                },
-                {
-                  "label": "postgresql",
-                  "permalink": "/docs/tags/postgresql"
-                }
-              ],
-              "version": "current",
-              "frontMatter": {
-                "slug": "models",
-                "title": "How to connect a PostgreSQL database using a Psycopg driver",
-                "authors": [
-                  {
-                    "name": "Ramsey Gavin",
-                    "title": "Software Engineer II",
-                    "url": "https://github.com/rgavin1",
-                    "image_url": "https://github.com/rgavin1.png"
-                  }
-                ],
-                "tags": [
-                  "python",
-                  "driver",
-                  "postgresql"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "How to setup a Fastapi web server",
-                "permalink": "/docs/api/python/api"
-              },
-              "next": {
                 "title": "How to setup a Virtual Environment on a Mac",
-                "permalink": "/docs/api/python/api"
+                "permalink": "/docs/api/python/venv"
               }
             },
             {
@@ -153,8 +101,8 @@
               "description": "Step 1: Run the command to create venv",
               "source": "@site/docs/api/python/setup-venv-mac.md",
               "sourceDirName": "api/python",
-              "slug": "/api/python/api",
-              "permalink": "/docs/api/python/api",
+              "slug": "/api/python/venv",
+              "permalink": "/docs/api/python/venv",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/python/setup-venv-mac.md",
               "tags": [
                 {
@@ -168,7 +116,7 @@
               ],
               "version": "current",
               "frontMatter": {
-                "slug": "api",
+                "slug": "venv",
                 "title": "How to setup a Virtual Environment on a Mac",
                 "authors": [
                   {
@@ -185,8 +133,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "How to connect a PostgreSQL database using a Psycopg driver",
-                "permalink": "/docs/api/python/models/models"
+                "title": "How to setup a Fastapi web server",
+                "permalink": "/docs/api/python/fastapi"
               },
               "next": {
                 "title": "pipeline-setup",
@@ -209,7 +157,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "How to setup a Virtual Environment on a Mac",
-                "permalink": "/docs/api/python/api"
+                "permalink": "/docs/api/python/venv"
               },
               "next": {
                 "title": "pipeline-setup",
@@ -258,14 +206,14 @@
                 "permalink": "/docs/ci-cd/gitlab/pipeline-setup"
               },
               "next": {
-                "title": "Database 101",
+                "title": "Intro to Databases",
                 "permalink": "/docs/databases/databases"
               }
             },
             {
               "unversionedId": "databases/databases",
               "id": "databases/databases",
-              "title": "Database 101",
+              "title": "Intro to Databases",
               "description": "What is a database?",
               "source": "@site/docs/databases/intro.md",
               "sourceDirName": "databases",
@@ -282,7 +230,7 @@
               "frontMatter": {
                 "slug": "databases",
                 "id": "databases",
-                "title": "Database 101",
+                "title": "Intro to Databases",
                 "authors": [
                   {
                     "name": "Ramsey Gavin",
@@ -365,55 +313,42 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Database 101",
+                "title": "Intro to Databases",
                 "permalink": "/docs/databases/databases"
               },
               "next": {
-                "title": "Psycopg - PostgreSQL database adapter for python",
-                "permalink": "/docs/databases/postgres/drivers/postgresql-driver-psycopg"
+                "title": "How to connect a PostgreSQL database using a Psycopg driver",
+                "permalink": "/docs/databases/postgres/drivers/psycopg"
               }
             },
             {
-              "unversionedId": "databases/postgres/drivers/postgresql-driver-psycopg",
-              "id": "databases/postgres/drivers/postgresql-driver-psycopg",
-              "title": "Psycopg - PostgreSQL database adapter for python",
-              "description": "What is Psycopg?",
+              "unversionedId": "databases/postgres/drivers/psycopg",
+              "id": "databases/postgres/drivers/psycopg",
+              "title": "How to connect a PostgreSQL database using a Psycopg driver",
+              "description": "Psycopg Documentation",
               "source": "@site/docs/databases/postgres/drivers/psycopg.md",
               "sourceDirName": "databases/postgres/drivers",
-              "slug": "/databases/postgres/drivers/postgresql-driver-psycopg",
-              "permalink": "/docs/databases/postgres/drivers/postgresql-driver-psycopg",
+              "slug": "/databases/postgres/drivers/psycopg",
+              "permalink": "/docs/databases/postgres/drivers/psycopg",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/databases/postgres/drivers/psycopg.md",
               "tags": [
                 {
+                  "label": "python",
+                  "permalink": "/docs/tags/python"
+                },
+                {
+                  "label": "driver",
+                  "permalink": "/docs/tags/driver"
+                },
+                {
                   "label": "postgresql",
                   "permalink": "/docs/tags/postgresql"
-                },
-                {
-                  "label": "postgres",
-                  "permalink": "/docs/tags/postgres"
-                },
-                {
-                  "label": "database",
-                  "permalink": "/docs/tags/database"
-                },
-                {
-                  "label": "relational",
-                  "permalink": "/docs/tags/relational"
-                },
-                {
-                  "label": "sql",
-                  "permalink": "/docs/tags/sql"
-                },
-                {
-                  "label": "psycopg",
-                  "permalink": "/docs/tags/psycopg"
                 }
               ],
               "version": "current",
               "frontMatter": {
-                "slug": "postgresql-driver-psycopg",
-                "id": "postgresql-driver-psycopg",
-                "title": "Psycopg - PostgreSQL database adapter for python",
+                "slug": "psycopg",
+                "title": "How to connect a PostgreSQL database using a Psycopg driver",
                 "authors": [
                   {
                     "name": "Ramsey Gavin",
@@ -423,12 +358,9 @@
                   }
                 ],
                 "tags": [
-                  "postgresql",
-                  "postgres",
-                  "database",
-                  "relational",
-                  "sql",
-                  "psycopg"
+                  "python",
+                  "driver",
+                  "postgresql"
                 ]
               },
               "sidebar": "tutorialSidebar",
@@ -456,8 +388,129 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Psycopg - PostgreSQL database adapter for python",
-                "permalink": "/docs/databases/postgres/drivers/postgresql-driver-psycopg"
+                "title": "How to connect a PostgreSQL database using a Psycopg driver",
+                "permalink": "/docs/databases/postgres/drivers/psycopg"
+              },
+              "next": {
+                "title": "Object Relational Mappers (ORMs)",
+                "permalink": "/docs/databases/postgres/orms/orms"
+              }
+            },
+            {
+              "unversionedId": "databases/postgres/orms/orms",
+              "id": "databases/postgres/orms/orms",
+              "title": "Object Relational Mappers (ORMs)",
+              "description": "What is an ORM?",
+              "source": "@site/docs/databases/postgres/orms/intro.md",
+              "sourceDirName": "databases/postgres/orms",
+              "slug": "/databases/postgres/orms/orms",
+              "permalink": "/docs/databases/postgres/orms/orms",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/databases/postgres/orms/intro.md",
+              "tags": [
+                {
+                  "label": "python",
+                  "permalink": "/docs/tags/python"
+                },
+                {
+                  "label": "orm",
+                  "permalink": "/docs/tags/orm"
+                },
+                {
+                  "label": "databases",
+                  "permalink": "/docs/tags/databases"
+                },
+                {
+                  "label": "api",
+                  "permalink": "/docs/tags/api"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "id": "orms",
+                "slug": "orms",
+                "title": "Object Relational Mappers (ORMs)",
+                "authors": [
+                  {
+                    "name": "Ramsey Gavin",
+                    "title": "Software Engineer II",
+                    "url": "https://github.com/rgavin1",
+                    "image_url": "https://github.com/rgavin1.png"
+                  }
+                ],
+                "tags": [
+                  "python",
+                  "orm",
+                  "databases",
+                  "api"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "intro",
+                "permalink": "/docs/databases/postgres/intro"
+              },
+              "next": {
+                "title": "SQLAlchemy",
+                "permalink": "/docs/databases/postgres/orms/sqlalchemy"
+              }
+            },
+            {
+              "unversionedId": "databases/postgres/orms/sqlalchemy",
+              "id": "databases/postgres/orms/sqlalchemy",
+              "title": "SQLAlchemy",
+              "description": "What is a SQLAlchemy",
+              "source": "@site/docs/databases/postgres/orms/sqlalchemy.md",
+              "sourceDirName": "databases/postgres/orms",
+              "slug": "/databases/postgres/orms/sqlalchemy",
+              "permalink": "/docs/databases/postgres/orms/sqlalchemy",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/databases/postgres/orms/sqlalchemy.md",
+              "tags": [
+                {
+                  "label": "python",
+                  "permalink": "/docs/tags/python"
+                },
+                {
+                  "label": "orm",
+                  "permalink": "/docs/tags/orm"
+                },
+                {
+                  "label": "databases",
+                  "permalink": "/docs/tags/databases"
+                },
+                {
+                  "label": "api",
+                  "permalink": "/docs/tags/api"
+                },
+                {
+                  "label": "relational",
+                  "permalink": "/docs/tags/relational"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "id": "sqlalchemy",
+                "slug": "sqlalchemy",
+                "title": "SQLAlchemy",
+                "authors": [
+                  {
+                    "name": "Ramsey Gavin",
+                    "title": "Software Engineer II",
+                    "url": "https://github.com/rgavin1",
+                    "image_url": "https://github.com/rgavin1.png"
+                  }
+                ],
+                "tags": [
+                  "python",
+                  "orm",
+                  "databases",
+                  "api",
+                  "relational"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Object Relational Mappers (ORMs)",
+                "permalink": "/docs/databases/postgres/orms/orms"
               },
               "next": {
                 "title": "Debugging",
@@ -479,8 +532,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "intro",
-                "permalink": "/docs/databases/postgres/intro"
+                "title": "SQLAlchemy",
+                "permalink": "/docs/databases/postgres/orms/sqlalchemy"
               },
               "next": {
                 "title": "IPDB",
@@ -1187,18 +1240,6 @@
                         "id": "api/python/fastapi"
                       },
                       {
-                        "type": "category",
-                        "label": "Models",
-                        "collapsible": true,
-                        "collapsed": true,
-                        "items": [
-                          {
-                            "type": "doc",
-                            "id": "api/python/models/pydantic"
-                          }
-                        ]
-                      },
-                      {
                         "type": "doc",
                         "id": "api/python/setup-venv-mac"
                       }
@@ -1270,13 +1311,29 @@
                           },
                           {
                             "type": "doc",
-                            "id": "databases/postgres/drivers/postgresql-driver-psycopg"
+                            "id": "databases/postgres/drivers/psycopg"
                           }
                         ]
                       },
                       {
                         "type": "doc",
                         "id": "databases/postgres/intro"
+                      },
+                      {
+                        "type": "category",
+                        "label": "ORMs",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "databases/postgres/orms/orms"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "databases/postgres/orms/sqlalchemy"
+                          }
+                        ]
                       }
                     ]
                   }

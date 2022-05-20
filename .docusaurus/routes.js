@@ -119,6 +119,11 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/databases',
+    component: ComponentCreator('/docs/tags/databases','756'),
+    exact: true
+  },
+  {
     path: '/docs/tags/driver',
     component: ComponentCreator('/docs/tags/driver','813'),
     exact: true
@@ -136,6 +141,11 @@ export default [
   {
     path: '/docs/tags/learning',
     component: ComponentCreator('/docs/tags/learning','18f'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/orm',
+    component: ComponentCreator('/docs/tags/orm','448'),
     exact: true
   },
   {
@@ -200,7 +210,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','ead'),
+    component: ComponentCreator('/docs','5c9'),
     routes: [
       {
         path: '/docs/api/intro',
@@ -209,20 +219,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/api/python/api',
-        component: ComponentCreator('/docs/api/python/api','37d'),
+        path: '/docs/api/python/fastapi',
+        component: ComponentCreator('/docs/api/python/fastapi','c52'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/api/python/api',
-        component: ComponentCreator('/docs/api/python/api','c63'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/api/python/models/models',
-        component: ComponentCreator('/docs/api/python/models/models','bb1'),
+        path: '/docs/api/python/venv',
+        component: ComponentCreator('/docs/api/python/venv','675'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -257,14 +261,26 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/databases/postgres/drivers/postgresql-driver-psycopg',
-        component: ComponentCreator('/docs/databases/postgres/drivers/postgresql-driver-psycopg','14e'),
+        path: '/docs/databases/postgres/drivers/psycopg',
+        component: ComponentCreator('/docs/databases/postgres/drivers/psycopg','a2d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
         path: '/docs/databases/postgres/intro',
         component: ComponentCreator('/docs/databases/postgres/intro','014'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/databases/postgres/orms/orms',
+        component: ComponentCreator('/docs/databases/postgres/orms/orms','51b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/databases/postgres/orms/sqlalchemy',
+        component: ComponentCreator('/docs/databases/postgres/orms/sqlalchemy','e42'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

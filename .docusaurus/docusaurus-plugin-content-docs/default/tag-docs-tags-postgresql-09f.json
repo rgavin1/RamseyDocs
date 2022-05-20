@@ -3,16 +3,10 @@
   "permalink": "/docs/tags/postgresql",
   "docs": [
     {
-      "id": "api/python/models/pydantic",
+      "id": "databases/postgres/drivers/psycopg",
       "title": "How to connect a PostgreSQL database using a Psycopg driver",
       "description": "Psycopg Documentation",
-      "permalink": "/docs/api/python/models/models"
-    },
-    {
-      "id": "databases/postgres/drivers/postgresql-driver-psycopg",
-      "title": "Psycopg - PostgreSQL database adapter for python",
-      "description": "What is Psycopg?",
-      "permalink": "/docs/databases/postgres/drivers/postgresql-driver-psycopg"
+      "permalink": "/docs/databases/postgres/drivers/psycopg"
     },
     {
       "id": "databases/postgres/drivers/postgresql-driver",

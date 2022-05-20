@@ -29,27 +29,13 @@
               {
                 "type": "link",
                 "label": "How to setup a Fastapi web server",
-                "href": "/docs/api/python/api",
+                "href": "/docs/api/python/fastapi",
                 "docId": "api/python/fastapi"
-              },
-              {
-                "type": "category",
-                "label": "Models",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "How to connect a PostgreSQL database using a Psycopg driver",
-                    "href": "/docs/api/python/models/models",
-                    "docId": "api/python/models/pydantic"
-                  }
-                ]
               },
               {
                 "type": "link",
                 "label": "How to setup a Virtual Environment on a Mac",
-                "href": "/docs/api/python/api",
+                "href": "/docs/api/python/venv",
                 "docId": "api/python/setup-venv-mac"
               }
             ]
@@ -106,7 +92,7 @@
         "items": [
           {
             "type": "link",
-            "label": "Database 101",
+            "label": "Intro to Databases",
             "href": "/docs/databases/databases",
             "docId": "databases/databases"
           },
@@ -130,9 +116,9 @@
                   },
                   {
                     "type": "link",
-                    "label": "Psycopg - PostgreSQL database adapter for python",
-                    "href": "/docs/databases/postgres/drivers/postgresql-driver-psycopg",
-                    "docId": "databases/postgres/drivers/postgresql-driver-psycopg"
+                    "label": "How to connect a PostgreSQL database using a Psycopg driver",
+                    "href": "/docs/databases/postgres/drivers/psycopg",
+                    "docId": "databases/postgres/drivers/psycopg"
                   }
                 ]
               },
@@ -141,6 +127,26 @@
                 "label": "intro",
                 "href": "/docs/databases/postgres/intro",
                 "docId": "databases/postgres/intro"
+              },
+              {
+                "type": "category",
+                "label": "ORMs",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Object Relational Mappers (ORMs)",
+                    "href": "/docs/databases/postgres/orms/orms",
+                    "docId": "databases/postgres/orms/orms"
+                  },
+                  {
+                    "type": "link",
+                    "label": "SQLAlchemy",
+                    "href": "/docs/databases/postgres/orms/sqlalchemy",
+                    "docId": "databases/postgres/orms/sqlalchemy"
+                  }
+                ]
               }
             ]
           }
@@ -427,12 +433,6 @@
       "description": "Step 1: Setup the virtual environment. Follow this link to How to setup a Virtual Environment on a Mac",
       "sidebar": "tutorialSidebar"
     },
-    "api/python/models/pydantic": {
-      "id": "api/python/models/pydantic",
-      "title": "How to connect a PostgreSQL database using a Psycopg driver",
-      "description": "Psycopg Documentation",
-      "sidebar": "tutorialSidebar"
-    },
     "api/python/setup-venv-mac": {
       "id": "api/python/setup-venv-mac",
       "title": "How to setup a Virtual Environment on a Mac",
@@ -459,7 +459,7 @@
     },
     "databases/databases": {
       "id": "databases/databases",
-      "title": "Database 101",
+      "title": "Intro to Databases",
       "description": "What is a database?",
       "sidebar": "tutorialSidebar"
     },
@@ -469,16 +469,28 @@
       "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "databases/postgres/drivers/postgresql-driver-psycopg": {
-      "id": "databases/postgres/drivers/postgresql-driver-psycopg",
-      "title": "Psycopg - PostgreSQL database adapter for python",
-      "description": "What is Psycopg?",
+    "databases/postgres/drivers/psycopg": {
+      "id": "databases/postgres/drivers/psycopg",
+      "title": "How to connect a PostgreSQL database using a Psycopg driver",
+      "description": "Psycopg Documentation",
       "sidebar": "tutorialSidebar"
     },
     "databases/postgres/intro": {
       "id": "databases/postgres/intro",
       "title": "intro",
       "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "databases/postgres/orms/orms": {
+      "id": "databases/postgres/orms/orms",
+      "title": "Object Relational Mappers (ORMs)",
+      "description": "What is an ORM?",
+      "sidebar": "tutorialSidebar"
+    },
+    "databases/postgres/orms/sqlalchemy": {
+      "id": "databases/postgres/orms/sqlalchemy",
+      "title": "SQLAlchemy",
+      "description": "What is a SQLAlchemy",
       "sidebar": "tutorialSidebar"
     },
     "debugging/intro": {

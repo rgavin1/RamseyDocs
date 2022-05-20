@@ -1,7 +1,7 @@
 {
   "unversionedId": "databases/databases",
   "id": "databases/databases",
-  "title": "Database 101",
+  "title": "Intro to Databases",
   "description": "What is a database?",
   "source": "@site/docs/databases/intro.md",
   "sourceDirName": "databases",
@@ -18,7 +18,7 @@
   "frontMatter": {
     "slug": "databases",
     "id": "databases",
-    "title": "Database 101",
+    "title": "Intro to Databases",
     "authors": [
       {
         "name": "Ramsey Gavin",

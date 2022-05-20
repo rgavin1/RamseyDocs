@@ -1,5 +1,5 @@
 ---
-slug: api
+slug: venv
 title: How to setup a Virtual Environment on a Mac
 authors:
   - name: Ramsey Gavin
@@ -8,8 +8,6 @@ authors:
     image_url: https://github.com/rgavin1.png
 tags: [python, venv]
 ---
-
-# How to setup a Virtual Environment on a Mac
 
 ### Step 1: Run the command to create venv 
 

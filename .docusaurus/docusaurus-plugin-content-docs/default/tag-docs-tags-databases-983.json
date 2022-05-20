@@ -1,0 +1,19 @@
+{
+  "name": "databases",
+  "permalink": "/docs/tags/databases",
+  "docs": [
+    {
+      "id": "databases/postgres/orms/orms",
+      "title": "Object Relational Mappers (ORMs)",
+      "description": "What is an ORM?",
+      "permalink": "/docs/databases/postgres/orms/orms"
+    },
+    {
+      "id": "databases/postgres/orms/sqlalchemy",
+      "title": "SQLAlchemy",
+      "description": "What is a SQLAlchemy",
+      "permalink": "/docs/databases/postgres/orms/sqlalchemy"
+    }
+  ],
+  "allTagsPath": "/docs/tags"
+}

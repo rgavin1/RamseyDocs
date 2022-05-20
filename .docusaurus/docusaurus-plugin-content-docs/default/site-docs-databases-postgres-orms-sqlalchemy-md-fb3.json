@@ -1,0 +1,63 @@
+{
+  "unversionedId": "databases/postgres/orms/sqlalchemy",
+  "id": "databases/postgres/orms/sqlalchemy",
+  "title": "SQLAlchemy",
+  "description": "What is a SQLAlchemy",
+  "source": "@site/docs/databases/postgres/orms/sqlalchemy.md",
+  "sourceDirName": "databases/postgres/orms",
+  "slug": "/databases/postgres/orms/sqlalchemy",
+  "permalink": "/docs/databases/postgres/orms/sqlalchemy",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/databases/postgres/orms/sqlalchemy.md",
+  "tags": [
+    {
+      "label": "python",
+      "permalink": "/docs/tags/python"
+    },
+    {
+      "label": "orm",
+      "permalink": "/docs/tags/orm"
+    },
+    {
+      "label": "databases",
+      "permalink": "/docs/tags/databases"
+    },
+    {
+      "label": "api",
+      "permalink": "/docs/tags/api"
+    },
+    {
+      "label": "relational",
+      "permalink": "/docs/tags/relational"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "id": "sqlalchemy",
+    "slug": "sqlalchemy",
+    "title": "SQLAlchemy",
+    "authors": [
+      {
+        "name": "Ramsey Gavin",
+        "title": "Software Engineer II",
+        "url": "https://github.com/rgavin1",
+        "image_url": "https://github.com/rgavin1.png"
+      }
+    ],
+    "tags": [
+      "python",
+      "orm",
+      "databases",
+      "api",
+      "relational"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Object Relational Mappers (ORMs)",
+    "permalink": "/docs/databases/postgres/orms/orms"
+  },
+  "next": {
+    "title": "Debugging",
+    "permalink": "/docs/debugging/intro"
+  }
+}

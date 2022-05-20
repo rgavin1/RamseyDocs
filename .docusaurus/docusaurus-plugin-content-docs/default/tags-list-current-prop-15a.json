@@ -2,7 +2,7 @@
   {
     "name": "python",
     "permalink": "/docs/tags/python",
-    "count": 3
+    "count": 5
   },
   {
     "name": "venv",
@@ -17,27 +17,22 @@
   {
     "name": "api",
     "permalink": "/docs/tags/api",
-    "count": 1
-  },
-  {
-    "name": "driver",
-    "permalink": "/docs/tags/driver",
-    "count": 1
-  },
-  {
-    "name": "postgresql",
-    "permalink": "/docs/tags/postgresql",
     "count": 3
   },
   {
     "name": "database",
     "permalink": "/docs/tags/database",
-    "count": 3
+    "count": 2
+  },
+  {
+    "name": "postgresql",
+    "permalink": "/docs/tags/postgresql",
+    "count": 2
   },
   {
     "name": "postgres",
     "permalink": "/docs/tags/postgres",
-    "count": 2
+    "count": 1
   },
   {
     "name": "relational",
@@ -47,11 +42,26 @@
   {
     "name": "sql",
     "permalink": "/docs/tags/sql",
-    "count": 2
+    "count": 1
   },
   {
     "name": "psycopg",
     "permalink": "/docs/tags/psycopg",
+    "count": 1
+  },
+  {
+    "name": "driver",
+    "permalink": "/docs/tags/driver",
+    "count": 1
+  },
+  {
+    "name": "orm",
+    "permalink": "/docs/tags/orm",
+    "count": 2
+  },
+  {
+    "name": "databases",
+    "permalink": "/docs/tags/databases",
     "count": 2
   },
   {

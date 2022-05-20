@@ -14,7 +14,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "How to setup a Virtual Environment on a Mac",
-    "permalink": "/docs/api/python/api"
+    "permalink": "/docs/api/python/venv"
   },
   "next": {
     "title": "pipeline-setup",

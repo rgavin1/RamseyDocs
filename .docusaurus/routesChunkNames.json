@@ -168,6 +168,11 @@
     "tag": "tag---docs-tags-databaseabf-153",
     "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
+  "/docs/tags/databases-756": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-databases-35-c-613",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
   "/docs/tags/driver-813": {
     "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
     "tag": "tag---docs-tags-driver-1-d-6-5b2",
@@ -186,6 +191,11 @@
   "/docs/tags/learning-18f": {
     "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
     "tag": "tag---docs-tags-learningd-4-a-79b",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
+  "/docs/tags/orm-448": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-ormf-7-d-0a6",
     "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
   "/docs/tags/postgres-509": {
@@ -248,7 +258,7 @@
     "config": "config---projects-5-e-9-d4c",
     "__routeContextModule": "__routeContextModule---markdown-pageb-10-687"
   },
-  "/docs-ead": {
+  "/docs-5c9": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398",
     "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
@@ -257,17 +267,13 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-api-intro-626-312"
   },
-  "/docs/api/python/api-37d": {
+  "/docs/api/python/fastapi-c52": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-api-python-apidae-f96"
+    "content": "content---docs-api-python-fastapidae-546"
   },
-  "/docs/api/python/api-c63": {
+  "/docs/api/python/venv-675": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-api-python-apiae-6-91f"
-  },
-  "/docs/api/python/models/models-bb1": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-api-python-models-pydantic-670-e05"
+    "content": "content---docs-api-python-venvae-6-d5b"
   },
   "/docs/ci-cd/github/pipeline-setup-5f8": {
     "component": "component---theme-doc-item-178-a40",
@@ -283,19 +289,27 @@
   },
   "/docs/databases/databases-88d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-databases-introe-39-18b"
+    "content": "content---docs-databases-databasese-39-196"
   },
   "/docs/databases/postgres/drivers/postgresql-driver-a08": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-databases-postgres-drivers-postgresql-driverd-80-1f8"
   },
-  "/docs/databases/postgres/drivers/postgresql-driver-psycopg-14e": {
+  "/docs/databases/postgres/drivers/psycopg-a2d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-databases-postgres-drivers-postgresql-driver-0-b-5-a12"
+    "content": "content---docs-databases-postgres-drivers-psycopg-0-b-5-cb0"
   },
   "/docs/databases/postgres/intro-014": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-databases-postgres-intro-818-b99"
+  },
+  "/docs/databases/postgres/orms/orms-51b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-databases-postgres-orms-orms-6-d-0-ec3"
+  },
+  "/docs/databases/postgres/orms/sqlalchemy-e42": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-databases-postgres-orms-sqlalchemyfb-3-c82"
   },
   "/docs/debugging/intro-699": {
     "component": "component---theme-doc-item-178-a40",
@@ -371,11 +385,11 @@
   },
   "/docs/learning/5-w-s-and-h-questions-9f7": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-learning-learningd-37-166"
+    "content": "content---docs-learning-5-w-s-and-h-questionsd-37-c2e"
   },
   "/docs/learning/feynman-technique-64a": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-learning-learning-4-b-1-42f"
+    "content": "content---docs-learning-feynman-technique-4-b-1-a0f"
   },
   "/docs/testing/-b64": {
     "component": "component---theme-doc-item-178-a40",

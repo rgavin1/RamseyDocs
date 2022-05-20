@@ -1,14 +1,16 @@
 ---
-slug: postgresql-driver-psycopg
-id: postgresql-driver-psycopg
-title: Psycopg - PostgreSQL database adapter for python
+slug: psycopg
+title: How to connect a PostgreSQL database using a Psycopg driver
 authors:
   - name: Ramsey Gavin
     title: Software Engineer II
     url: https://github.com/rgavin1
     image_url: https://github.com/rgavin1.png
-tags: [postgresql, postgres, database, relational, sql, psycopg]
+tags: [python, driver, postgresql]
 ---
 
-## What is Psycopg?
+:::info Psycopg Documentation
+[Psycopg Documentation](https://www.psycopg.org/docs/)
+:::
 
+🚧 No Content

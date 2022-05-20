@@ -3,10 +3,10 @@
   "permalink": "/docs/tags/relational",
   "docs": [
     {
-      "id": "databases/postgres/drivers/postgresql-driver-psycopg",
-      "title": "Psycopg - PostgreSQL database adapter for python",
-      "description": "What is Psycopg?",
-      "permalink": "/docs/databases/postgres/drivers/postgresql-driver-psycopg"
+      "id": "databases/postgres/orms/sqlalchemy",
+      "title": "SQLAlchemy",
+      "description": "What is a SQLAlchemy",
+      "permalink": "/docs/databases/postgres/orms/sqlalchemy"
     },
     {
       "id": "databases/postgres/drivers/postgresql-driver",

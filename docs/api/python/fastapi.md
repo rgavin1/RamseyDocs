@@ -1,5 +1,5 @@
 ---
-slug: api
+slug: fastapi
 title: How to setup a Fastapi web server
 authors:
   - name: Ramsey Gavin

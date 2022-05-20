@@ -1,0 +1,58 @@
+{
+  "unversionedId": "databases/postgres/orms/orms",
+  "id": "databases/postgres/orms/orms",
+  "title": "Object Relational Mappers (ORMs)",
+  "description": "What is an ORM?",
+  "source": "@site/docs/databases/postgres/orms/intro.md",
+  "sourceDirName": "databases/postgres/orms",
+  "slug": "/databases/postgres/orms/orms",
+  "permalink": "/docs/databases/postgres/orms/orms",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/databases/postgres/orms/intro.md",
+  "tags": [
+    {
+      "label": "python",
+      "permalink": "/docs/tags/python"
+    },
+    {
+      "label": "orm",
+      "permalink": "/docs/tags/orm"
+    },
+    {
+      "label": "databases",
+      "permalink": "/docs/tags/databases"
+    },
+    {
+      "label": "api",
+      "permalink": "/docs/tags/api"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "id": "orms",
+    "slug": "orms",
+    "title": "Object Relational Mappers (ORMs)",
+    "authors": [
+      {
+        "name": "Ramsey Gavin",
+        "title": "Software Engineer II",
+        "url": "https://github.com/rgavin1",
+        "image_url": "https://github.com/rgavin1.png"
+      }
+    ],
+    "tags": [
+      "python",
+      "orm",
+      "databases",
+      "api"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "intro",
+    "permalink": "/docs/databases/postgres/intro"
+  },
+  "next": {
+    "title": "SQLAlchemy",
+    "permalink": "/docs/databases/postgres/orms/sqlalchemy"
+  }
+}
