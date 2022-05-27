@@ -1,0 +1,53 @@
+{
+  "unversionedId": "api/python/fastapi/create-item",
+  "id": "api/python/fastapi/create-item",
+  "title": "How to create an item and",
+  "description": "",
+  "source": "@site/docs/api/python/fastapi/create.md",
+  "sourceDirName": "api/python/fastapi",
+  "slug": "/api/python/fastapi/create-item",
+  "permalink": "/docs/api/python/fastapi/create-item",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/python/fastapi/create.md",
+  "tags": [
+    {
+      "label": "python",
+      "permalink": "/docs/tags/python"
+    },
+    {
+      "label": "fastapi",
+      "permalink": "/docs/tags/fastapi"
+    },
+    {
+      "label": "api",
+      "permalink": "/docs/tags/api"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "id": "create-item",
+    "slug": "create-item",
+    "title": "How to create an item and",
+    "authors": [
+      {
+        "name": "Ramsey Gavin",
+        "title": "Software Engineer II",
+        "url": "https://github.com/rgavin1",
+        "image_url": "https://github.com/rgavin1.png"
+      }
+    ],
+    "tags": [
+      "python",
+      "fastapi",
+      "api"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API",
+    "permalink": "/docs/api/intro"
+  },
+  "next": {
+    "title": "How to setup a Fastapi web server",
+    "permalink": "/docs/api/python/fastapi"
+  }
+}

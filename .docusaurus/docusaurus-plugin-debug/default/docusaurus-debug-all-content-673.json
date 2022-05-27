@@ -21,32 +21,56 @@
             {
               "unversionedId": "api/intro",
               "id": "api/intro",
-              "title": "API",
+              "title": "Intro to APIs",
               "description": "Python API Development - Comprehensive Course for Beginners",
               "source": "@site/docs/api/intro.md",
               "sourceDirName": "api",
-              "slug": "/api/intro",
-              "permalink": "/docs/api/intro",
+              "slug": "/api/api",
+              "permalink": "/docs/api/api",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/intro.md",
-              "tags": [],
+              "tags": [
+                {
+                  "label": "python",
+                  "permalink": "/docs/tags/python"
+                },
+                {
+                  "label": "api",
+                  "permalink": "/docs/tags/api"
+                }
+              ],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "slug": "api",
+                "title": "Intro to APIs",
+                "authors": [
+                  {
+                    "name": "Ramsey Gavin",
+                    "title": "Software Engineer II",
+                    "url": "https://github.com/rgavin1",
+                    "image_url": "https://github.com/rgavin1.png"
+                  }
+                ],
+                "tags": [
+                  "python",
+                  "api"
+                ]
+              },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "How to setup a Fastapi web server",
-                "permalink": "/docs/api/python/fastapi"
+                "title": "How to setup a FastAPI web server",
+                "permalink": "/docs/api/python/fastapi/fastapi"
               }
             },
             {
-              "unversionedId": "api/python/fastapi",
-              "id": "api/python/fastapi",
-              "title": "How to setup a Fastapi web server",
-              "description": "Step 1: Setup the virtual environment. Follow this link to How to setup a Virtual Environment on a Mac",
-              "source": "@site/docs/api/python/fastapi.md",
-              "sourceDirName": "api/python",
-              "slug": "/api/python/fastapi",
-              "permalink": "/docs/api/python/fastapi",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/python/fastapi.md",
+              "unversionedId": "api/python/fastapi/intro",
+              "id": "api/python/fastapi/intro",
+              "title": "How to setup a FastAPI web server",
+              "description": "Mozilla's HTTP Response Status Codes",
+              "source": "@site/docs/api/python/fastapi/intro.md",
+              "sourceDirName": "api/python/fastapi",
+              "slug": "/api/python/fastapi/fastapi",
+              "permalink": "/docs/api/python/fastapi/fastapi",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/python/fastapi/intro.md",
               "tags": [
                 {
                   "label": "python",
@@ -68,7 +92,7 @@
               "version": "current",
               "frontMatter": {
                 "slug": "fastapi",
-                "title": "How to setup a Fastapi web server",
+                "title": "How to setup a FastAPI web server",
                 "authors": [
                   {
                     "name": "Ramsey Gavin",
@@ -86,8 +110,70 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "API",
-                "permalink": "/docs/api/intro"
+                "title": "Intro to APIs",
+                "permalink": "/docs/api/api"
+              },
+              "next": {
+                "title": "Response (Status Codes)",
+                "permalink": "/docs/api/python/fastapi/response"
+              }
+            },
+            {
+              "unversionedId": "api/python/fastapi/status_codes",
+              "id": "api/python/fastapi/status_codes",
+              "title": "Response (Status Codes)",
+              "description": "",
+              "source": "@site/docs/api/python/fastapi/status_codes.md",
+              "sourceDirName": "api/python/fastapi",
+              "slug": "/api/python/fastapi/response",
+              "permalink": "/docs/api/python/fastapi/response",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/python/fastapi/status_codes.md",
+              "tags": [
+                {
+                  "label": "python",
+                  "permalink": "/docs/tags/python"
+                },
+                {
+                  "label": "status-codes",
+                  "permalink": "/docs/tags/status-codes"
+                },
+                {
+                  "label": "response",
+                  "permalink": "/docs/tags/response"
+                },
+                {
+                  "label": "api",
+                  "permalink": "/docs/tags/api"
+                },
+                {
+                  "label": "fastapi",
+                  "permalink": "/docs/tags/fastapi"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "slug": "response",
+                "title": "Response (Status Codes)",
+                "authors": [
+                  {
+                    "name": "Ramsey Gavin",
+                    "title": "Software Engineer II",
+                    "url": "https://github.com/rgavin1",
+                    "image_url": "https://github.com/rgavin1.png"
+                  }
+                ],
+                "tags": [
+                  "python",
+                  "status-codes",
+                  "response",
+                  "api",
+                  "fastapi"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How to setup a FastAPI web server",
+                "permalink": "/docs/api/python/fastapi/fastapi"
               },
               "next": {
                 "title": "How to setup a Virtual Environment on a Mac",
@@ -133,8 +219,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "How to setup a Fastapi web server",
-                "permalink": "/docs/api/python/fastapi"
+                "title": "Response (Status Codes)",
+                "permalink": "/docs/api/python/fastapi/response"
               },
               "next": {
                 "title": "pipeline-setup",
@@ -489,6 +575,7 @@
               "version": "current",
               "frontMatter": {
                 "id": "sqlalchemy",
+                "date": null,
                 "slug": "sqlalchemy",
                 "title": "SQLAlchemy",
                 "authors": [
@@ -1214,6 +1301,54 @@
               "previous": {
                 "title": "MSW Setup",
                 "permalink": "/docs/testing/react/msw/setup"
+              },
+              "next": {
+                "title": "How to set an environment variable on MacOs",
+                "permalink": "/docs/tip_tricks/env-variable"
+              }
+            },
+            {
+              "unversionedId": "tip_tricks/env-variable",
+              "id": "tip_tricks/env-variable",
+              "title": "How to set an environment variable on MacOs",
+              "description": "What is an environment variable?",
+              "source": "@site/docs/tip_tricks/env_variable.md",
+              "sourceDirName": "tip_tricks",
+              "slug": "/tip_tricks/env-variable",
+              "permalink": "/docs/tip_tricks/env-variable",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tip_tricks/env_variable.md",
+              "tags": [
+                {
+                  "label": "learning",
+                  "permalink": "/docs/tags/learning"
+                },
+                {
+                  "label": "env-variable",
+                  "permalink": "/docs/tags/env-variable"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "slug": "env-variable",
+                "id": "env-variable",
+                "title": "How to set an environment variable on MacOs",
+                "authors": [
+                  {
+                    "name": "Ramsey Gavin",
+                    "title": "Software Engineer II",
+                    "url": "https://github.com/rgavin1",
+                    "image_url": "https://github.com/rgavin1.png"
+                  }
+                ],
+                "tags": [
+                  "learning",
+                  "env-variable"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Unit Testing",
+                "permalink": "/docs/testing/unit-testing"
               }
             }
           ],
@@ -1236,8 +1371,20 @@
                     "collapsed": true,
                     "items": [
                       {
-                        "type": "doc",
-                        "id": "api/python/fastapi"
+                        "type": "category",
+                        "label": "FastAPI",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "api/python/fastapi/intro"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "api/python/fastapi/status_codes"
+                          }
+                        ]
                       },
                       {
                         "type": "doc",
@@ -1562,6 +1709,18 @@
                   "type": "doc",
                   "id": "testing/testing"
                 }
+              },
+              {
+                "type": "category",
+                "label": "Tips and Tricks",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tip_tricks/env-variable"
+                  }
+                ]
               }
             ]
           },

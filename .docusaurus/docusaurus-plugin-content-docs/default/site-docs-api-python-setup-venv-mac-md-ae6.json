@@ -37,8 +37,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "How to setup a Fastapi web server",
-    "permalink": "/docs/api/python/fastapi"
+    "title": "Response (Status Codes)",
+    "permalink": "/docs/api/python/fastapi/response"
   },
   "next": {
     "title": "pipeline-setup",

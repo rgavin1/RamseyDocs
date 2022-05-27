@@ -3,16 +3,28 @@
   "permalink": "/docs/tags/api",
   "docs": [
     {
-      "id": "api/python/fastapi",
-      "title": "How to setup a Fastapi web server",
-      "description": "Step 1: Setup the virtual environment. Follow this link to How to setup a Virtual Environment on a Mac",
-      "permalink": "/docs/api/python/fastapi"
+      "id": "api/python/fastapi/intro",
+      "title": "How to setup a FastAPI web server",
+      "description": "Mozilla's HTTP Response Status Codes",
+      "permalink": "/docs/api/python/fastapi/fastapi"
+    },
+    {
+      "id": "api/intro",
+      "title": "Intro to APIs",
+      "description": "Python API Development - Comprehensive Course for Beginners",
+      "permalink": "/docs/api/api"
     },
     {
       "id": "databases/postgres/orms/orms",
       "title": "Object Relational Mappers (ORMs)",
       "description": "What is an ORM?",
       "permalink": "/docs/databases/postgres/orms/orms"
+    },
+    {
+      "id": "api/python/fastapi/status_codes",
+      "title": "Response (Status Codes)",
+      "description": "",
+      "permalink": "/docs/api/python/fastapi/response"
     },
     {
       "id": "databases/postgres/orms/sqlalchemy",

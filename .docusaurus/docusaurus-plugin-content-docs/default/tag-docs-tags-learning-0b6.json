@@ -9,6 +9,12 @@
       "permalink": "/docs/learning/5-w-s-and-h-questions"
     },
     {
+      "id": "tip_tricks/env-variable",
+      "title": "How to set an environment variable on MacOs",
+      "description": "What is an environment variable?",
+      "permalink": "/docs/tip_tricks/env-variable"
+    },
+    {
       "id": "learning/feynman-technique",
       "title": "The Feynman Technique",
       "description": "What is the Feynman technique?",

@@ -33,6 +33,7 @@
   "version": "current",
   "frontMatter": {
     "id": "sqlalchemy",
+    "date": null,
     "slug": "sqlalchemy",
     "title": "SQLAlchemy",
     "authors": [

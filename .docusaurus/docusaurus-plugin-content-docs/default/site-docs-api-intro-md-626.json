@@ -1,19 +1,43 @@
 {
   "unversionedId": "api/intro",
   "id": "api/intro",
-  "title": "API",
+  "title": "Intro to APIs",
   "description": "Python API Development - Comprehensive Course for Beginners",
   "source": "@site/docs/api/intro.md",
   "sourceDirName": "api",
-  "slug": "/api/intro",
-  "permalink": "/docs/api/intro",
+  "slug": "/api/api",
+  "permalink": "/docs/api/api",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/intro.md",
-  "tags": [],
+  "tags": [
+    {
+      "label": "python",
+      "permalink": "/docs/tags/python"
+    },
+    {
+      "label": "api",
+      "permalink": "/docs/tags/api"
+    }
+  ],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "slug": "api",
+    "title": "Intro to APIs",
+    "authors": [
+      {
+        "name": "Ramsey Gavin",
+        "title": "Software Engineer II",
+        "url": "https://github.com/rgavin1",
+        "image_url": "https://github.com/rgavin1.png"
+      }
+    ],
+    "tags": [
+      "python",
+      "api"
+    ]
+  },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "How to setup a Fastapi web server",
-    "permalink": "/docs/api/python/fastapi"
+    "title": "How to setup a FastAPI web server",
+    "permalink": "/docs/api/python/fastapi/fastapi"
   }
 }

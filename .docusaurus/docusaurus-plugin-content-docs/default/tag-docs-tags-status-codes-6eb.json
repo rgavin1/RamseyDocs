@@ -1,0 +1,13 @@
+{
+  "name": "status-codes",
+  "permalink": "/docs/tags/status-codes",
+  "docs": [
+    {
+      "id": "api/python/fastapi/status_codes",
+      "title": "Response (Status Codes)",
+      "description": "",
+      "permalink": "/docs/api/python/fastapi/response"
+    }
+  ],
+  "allTagsPath": "/docs/tags"
+}

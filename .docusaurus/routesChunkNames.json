@@ -178,6 +178,11 @@
     "tag": "tag---docs-tags-driver-1-d-6-5b2",
     "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
+  "/docs/tags/env-variable-193": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-env-variablea-2-e-62e",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
   "/docs/tags/fastapi-21f": {
     "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
     "tag": "tag---docs-tags-fastapi-18-b-1ff",
@@ -228,6 +233,11 @@
     "tag": "tag---docs-tags-relational-2-d-3-904",
     "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
+  "/docs/tags/response-94d": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-response-994-8c8",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
   "/docs/tags/s-3-e08": {
     "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
     "tag": "tag---docs-tags-s-3-d-88-2fa",
@@ -236,6 +246,11 @@
   "/docs/tags/sql-093": {
     "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
     "tag": "tag---docs-tags-sqlc-0-a-610",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
+  "/docs/tags/status-codes-5a5": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-status-codesf-94-c48",
     "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
   "/docs/tags/teaching-5bc": {
@@ -258,18 +273,22 @@
     "config": "config---projects-5-e-9-d4c",
     "__routeContextModule": "__routeContextModule---markdown-pageb-10-687"
   },
-  "/docs-5c9": {
+  "/docs-53e": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398",
     "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
-  "/docs/api/intro-0c9": {
+  "/docs/api/api-0d7": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-api-intro-626-312"
   },
-  "/docs/api/python/fastapi-c52": {
+  "/docs/api/python/fastapi/fastapi-8a5": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-api-python-fastapidae-546"
+    "content": "content---docs-api-python-fastapi-fastapia-00-64c"
+  },
+  "/docs/api/python/fastapi/response-36f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-api-python-fastapi-responsebf-8-9a1"
   },
   "/docs/api/python/venv-675": {
     "component": "component---theme-doc-item-178-a40",
@@ -414,6 +433,10 @@
   "/docs/testing/unit-testing-3d6": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-testing-unit-testingf-85-7d8"
+  },
+  "/docs/tip_tricks/env-variable-4cc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tip-tricks-env-variable-41-f-d24"
   },
   "/-ab9": {
     "component": "component---site-src-pages-index-tsx-1-df-d3e",

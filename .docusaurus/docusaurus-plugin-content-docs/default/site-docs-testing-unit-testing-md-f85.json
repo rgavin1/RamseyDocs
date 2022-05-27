@@ -15,5 +15,9 @@
   "previous": {
     "title": "MSW Setup",
     "permalink": "/docs/testing/react/msw/setup"
+  },
+  "next": {
+    "title": "How to set an environment variable on MacOs",
+    "permalink": "/docs/tip_tricks/env-variable"
   }
 }

@@ -2,6 +2,11 @@
   {
     "name": "python",
     "permalink": "/docs/tags/python",
+    "count": 7
+  },
+  {
+    "name": "api",
+    "permalink": "/docs/tags/api",
     "count": 5
   },
   {
@@ -12,12 +17,17 @@
   {
     "name": "fastapi",
     "permalink": "/docs/tags/fastapi",
+    "count": 2
+  },
+  {
+    "name": "status-codes",
+    "permalink": "/docs/tags/status-codes",
     "count": 1
   },
   {
-    "name": "api",
-    "permalink": "/docs/tags/api",
-    "count": 3
+    "name": "response",
+    "permalink": "/docs/tags/response",
+    "count": 1
   },
   {
     "name": "database",
@@ -87,7 +97,7 @@
   {
     "name": "learning",
     "permalink": "/docs/tags/learning",
-    "count": 2
+    "count": 3
   },
   {
     "name": "questions",
@@ -97,6 +107,11 @@
   {
     "name": "teaching",
     "permalink": "/docs/tags/teaching",
+    "count": 1
+  },
+  {
+    "name": "env-variable",
+    "permalink": "/docs/tags/env-variable",
     "count": 1
   }
 ]

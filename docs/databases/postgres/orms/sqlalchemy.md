@@ -1,5 +1,6 @@
 ---
 id: sqlalchemy
+date: 
 slug: sqlalchemy
 title: SQLAlchemy
 authors:
@@ -98,6 +99,7 @@ Base = declarative_base()
   `Create a file named models.py`
 
 ```bash {6}
+└── venv
 └── sql_app
     ├── __init__.py
     ├── crud.py
@@ -107,6 +109,13 @@ Base = declarative_base()
     └── schemas.py
 ```
 
+:::note To run the application use :point_down:
+
+```bash
+  uvicorn app.main:app --reload
+```
+
+:::
 :::tip Tip
 SQLAlchemy uses the term "model" to refer to these classes and instances that interact with the database.
 
@@ -173,3 +182,75 @@ def get_db():
     finally:
         db.close()
 ```
+
+## CRUD Methods
+### GET itmes
+
+```python {13-16} title="sql_app/main.py"
+from fastapi import FastAPI, Depends
+from .database import engine
+import psycopg2
+
+from . import models
+from sqlalchemy.orm import Session
+from .database import engine, get_db
+
+models.Base.metadata.create_all(bind=engine)
+
+app = FastAPI()
+
+@app.get("/table_name")
+def get_table_name(db: Session = Depends(get_db)):
+    table_name = db.query(models.Tablename).all()
+    return {"data": table_name}
+```
+
+### GET __single__ item
+```python {14-18} title="sql_app/main.py"
+from fastapi import FastAPI, Depends
+from .database import engine
+from . import models, schemas
+import psycopg2
+
+from . import models
+from sqlalchemy.orm import Session
+from .database import engine, get_db
+
+models.Base.metadata.create_all(bind=engine)
+
+app = FastAPI()
+
+@app.get("/table_name/{item.id}")
+def create_item(item_id: int, db: Session = Depends(get_db)):
+  db.add(sqlAchemy.models.TableItem(**item.dict()))
+  db.commit()
+  return {"status": "success"}
+```
+
+### CREATE item
+When the endpoint is called we'll hit the create_item function triggering a session. In this session we'll check the request for a body. THan we'll create a new item for the table than we'll (permenantly) write to the db.    
+
+```python {14-18} title="sql_app/main.py"
+from fastapi import FastAPI, Depends
+from .database import engine
+from . import models, schemas
+import psycopg2
+
+from . import models
+from sqlalchemy.orm import Session
+from .database import engine, get_db
+
+models.Base.metadata.create_all(bind=engine)
+
+app = FastAPI()
+
+@app.post("/table_name")
+def create_item(item: pydantic.Schema, db: Session = Depends(get_db)):
+  db.add(sqlAchemy.models.TableItem(**item.dict()))
+  db.commit()
+  return {"status": "success"}
+```
+
+:::info Response Status Code
+  Find tutorial for adding status codes to response. [Response Status Code](../../../api/python/status_codes/intro.md) 
+:::

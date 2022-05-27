@@ -1,0 +1,57 @@
+{
+  "unversionedId": "api/python/fastapi/fastapi",
+  "id": "api/python/fastapi/fastapi",
+  "title": "How to setup a Fastapi web server",
+  "description": "Step 1: Setup the virtual environment. Follow this link to How to setup a Virtual Environment on a Mac",
+  "source": "@site/docs/api/python/fastapi/fastapi.md",
+  "sourceDirName": "api/python/fastapi",
+  "slug": "/api/python/fastapi/fastapi",
+  "permalink": "/docs/api/python/fastapi/fastapi",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/python/fastapi/fastapi.md",
+  "tags": [
+    {
+      "label": "python",
+      "permalink": "/docs/tags/python"
+    },
+    {
+      "label": "venv",
+      "permalink": "/docs/tags/venv"
+    },
+    {
+      "label": "fastapi",
+      "permalink": "/docs/tags/fastapi"
+    },
+    {
+      "label": "api",
+      "permalink": "/docs/tags/api"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "slug": "fastapi",
+    "title": "How to setup a Fastapi web server",
+    "authors": [
+      {
+        "name": "Ramsey Gavin",
+        "title": "Software Engineer II",
+        "url": "https://github.com/rgavin1",
+        "image_url": "https://github.com/rgavin1.png"
+      }
+    ],
+    "tags": [
+      "python",
+      "venv",
+      "fastapi",
+      "api"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API",
+    "permalink": "/docs/api/intro"
+  },
+  "next": {
+    "title": "How to setup a Virtual Environment on a Mac",
+    "permalink": "/docs/api/python/venv"
+  }
+}

@@ -16,8 +16,8 @@
         "items": [
           {
             "type": "link",
-            "label": "API",
-            "href": "/docs/api/intro",
+            "label": "Intro to APIs",
+            "href": "/docs/api/api",
             "docId": "api/intro"
           },
           {
@@ -27,10 +27,24 @@
             "collapsed": true,
             "items": [
               {
-                "type": "link",
-                "label": "How to setup a Fastapi web server",
-                "href": "/docs/api/python/fastapi",
-                "docId": "api/python/fastapi"
+                "type": "category",
+                "label": "FastAPI",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "How to setup a FastAPI web server",
+                    "href": "/docs/api/python/fastapi/fastapi",
+                    "docId": "api/python/fastapi/intro"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Response (Status Codes)",
+                    "href": "/docs/api/python/fastapi/response",
+                    "docId": "api/python/fastapi/status_codes"
+                  }
+                ]
               },
               {
                 "type": "link",
@@ -417,20 +431,40 @@
           }
         ],
         "href": "/docs/testing/"
+      },
+      {
+        "type": "category",
+        "label": "Tips and Tricks",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "How to set an environment variable on MacOs",
+            "href": "/docs/tip_tricks/env-variable",
+            "docId": "tip_tricks/env-variable"
+          }
+        ]
       }
     ]
   },
   "docs": {
     "api/intro": {
       "id": "api/intro",
-      "title": "API",
+      "title": "Intro to APIs",
       "description": "Python API Development - Comprehensive Course for Beginners",
       "sidebar": "tutorialSidebar"
     },
-    "api/python/fastapi": {
-      "id": "api/python/fastapi",
-      "title": "How to setup a Fastapi web server",
-      "description": "Step 1: Setup the virtual environment. Follow this link to How to setup a Virtual Environment on a Mac",
+    "api/python/fastapi/intro": {
+      "id": "api/python/fastapi/intro",
+      "title": "How to setup a FastAPI web server",
+      "description": "Mozilla's HTTP Response Status Codes",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/python/fastapi/status_codes": {
+      "id": "api/python/fastapi/status_codes",
+      "title": "Response (Status Codes)",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
     "api/python/setup-venv-mac": {
@@ -647,6 +681,12 @@
       "id": "testing/unit-testing",
       "title": "Unit Testing",
       "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "tip_tricks/env-variable": {
+      "id": "tip_tricks/env-variable",
+      "title": "How to set an environment variable on MacOs",
+      "description": "What is an environment variable?",
       "sidebar": "tutorialSidebar"
     }
   }

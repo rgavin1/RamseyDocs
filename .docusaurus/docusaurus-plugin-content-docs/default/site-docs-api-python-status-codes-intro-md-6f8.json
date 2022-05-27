@@ -1,0 +1,58 @@
+{
+  "unversionedId": "api/python/status_codes/status-codes",
+  "id": "api/python/status_codes/status-codes",
+  "title": "Response Status Codes",
+  "description": "Mozilla's HTTP Response Status Codes",
+  "source": "@site/docs/api/python/status_codes/intro.md",
+  "sourceDirName": "api/python/status_codes",
+  "slug": "/api/python/status_codes/status-codes",
+  "permalink": "/docs/api/python/status_codes/status-codes",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/python/status_codes/intro.md",
+  "tags": [
+    {
+      "label": "python",
+      "permalink": "/docs/tags/python"
+    },
+    {
+      "label": "response",
+      "permalink": "/docs/tags/response"
+    },
+    {
+      "label": "status-codes",
+      "permalink": "/docs/tags/status-codes"
+    },
+    {
+      "label": "api",
+      "permalink": "/docs/tags/api"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "id": "status-codes",
+    "slug": "status-codes",
+    "title": "Response Status Codes",
+    "authors": [
+      {
+        "name": "Ramsey Gavin",
+        "title": "Software Engineer II",
+        "url": "https://github.com/rgavin1",
+        "image_url": "https://github.com/rgavin1.png"
+      }
+    ],
+    "tags": [
+      "python",
+      "response",
+      "status-codes",
+      "api"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to setup a Virtual Environment on a Mac",
+    "permalink": "/docs/api/python/venv"
+  },
+  "next": {
+    "title": "pipeline-setup",
+    "permalink": "/docs/ci-cd/github/pipeline-setup"
+  }
+}

@@ -129,6 +129,11 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/env-variable',
+    component: ComponentCreator('/docs/tags/env-variable','193'),
+    exact: true
+  },
+  {
     path: '/docs/tags/fastapi',
     component: ComponentCreator('/docs/tags/fastapi','21f'),
     exact: true
@@ -179,6 +184,11 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/response',
+    component: ComponentCreator('/docs/tags/response','94d'),
+    exact: true
+  },
+  {
     path: '/docs/tags/s-3',
     component: ComponentCreator('/docs/tags/s-3','e08'),
     exact: true
@@ -186,6 +196,11 @@ export default [
   {
     path: '/docs/tags/sql',
     component: ComponentCreator('/docs/tags/sql','093'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/status-codes',
+    component: ComponentCreator('/docs/tags/status-codes','5a5'),
     exact: true
   },
   {
@@ -210,17 +225,23 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','5c9'),
+    component: ComponentCreator('/docs','53e'),
     routes: [
       {
-        path: '/docs/api/intro',
-        component: ComponentCreator('/docs/api/intro','0c9'),
+        path: '/docs/api/api',
+        component: ComponentCreator('/docs/api/api','0d7'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/api/python/fastapi',
-        component: ComponentCreator('/docs/api/python/fastapi','c52'),
+        path: '/docs/api/python/fastapi/fastapi',
+        component: ComponentCreator('/docs/api/python/fastapi/fastapi','8a5'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/api/python/fastapi/response',
+        component: ComponentCreator('/docs/api/python/fastapi/response','36f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -437,6 +458,12 @@ export default [
       {
         path: '/docs/testing/unit-testing',
         component: ComponentCreator('/docs/testing/unit-testing','3d6'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/tip_tricks/env-variable',
+        component: ComponentCreator('/docs/tip_tricks/env-variable','4cc'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

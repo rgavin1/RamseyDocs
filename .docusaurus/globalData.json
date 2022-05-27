@@ -12,12 +12,17 @@
           "docs": [
             {
               "id": "api/intro",
-              "path": "/docs/api/intro",
+              "path": "/docs/api/api",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "api/python/fastapi",
-              "path": "/docs/api/python/fastapi",
+              "id": "api/python/fastapi/intro",
+              "path": "/docs/api/python/fastapi/fastapi",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/python/fastapi/status_codes",
+              "path": "/docs/api/python/fastapi/response",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -199,12 +204,17 @@
               "id": "testing/unit-testing",
               "path": "/docs/testing/unit-testing",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tip_tricks/env-variable",
+              "path": "/docs/tip_tricks/env-variable",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/api/intro",
+                "path": "/docs/api/api",
                 "label": "api/intro"
               }
             }
