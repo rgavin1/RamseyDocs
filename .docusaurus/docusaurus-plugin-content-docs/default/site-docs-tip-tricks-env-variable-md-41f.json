@@ -1,7 +1,7 @@
 {
   "unversionedId": "tip_tricks/env-variable",
   "id": "tip_tricks/env-variable",
-  "title": "How to set an environment variable on MacOs",
+  "title": "How to set an environment variable on MacOS",
   "description": "What is an environment variable?",
   "source": "@site/docs/tip_tricks/env_variable.md",
   "sourceDirName": "tip_tricks",
@@ -22,7 +22,7 @@
   "frontMatter": {
     "slug": "env-variable",
     "id": "env-variable",
-    "title": "How to set an environment variable on MacOs",
+    "title": "How to set an environment variable on MacOS",
     "authors": [
       {
         "name": "Ramsey Gavin",

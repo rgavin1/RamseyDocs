@@ -118,6 +118,20 @@
             "items": [
               {
                 "type": "category",
+                "label": "Alembic",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Alembic",
+                    "href": "/docs/databases/postgres/alembic/intro",
+                    "docId": "databases/postgres/alembic/intro"
+                  }
+                ]
+              },
+              {
+                "type": "category",
                 "label": "Drivers",
                 "collapsible": true,
                 "collapsed": true,
@@ -440,7 +454,7 @@
         "items": [
           {
             "type": "link",
-            "label": "How to set an environment variable on MacOs",
+            "label": "How to set an environment variable on MacOS",
             "href": "/docs/tip_tricks/env-variable",
             "docId": "tip_tricks/env-variable"
           }
@@ -495,6 +509,12 @@
       "id": "databases/databases",
       "title": "Intro to Databases",
       "description": "What is a database?",
+      "sidebar": "tutorialSidebar"
+    },
+    "databases/postgres/alembic/intro": {
+      "id": "databases/postgres/alembic/intro",
+      "title": "Alembic",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
     "databases/postgres/drivers/postgresql-driver": {
@@ -685,7 +705,7 @@
     },
     "tip_tricks/env-variable": {
       "id": "tip_tricks/env-variable",
-      "title": "How to set an environment variable on MacOs",
+      "title": "How to set an environment variable on MacOS",
       "description": "What is an environment variable?",
       "sidebar": "tutorialSidebar"
     }

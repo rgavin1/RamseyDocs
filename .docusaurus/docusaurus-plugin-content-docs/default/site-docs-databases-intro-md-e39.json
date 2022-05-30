@@ -37,7 +37,7 @@
     "permalink": "/docs/ci-cd/intro"
   },
   "next": {
-    "title": "What is Database driver?",
-    "permalink": "/docs/databases/postgres/drivers/postgresql-driver"
+    "title": "Alembic",
+    "permalink": "/docs/databases/postgres/alembic/intro"
   }
 }

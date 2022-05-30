@@ -58,8 +58,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Intro to Databases",
-    "permalink": "/docs/databases/databases"
+    "title": "Alembic",
+    "permalink": "/docs/databases/postgres/alembic/intro"
   },
   "next": {
     "title": "How to connect a PostgreSQL database using a Psycopg driver",

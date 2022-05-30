@@ -335,6 +335,29 @@
                 "permalink": "/docs/ci-cd/intro"
               },
               "next": {
+                "title": "Alembic",
+                "permalink": "/docs/databases/postgres/alembic/intro"
+              }
+            },
+            {
+              "unversionedId": "databases/postgres/alembic/intro",
+              "id": "databases/postgres/alembic/intro",
+              "title": "Alembic",
+              "description": "",
+              "source": "@site/docs/databases/postgres/alembic/intro.md",
+              "sourceDirName": "databases/postgres/alembic",
+              "slug": "/databases/postgres/alembic/intro",
+              "permalink": "/docs/databases/postgres/alembic/intro",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/databases/postgres/alembic/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Intro to Databases",
+                "permalink": "/docs/databases/databases"
+              },
+              "next": {
                 "title": "What is Database driver?",
                 "permalink": "/docs/databases/postgres/drivers/postgresql-driver"
               }
@@ -399,8 +422,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Intro to Databases",
-                "permalink": "/docs/databases/databases"
+                "title": "Alembic",
+                "permalink": "/docs/databases/postgres/alembic/intro"
               },
               "next": {
                 "title": "How to connect a PostgreSQL database using a Psycopg driver",
@@ -1303,14 +1326,14 @@
                 "permalink": "/docs/testing/react/msw/setup"
               },
               "next": {
-                "title": "How to set an environment variable on MacOs",
+                "title": "How to set an environment variable on MacOS",
                 "permalink": "/docs/tip_tricks/env-variable"
               }
             },
             {
               "unversionedId": "tip_tricks/env-variable",
               "id": "tip_tricks/env-variable",
-              "title": "How to set an environment variable on MacOs",
+              "title": "How to set an environment variable on MacOS",
               "description": "What is an environment variable?",
               "source": "@site/docs/tip_tricks/env_variable.md",
               "sourceDirName": "tip_tricks",
@@ -1331,7 +1354,7 @@
               "frontMatter": {
                 "slug": "env-variable",
                 "id": "env-variable",
-                "title": "How to set an environment variable on MacOs",
+                "title": "How to set an environment variable on MacOS",
                 "authors": [
                   {
                     "name": "Ramsey Gavin",
@@ -1446,6 +1469,18 @@
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
+                      {
+                        "type": "category",
+                        "label": "Alembic",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "databases/postgres/alembic/intro"
+                          }
+                        ]
+                      },
                       {
                         "type": "category",
                         "label": "Drivers",

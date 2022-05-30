@@ -1,0 +1,23 @@
+{
+  "unversionedId": "databases/postgres/alembic/intro",
+  "id": "databases/postgres/alembic/intro",
+  "title": "Alembic",
+  "description": "",
+  "source": "@site/docs/databases/postgres/alembic/intro.md",
+  "sourceDirName": "databases/postgres/alembic",
+  "slug": "/databases/postgres/alembic/intro",
+  "permalink": "/docs/databases/postgres/alembic/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/databases/postgres/alembic/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intro to Databases",
+    "permalink": "/docs/databases/databases"
+  },
+  "next": {
+    "title": "What is Database driver?",
+    "permalink": "/docs/databases/postgres/drivers/postgresql-driver"
+  }
+}

@@ -51,6 +51,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "databases/postgres/alembic/intro",
+              "path": "/docs/databases/postgres/alembic/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "databases/postgres/drivers/postgresql-driver",
               "path": "/docs/databases/postgres/drivers/postgresql-driver",
               "sidebar": "tutorialSidebar"
