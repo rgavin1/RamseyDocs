@@ -1,0 +1,13 @@
+{
+  "name": "http",
+  "permalink": "/docs/tags/http",
+  "docs": [
+    {
+      "id": "api/axios/axios",
+      "title": "Intro to Axois",
+      "description": "Axios Documentation",
+      "permalink": "/docs/api/axios/axios"
+    }
+  ],
+  "allTagsPath": "/docs/tags"
+}

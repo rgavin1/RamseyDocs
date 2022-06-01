@@ -1,0 +1,13 @@
+{
+  "name": "cors",
+  "permalink": "/docs/tags/cors",
+  "docs": [
+    {
+      "id": "api/cors",
+      "title": "Introduction to CORS",
+      "description": "What is CORS?",
+      "permalink": "/docs/api/cors"
+    }
+  ],
+  "allTagsPath": "/docs/tags"
+}

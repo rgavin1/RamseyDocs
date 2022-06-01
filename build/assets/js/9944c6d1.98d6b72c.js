@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[6022],{4287:function(s){s.exports=JSON.parse('{"name":"response","permalink":"/docs/tags/response","docs":[{"id":"api/python/fastapi/status_codes","title":"Response (Status Codes)","description":"","permalink":"/docs/api/python/fastapi/response"}],"allTagsPath":"/docs/tags"}')}}]);

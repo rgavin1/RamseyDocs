@@ -1,0 +1,68 @@
+{
+  "unversionedId": "api/cors",
+  "id": "api/cors",
+  "title": "Introduction to CORS",
+  "description": "What is CORS?",
+  "source": "@site/docs/api/cors.md",
+  "sourceDirName": "api",
+  "slug": "/api/cors",
+  "permalink": "/docs/api/cors",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/cors.md",
+  "tags": [
+    {
+      "label": "cors",
+      "permalink": "/docs/tags/cors"
+    },
+    {
+      "label": "api",
+      "permalink": "/docs/tags/api"
+    },
+    {
+      "label": "request",
+      "permalink": "/docs/tags/request"
+    },
+    {
+      "label": "response",
+      "permalink": "/docs/tags/response"
+    },
+    {
+      "label": "rest",
+      "permalink": "/docs/tags/rest"
+    },
+    {
+      "label": "axios",
+      "permalink": "/docs/tags/axios"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "id": "cors",
+    "slug": "cors",
+    "title": "Introduction to CORS",
+    "authors": [
+      {
+        "name": "Ramsey Gavin",
+        "title": "Software Engineer II",
+        "url": "https://github.com/rgavin1",
+        "image_url": "https://github.com/rgavin1.png"
+      }
+    ],
+    "tags": [
+      "cors",
+      "api",
+      "request",
+      "response",
+      "rest",
+      "axios"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intro to Axois",
+    "permalink": "/docs/api/axios/axios"
+  },
+  "next": {
+    "title": "Intro to APIs",
+    "permalink": "/docs/api/api"
+  }
+}

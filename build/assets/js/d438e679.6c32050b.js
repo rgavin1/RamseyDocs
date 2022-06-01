@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[4666],{4183:function(s){s.exports=JSON.parse('{"name":"cors","permalink":"/docs/tags/cors","docs":[{"id":"api/cors","title":"Introduction to CORS","description":"What is CORS?","permalink":"/docs/api/cors"}],"allTagsPath":"/docs/tags"}')}}]);

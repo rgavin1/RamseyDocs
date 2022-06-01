@@ -1,0 +1,64 @@
+{
+  "unversionedId": "api/axios/axios",
+  "id": "api/axios/axios",
+  "title": "Intro to Axois",
+  "description": "Axios Documentation",
+  "source": "@site/docs/api/axios/intro.md",
+  "sourceDirName": "api/axios",
+  "slug": "/api/axios/axios",
+  "permalink": "/docs/api/axios/axios",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/axios/intro.md",
+  "tags": [
+    {
+      "label": "http",
+      "permalink": "/docs/tags/http"
+    },
+    {
+      "label": "api",
+      "permalink": "/docs/tags/api"
+    },
+    {
+      "label": "request",
+      "permalink": "/docs/tags/request"
+    },
+    {
+      "label": "response",
+      "permalink": "/docs/tags/response"
+    },
+    {
+      "label": "rest",
+      "permalink": "/docs/tags/rest"
+    },
+    {
+      "label": "axios",
+      "permalink": "/docs/tags/axios"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "id": "axios",
+    "slug": "axios",
+    "title": "Intro to Axois",
+    "authors": [
+      {
+        "name": "Ramsey Gavin",
+        "title": "Software Engineer II",
+        "url": "https://github.com/rgavin1",
+        "image_url": "https://github.com/rgavin1.png"
+      }
+    ],
+    "tags": [
+      "http",
+      "api",
+      "request",
+      "response",
+      "rest",
+      "axios"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Introduction to CORS",
+    "permalink": "/docs/api/cors"
+  }
+}

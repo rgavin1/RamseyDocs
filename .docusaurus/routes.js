@@ -4,6 +4,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug','5a8'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config','5ae'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content','ee9'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData','829'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata','7cd'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry','c3d'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes','4af'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog','fe0'),
     exact: true
@@ -74,8 +109,18 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/axios',
+    component: ComponentCreator('/docs/tags/axios','737'),
+    exact: true
+  },
+  {
     path: '/docs/tags/cloudfront',
     component: ComponentCreator('/docs/tags/cloudfront','115'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/cors',
+    component: ComponentCreator('/docs/tags/cors','618'),
     exact: true
   },
   {
@@ -106,6 +151,11 @@ export default [
   {
     path: '/docs/tags/hosting',
     component: ComponentCreator('/docs/tags/hosting','b0b'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/http',
+    component: ComponentCreator('/docs/tags/http','4a9'),
     exact: true
   },
   {
@@ -149,8 +199,18 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/request',
+    component: ComponentCreator('/docs/tags/request','e76'),
+    exact: true
+  },
+  {
     path: '/docs/tags/response',
     component: ComponentCreator('/docs/tags/response','94d'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/rest',
+    component: ComponentCreator('/docs/tags/rest','edd'),
     exact: true
   },
   {
@@ -190,11 +250,23 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','607'),
+    component: ComponentCreator('/docs','8a5'),
     routes: [
       {
         path: '/docs/api/api',
         component: ComponentCreator('/docs/api/api','0d7'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/api/axios/axios',
+        component: ComponentCreator('/docs/api/axios/axios','932'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/api/cors',
+        component: ComponentCreator('/docs/api/cors','16d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

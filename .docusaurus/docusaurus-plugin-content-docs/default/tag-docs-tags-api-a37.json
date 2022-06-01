@@ -15,6 +15,18 @@
       "permalink": "/docs/api/api"
     },
     {
+      "id": "api/axios/axios",
+      "title": "Intro to Axois",
+      "description": "Axios Documentation",
+      "permalink": "/docs/api/axios/axios"
+    },
+    {
+      "id": "api/cors",
+      "title": "Introduction to CORS",
+      "description": "What is CORS?",
+      "permalink": "/docs/api/cors"
+    },
+    {
       "id": "databases/postgres/orms/orms",
       "title": "Object Relational Mappers (ORMs)",
       "description": "What is an ORM?",

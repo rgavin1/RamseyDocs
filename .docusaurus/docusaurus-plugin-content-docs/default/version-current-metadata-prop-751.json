@@ -15,6 +15,26 @@
         "collapsed": true,
         "items": [
           {
+            "type": "category",
+            "label": "Axios",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Intro to Axois",
+                "href": "/docs/api/axios/axios",
+                "docId": "api/axios/axios"
+              }
+            ]
+          },
+          {
+            "type": "link",
+            "label": "Introduction to CORS",
+            "href": "/docs/api/cors",
+            "docId": "api/cors"
+          },
+          {
             "type": "link",
             "label": "Intro to APIs",
             "href": "/docs/api/api",
@@ -463,6 +483,18 @@
     ]
   },
   "docs": {
+    "api/axios/axios": {
+      "id": "api/axios/axios",
+      "title": "Intro to Axois",
+      "description": "Axios Documentation",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/cors": {
+      "id": "api/cors",
+      "title": "Introduction to CORS",
+      "description": "What is CORS?",
+      "sidebar": "tutorialSidebar"
+    },
     "api/intro": {
       "id": "api/intro",
       "title": "Intro to APIs",

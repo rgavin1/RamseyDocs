@@ -36,6 +36,10 @@
     ]
   },
   "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to CORS",
+    "permalink": "/docs/api/cors"
+  },
   "next": {
     "title": "How to setup a FastAPI web server",
     "permalink": "/docs/api/python/fastapi/fastapi"

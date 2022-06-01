@@ -1,13 +1,43 @@
 [
   {
-    "name": "python",
-    "permalink": "/docs/tags/python",
-    "count": 7
+    "name": "http",
+    "permalink": "/docs/tags/http",
+    "count": 1
   },
   {
     "name": "api",
     "permalink": "/docs/tags/api",
-    "count": 5
+    "count": 7
+  },
+  {
+    "name": "request",
+    "permalink": "/docs/tags/request",
+    "count": 2
+  },
+  {
+    "name": "response",
+    "permalink": "/docs/tags/response",
+    "count": 3
+  },
+  {
+    "name": "rest",
+    "permalink": "/docs/tags/rest",
+    "count": 2
+  },
+  {
+    "name": "axios",
+    "permalink": "/docs/tags/axios",
+    "count": 2
+  },
+  {
+    "name": "cors",
+    "permalink": "/docs/tags/cors",
+    "count": 1
+  },
+  {
+    "name": "python",
+    "permalink": "/docs/tags/python",
+    "count": 7
   },
   {
     "name": "venv",
@@ -22,11 +52,6 @@
   {
     "name": "status-codes",
     "permalink": "/docs/tags/status-codes",
-    "count": 1
-  },
-  {
-    "name": "response",
-    "permalink": "/docs/tags/response",
     "count": 1
   },
   {

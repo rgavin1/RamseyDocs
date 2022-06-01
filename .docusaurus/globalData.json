@@ -8,8 +8,18 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "api/intro",
+          "mainDocId": "api/axios/axios",
           "docs": [
+            {
+              "id": "api/axios/axios",
+              "path": "/docs/api/axios/axios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/cors",
+              "path": "/docs/api/cors",
+              "sidebar": "tutorialSidebar"
+            },
             {
               "id": "api/intro",
               "path": "/docs/api/api",
@@ -219,8 +229,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/api/api",
-                "label": "api/intro"
+                "path": "/docs/api/axios/axios",
+                "label": "api/axios/axios"
               }
             }
           }
