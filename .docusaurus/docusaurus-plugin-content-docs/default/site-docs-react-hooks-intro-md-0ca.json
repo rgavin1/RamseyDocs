@@ -1,0 +1,23 @@
+{
+  "unversionedId": "react/hooks/intro",
+  "id": "react/hooks/intro",
+  "title": "intro",
+  "description": "",
+  "source": "@site/docs/react/hooks/intro.md",
+  "sourceDirName": "react/hooks",
+  "slug": "/react/hooks/intro",
+  "permalink": "/docs/react/hooks/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react/hooks/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The Feynman Technique",
+    "permalink": "/docs/learning/feynman-technique"
+  },
+  "next": {
+    "title": "intro",
+    "permalink": "/docs/react/intro"
+  }
+}

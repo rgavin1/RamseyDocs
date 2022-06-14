@@ -1,0 +1,63 @@
+{
+  "unversionedId": "javascript/data-structures/javascript-shallow-deep-copy",
+  "id": "javascript/data-structures/javascript-shallow-deep-copy",
+  "title": "Shallow vs Deep Copy",
+  "description": "Here's a great video called Deep Copying vs Shallow Copying.",
+  "source": "@site/docs/javascript/data-structures/shallow-deep-copy.md",
+  "sourceDirName": "javascript/data-structures",
+  "slug": "/javascript/data-structures/javascript-shallow-deep-copy",
+  "permalink": "/docs/javascript/data-structures/javascript-shallow-deep-copy",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/data-structures/shallow-deep-copy.md",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/docs/tags/javascript"
+    },
+    {
+      "label": "array",
+      "permalink": "/docs/tags/array"
+    },
+    {
+      "label": "object",
+      "permalink": "/docs/tags/object"
+    },
+    {
+      "label": "shallow",
+      "permalink": "/docs/tags/shallow"
+    },
+    {
+      "label": "deep",
+      "permalink": "/docs/tags/deep"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "id": "javascript-shallow-deep-copy",
+    "slug": "javascript-shallow-deep-copy",
+    "title": "Shallow vs Deep Copy",
+    "authors": [
+      {
+        "name": "Ramsey Gavin",
+        "title": "Software Engineer II",
+        "url": "https://github.com/rgavin1",
+        "image_url": "https://github.com/rgavin1.png"
+      }
+    ],
+    "tags": [
+      "javascript",
+      "array",
+      "object",
+      "shallow",
+      "deep"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pass by Reference vs Pass by Value",
+    "permalink": "/docs/javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference"
+  },
+  "next": {
+    "title": "custom",
+    "permalink": "/docs/javascript/react/hooks/custom"
+  }
+}

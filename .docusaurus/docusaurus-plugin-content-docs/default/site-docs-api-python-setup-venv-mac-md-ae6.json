@@ -37,8 +37,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Response (Status Codes)",
-    "permalink": "/docs/api/python/fastapi/response"
+    "title": "password_hashing",
+    "permalink": "/docs/api/python/security/password_hashing"
   },
   "next": {
     "title": "pipeline-setup",

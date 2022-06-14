@@ -67,6 +67,26 @@
                 ]
               },
               {
+                "type": "category",
+                "label": "Security",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "jwt",
+                    "href": "/docs/api/python/security/jwt",
+                    "docId": "api/python/security/jwt"
+                  },
+                  {
+                    "type": "link",
+                    "label": "password_hashing",
+                    "href": "/docs/api/python/security/password_hashing",
+                    "docId": "api/python/security/password_hashing"
+                  }
+                ]
+              },
+              {
                 "type": "link",
                 "label": "How to setup a Virtual Environment on a Mac",
                 "href": "/docs/api/python/venv",
@@ -385,6 +405,106 @@
       },
       {
         "type": "category",
+        "label": "Javascript",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "Data Structures",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Array",
+                "href": "/docs/javascript/data-structures/javascript-array",
+                "docId": "javascript/data-structures/javascript-array"
+              },
+              {
+                "type": "link",
+                "label": "Object",
+                "href": "/docs/javascript/data-structures/javascript-objects",
+                "docId": "javascript/data-structures/javascript-objects"
+              },
+              {
+                "type": "link",
+                "label": "Pass by Reference vs Pass by Value",
+                "href": "/docs/javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference",
+                "docId": "javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference"
+              },
+              {
+                "type": "link",
+                "label": "Shallow vs Deep Copy",
+                "href": "/docs/javascript/data-structures/javascript-shallow-deep-copy",
+                "docId": "javascript/data-structures/javascript-shallow-deep-copy"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "React",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "Hooks",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "custom",
+                    "href": "/docs/javascript/react/hooks/custom",
+                    "docId": "javascript/react/hooks/custom"
+                  },
+                  {
+                    "type": "link",
+                    "label": "intro",
+                    "href": "/docs/javascript/react/hooks/intro",
+                    "docId": "javascript/react/hooks/intro"
+                  },
+                  {
+                    "type": "link",
+                    "label": "use-effect",
+                    "href": "/docs/javascript/react/hooks/use-effect",
+                    "docId": "javascript/react/hooks/use-effect"
+                  },
+                  {
+                    "type": "link",
+                    "label": "use-state",
+                    "href": "/docs/javascript/react/hooks/use-state",
+                    "docId": "javascript/react/hooks/use-state"
+                  }
+                ]
+              },
+              {
+                "type": "link",
+                "label": "intro",
+                "href": "/docs/javascript/react/intro",
+                "docId": "javascript/react/intro"
+              },
+              {
+                "type": "category",
+                "label": "React Router Dom",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "intro",
+                    "href": "/docs/javascript/react/react-router-dom/intro",
+                    "docId": "javascript/react/react-router-dom/intro"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
         "label": "Learning",
         "collapsible": true,
         "collapsed": true,
@@ -510,6 +630,18 @@
     "api/python/fastapi/status_codes": {
       "id": "api/python/fastapi/status_codes",
       "title": "Response (Status Codes)",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/python/security/jwt": {
+      "id": "api/python/security/jwt",
+      "title": "jwt",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/python/security/password_hashing": {
+      "id": "api/python/security/password_hashing",
+      "title": "password_hashing",
       "description": "",
       "sidebar": "tutorialSidebar"
     },
@@ -685,6 +817,66 @@
       "id": "intro",
       "title": "intro",
       "description": "Reset this page",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/data-structures/javascript-array": {
+      "id": "javascript/data-structures/javascript-array",
+      "title": "Array",
+      "description": "What is an array?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/data-structures/javascript-objects": {
+      "id": "javascript/data-structures/javascript-objects",
+      "title": "Object",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference": {
+      "id": "javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference",
+      "title": "Pass by Reference vs Pass by Value",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/data-structures/javascript-shallow-deep-copy": {
+      "id": "javascript/data-structures/javascript-shallow-deep-copy",
+      "title": "Shallow vs Deep Copy",
+      "description": "Here's a great video called Deep Copying vs Shallow Copying.",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/react/hooks/custom": {
+      "id": "javascript/react/hooks/custom",
+      "title": "custom",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/react/hooks/intro": {
+      "id": "javascript/react/hooks/intro",
+      "title": "intro",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/react/hooks/use-effect": {
+      "id": "javascript/react/hooks/use-effect",
+      "title": "use-effect",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/react/hooks/use-state": {
+      "id": "javascript/react/hooks/use-state",
+      "title": "use-state",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/react/intro": {
+      "id": "javascript/react/intro",
+      "title": "intro",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/react/react-router-dom/intro": {
+      "id": "javascript/react/react-router-dom/intro",
+      "title": "intro",
+      "description": "https://reactrouter.com/docs/en/v6",
       "sidebar": "tutorialSidebar"
     },
     "learning/5-w-s-and-h-questions": {

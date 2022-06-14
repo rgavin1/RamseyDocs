@@ -1,0 +1,19 @@
+{
+  "name": "deep",
+  "permalink": "/docs/tags/deep",
+  "docs": [
+    {
+      "id": "javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference",
+      "title": "Pass by Reference vs Pass by Value",
+      "description": "",
+      "permalink": "/docs/javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference"
+    },
+    {
+      "id": "javascript/data-structures/javascript-shallow-deep-copy",
+      "title": "Shallow vs Deep Copy",
+      "description": "Here's a great video called Deep Copying vs Shallow Copying.",
+      "permalink": "/docs/javascript/data-structures/javascript-shallow-deep-copy"
+    }
+  ],
+  "allTagsPath": "/docs/tags"
+}

@@ -120,6 +120,41 @@
     "count": 1
   },
   {
+    "name": "javascript",
+    "permalink": "/docs/tags/javascript",
+    "count": 4
+  },
+  {
+    "name": "array",
+    "permalink": "/docs/tags/array",
+    "count": 3
+  },
+  {
+    "name": "object",
+    "permalink": "/docs/tags/object",
+    "count": 3
+  },
+  {
+    "name": "shallow",
+    "permalink": "/docs/tags/shallow",
+    "count": 2
+  },
+  {
+    "name": "deep",
+    "permalink": "/docs/tags/deep",
+    "count": 2
+  },
+  {
+    "name": "value",
+    "permalink": "/docs/tags/value",
+    "count": 1
+  },
+  {
+    "name": "reference",
+    "permalink": "/docs/tags/reference",
+    "count": 1
+  },
+  {
     "name": "learning",
     "permalink": "/docs/tags/learning",
     "count": 3

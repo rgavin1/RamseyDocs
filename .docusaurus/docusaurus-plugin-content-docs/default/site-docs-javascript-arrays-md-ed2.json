@@ -1,0 +1,48 @@
+{
+  "unversionedId": "javascript/javascript-array",
+  "id": "javascript/javascript-array",
+  "title": "Array",
+  "description": "What is an array?",
+  "source": "@site/docs/javascript/arrays.md",
+  "sourceDirName": "javascript",
+  "slug": "/javascript/javascript-array",
+  "permalink": "/docs/javascript/javascript-array",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/arrays.md",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/docs/tags/javascript"
+    },
+    {
+      "label": "array",
+      "permalink": "/docs/tags/array"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "id": "javascript-array",
+    "slug": "javascript-array",
+    "title": "Array",
+    "authors": [
+      {
+        "name": "Ramsey Gavin",
+        "title": "Software Engineer II",
+        "url": "https://github.com/rgavin1",
+        "image_url": "https://github.com/rgavin1.png"
+      }
+    ],
+    "tags": [
+      "javascript",
+      "array"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "intro",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Object",
+    "permalink": "/docs/javascript/javascript-objects"
+  }
+}

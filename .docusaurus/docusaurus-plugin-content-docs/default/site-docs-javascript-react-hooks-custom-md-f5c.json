@@ -1,0 +1,23 @@
+{
+  "unversionedId": "javascript/react/hooks/custom",
+  "id": "javascript/react/hooks/custom",
+  "title": "custom",
+  "description": "",
+  "source": "@site/docs/javascript/react/hooks/custom.md",
+  "sourceDirName": "javascript/react/hooks",
+  "slug": "/javascript/react/hooks/custom",
+  "permalink": "/docs/javascript/react/hooks/custom",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/react/hooks/custom.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Shallow vs Deep Copy",
+    "permalink": "/docs/javascript/data-structures/javascript-shallow-deep-copy"
+  },
+  "next": {
+    "title": "intro",
+    "permalink": "/docs/javascript/react/hooks/intro"
+  }
+}

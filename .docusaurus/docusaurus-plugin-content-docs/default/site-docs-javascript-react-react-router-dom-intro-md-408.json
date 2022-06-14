@@ -1,0 +1,23 @@
+{
+  "unversionedId": "javascript/react/react-router-dom/intro",
+  "id": "javascript/react/react-router-dom/intro",
+  "title": "intro",
+  "description": "https://reactrouter.com/docs/en/v6",
+  "source": "@site/docs/javascript/react/react-router-dom/intro.md",
+  "sourceDirName": "javascript/react/react-router-dom",
+  "slug": "/javascript/react/react-router-dom/intro",
+  "permalink": "/docs/javascript/react/react-router-dom/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/react/react-router-dom/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "intro",
+    "permalink": "/docs/javascript/react/intro"
+  },
+  "next": {
+    "title": "5 W's and H Questions",
+    "permalink": "/docs/learning/5-w-s-and-h-questions"
+  }
+}

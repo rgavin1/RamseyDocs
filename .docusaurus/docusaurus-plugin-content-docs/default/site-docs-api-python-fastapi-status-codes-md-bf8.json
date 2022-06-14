@@ -56,7 +56,7 @@
     "permalink": "/docs/api/python/fastapi/fastapi"
   },
   "next": {
-    "title": "How to setup a Virtual Environment on a Mac",
-    "permalink": "/docs/api/python/venv"
+    "title": "jwt",
+    "permalink": "/docs/api/python/security/jwt"
   }
 }

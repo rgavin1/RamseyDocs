@@ -1,0 +1,13 @@
+{
+  "name": "reference",
+  "permalink": "/docs/tags/reference",
+  "docs": [
+    {
+      "id": "javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference",
+      "title": "Pass by Reference vs Pass by Value",
+      "description": "",
+      "permalink": "/docs/javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference"
+    }
+  ],
+  "allTagsPath": "/docs/tags"
+}

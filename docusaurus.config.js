@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Ramsey Gavin',
   tagline: 'Look at what I have learned',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://ramseygavin.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

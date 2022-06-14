@@ -1,0 +1,48 @@
+{
+  "unversionedId": "javascript/data-structures/javascript-objects",
+  "id": "javascript/data-structures/javascript-objects",
+  "title": "Object",
+  "description": "",
+  "source": "@site/docs/javascript/data-structures/objects.md",
+  "sourceDirName": "javascript/data-structures",
+  "slug": "/javascript/data-structures/javascript-objects",
+  "permalink": "/docs/javascript/data-structures/javascript-objects",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/data-structures/objects.md",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/docs/tags/javascript"
+    },
+    {
+      "label": "object",
+      "permalink": "/docs/tags/object"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "id": "javascript-objects",
+    "slug": "javascript-objects",
+    "title": "Object",
+    "authors": [
+      {
+        "name": "Ramsey Gavin",
+        "title": "Software Engineer II",
+        "url": "https://github.com/rgavin1",
+        "image_url": "https://github.com/rgavin1.png"
+      }
+    ],
+    "tags": [
+      "javascript",
+      "object"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Array",
+    "permalink": "/docs/javascript/data-structures/javascript-array"
+  },
+  "next": {
+    "title": "Pass by Reference vs Pass by Value",
+    "permalink": "/docs/javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference"
+  }
+}

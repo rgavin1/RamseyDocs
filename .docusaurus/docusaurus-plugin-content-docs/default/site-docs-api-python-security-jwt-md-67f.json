@@ -1,0 +1,23 @@
+{
+  "unversionedId": "api/python/security/jwt",
+  "id": "api/python/security/jwt",
+  "title": "jwt",
+  "description": "",
+  "source": "@site/docs/api/python/security/jwt.md",
+  "sourceDirName": "api/python/security",
+  "slug": "/api/python/security/jwt",
+  "permalink": "/docs/api/python/security/jwt",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/python/security/jwt.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Response (Status Codes)",
+    "permalink": "/docs/api/python/fastapi/response"
+  },
+  "next": {
+    "title": "password_hashing",
+    "permalink": "/docs/api/python/security/password_hashing"
+  }
+}

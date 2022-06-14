@@ -153,6 +153,11 @@
     "tag": "tag---docs-tags-api-87-a-926",
     "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
+  "/docs/tags/array-6b1": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-array-328-b06",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
   "/docs/tags/aws-f70": {
     "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
     "tag": "tag---docs-tags-aws-762-9c1",
@@ -183,6 +188,11 @@
     "tag": "tag---docs-tags-databases-35-c-613",
     "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
+  "/docs/tags/deep-8da": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-deepd-47-589",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
   "/docs/tags/driver-813": {
     "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
     "tag": "tag---docs-tags-driver-1-d-6-5b2",
@@ -208,9 +218,19 @@
     "tag": "tag---docs-tags-httpeed-1de",
     "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
+  "/docs/tags/javascript-2f9": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-javascripte-8-b-a38",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
   "/docs/tags/learning-18f": {
     "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
     "tag": "tag---docs-tags-learningd-4-a-79b",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
+  "/docs/tags/object-967": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-object-745-c50",
     "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
   "/docs/tags/orm-448": {
@@ -243,6 +263,11 @@
     "tag": "tag---docs-tags-questionsc-0-d-dd0",
     "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
+  "/docs/tags/reference-e4b": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-reference-13-f-c56",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
   "/docs/tags/relational-f06": {
     "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
     "tag": "tag---docs-tags-relational-2-d-3-904",
@@ -268,6 +293,11 @@
     "tag": "tag---docs-tags-s-3-d-88-2fa",
     "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
+  "/docs/tags/shallow-30b": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-shallow-04-f-aff",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
   "/docs/tags/sql-093": {
     "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
     "tag": "tag---docs-tags-sqlc-0-a-610",
@@ -281,6 +311,11 @@
   "/docs/tags/teaching-5bc": {
     "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
     "tag": "tag---docs-tags-teaching-760-d2a",
+    "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
+  },
+  "/docs/tags/value-40f": {
+    "component": "component---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "tag": "tag---docs-tags-value-339-114",
     "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
   },
   "/docs/tags/venv-9b8": {
@@ -298,7 +333,7 @@
     "config": "config---projects-5-e-9-d4c",
     "__routeContextModule": "__routeContextModule---markdown-pageb-10-687"
   },
-  "/docs-8a5": {
+  "/docs-33b": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398",
     "__routeContextModule": "__routeContextModule---docs-tagsd-39-e9b"
@@ -322,6 +357,14 @@
   "/docs/api/python/fastapi/response-36f": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-api-python-fastapi-responsebf-8-9a1"
+  },
+  "/docs/api/python/security/jwt-56e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-api-python-security-jwt-67-f-792"
+  },
+  "/docs/api/python/security/password_hashing-d10": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-api-python-security-password-hashing-161-6fb"
   },
   "/docs/api/python/venv-675": {
     "component": "component---theme-doc-item-178-a40",
@@ -438,6 +481,46 @@
   "/docs/intro-aed": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/javascript/data-structures/javascript-array-f80": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-javascript-data-structures-javascript-arrayb-18-acc"
+  },
+  "/docs/javascript/data-structures/javascript-objects-e6a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-javascript-data-structures-javascript-objectsb-6-d-841"
+  },
+  "/docs/javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference-ac1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-javascript-data-structures-pass-by-value-versus-pass-by-reference-9-d-2-edd"
+  },
+  "/docs/javascript/data-structures/javascript-shallow-deep-copy-cbd": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-javascript-data-structures-shallow-deep-copy-138-e7c"
+  },
+  "/docs/javascript/react/hooks/custom-617": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-javascript-react-hooks-customf-5-c-082"
+  },
+  "/docs/javascript/react/hooks/intro-b31": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-javascript-react-hooks-intro-488-303"
+  },
+  "/docs/javascript/react/hooks/use-effect-6ae": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-javascript-react-hooks-use-effect-00-d-61d"
+  },
+  "/docs/javascript/react/hooks/use-state-524": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-javascript-react-hooks-use-statee-82-7bd"
+  },
+  "/docs/javascript/react/intro-62c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-javascript-react-intro-702-d69"
+  },
+  "/docs/javascript/react/react-router-dom/intro-e95": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-javascript-react-react-router-dom-intro-408-968"
   },
   "/docs/learning/5-w-s-and-h-questions-9f7": {
     "component": "component---theme-doc-item-178-a40",

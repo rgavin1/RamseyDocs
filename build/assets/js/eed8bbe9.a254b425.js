@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[4706],{8843:function(s){s.exports=JSON.parse('{"name":"http","permalink":"/docs/tags/http","docs":[{"id":"api/axios/axios","title":"Intro to Axois","description":"Axios Documentation","permalink":"/docs/api/axios/axios"}],"allTagsPath":"/docs/tags"}')}}]);

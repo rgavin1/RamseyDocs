@@ -39,7 +39,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "intro",
-    "permalink": "/docs/intro"
+    "permalink": "/docs/javascript/react/react-router-dom/intro"
   },
   "next": {
     "title": "The Feynman Technique",

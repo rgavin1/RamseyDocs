@@ -104,6 +104,11 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/array',
+    component: ComponentCreator('/docs/tags/array','6b1'),
+    exact: true
+  },
+  {
     path: '/docs/tags/aws',
     component: ComponentCreator('/docs/tags/aws','f70'),
     exact: true
@@ -134,6 +139,11 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/deep',
+    component: ComponentCreator('/docs/tags/deep','8da'),
+    exact: true
+  },
+  {
     path: '/docs/tags/driver',
     component: ComponentCreator('/docs/tags/driver','813'),
     exact: true
@@ -159,8 +169,18 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/javascript',
+    component: ComponentCreator('/docs/tags/javascript','2f9'),
+    exact: true
+  },
+  {
     path: '/docs/tags/learning',
     component: ComponentCreator('/docs/tags/learning','18f'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/object',
+    component: ComponentCreator('/docs/tags/object','967'),
     exact: true
   },
   {
@@ -194,6 +214,11 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/reference',
+    component: ComponentCreator('/docs/tags/reference','e4b'),
+    exact: true
+  },
+  {
     path: '/docs/tags/relational',
     component: ComponentCreator('/docs/tags/relational','f06'),
     exact: true
@@ -219,6 +244,11 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/shallow',
+    component: ComponentCreator('/docs/tags/shallow','30b'),
+    exact: true
+  },
+  {
     path: '/docs/tags/sql',
     component: ComponentCreator('/docs/tags/sql','093'),
     exact: true
@@ -231,6 +261,11 @@ export default [
   {
     path: '/docs/tags/teaching',
     component: ComponentCreator('/docs/tags/teaching','5bc'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/value',
+    component: ComponentCreator('/docs/tags/value','40f'),
     exact: true
   },
   {
@@ -250,7 +285,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','8a5'),
+    component: ComponentCreator('/docs','33b'),
     routes: [
       {
         path: '/docs/api/api',
@@ -279,6 +314,18 @@ export default [
       {
         path: '/docs/api/python/fastapi/response',
         component: ComponentCreator('/docs/api/python/fastapi/response','36f'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/api/python/security/jwt',
+        component: ComponentCreator('/docs/api/python/security/jwt','56e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/api/python/security/password_hashing',
+        component: ComponentCreator('/docs/api/python/security/password_hashing','d10'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -453,6 +500,66 @@ export default [
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro','aed'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/javascript/data-structures/javascript-array',
+        component: ComponentCreator('/docs/javascript/data-structures/javascript-array','f80'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/javascript/data-structures/javascript-objects',
+        component: ComponentCreator('/docs/javascript/data-structures/javascript-objects','e6a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference',
+        component: ComponentCreator('/docs/javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference','ac1'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/javascript/data-structures/javascript-shallow-deep-copy',
+        component: ComponentCreator('/docs/javascript/data-structures/javascript-shallow-deep-copy','cbd'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/javascript/react/hooks/custom',
+        component: ComponentCreator('/docs/javascript/react/hooks/custom','617'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/javascript/react/hooks/intro',
+        component: ComponentCreator('/docs/javascript/react/hooks/intro','b31'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/javascript/react/hooks/use-effect',
+        component: ComponentCreator('/docs/javascript/react/hooks/use-effect','6ae'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/javascript/react/hooks/use-state',
+        component: ComponentCreator('/docs/javascript/react/hooks/use-state','524'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/javascript/react/intro',
+        component: ComponentCreator('/docs/javascript/react/intro','62c'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/javascript/react/react-router-dom/intro',
+        component: ComponentCreator('/docs/javascript/react/react-router-dom/intro','e95'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

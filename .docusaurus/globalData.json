@@ -36,6 +36,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "api/python/security/jwt",
+              "path": "/docs/api/python/security/jwt",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/python/security/password_hashing",
+              "path": "/docs/api/python/security/password_hashing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "api/python/setup-venv-mac",
               "path": "/docs/api/python/venv",
               "sidebar": "tutorialSidebar"
@@ -178,6 +188,56 @@
             {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/data-structures/javascript-array",
+              "path": "/docs/javascript/data-structures/javascript-array",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/data-structures/javascript-objects",
+              "path": "/docs/javascript/data-structures/javascript-objects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference",
+              "path": "/docs/javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/data-structures/javascript-shallow-deep-copy",
+              "path": "/docs/javascript/data-structures/javascript-shallow-deep-copy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/react/hooks/custom",
+              "path": "/docs/javascript/react/hooks/custom",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/react/hooks/intro",
+              "path": "/docs/javascript/react/hooks/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/react/hooks/use-effect",
+              "path": "/docs/javascript/react/hooks/use-effect",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/react/hooks/use-state",
+              "path": "/docs/javascript/react/hooks/use-state",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/react/intro",
+              "path": "/docs/javascript/react/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/react/react-router-dom/intro",
+              "path": "/docs/javascript/react/react-router-dom/intro",
               "sidebar": "tutorialSidebar"
             },
             {

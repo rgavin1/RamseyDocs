@@ -1,0 +1,73 @@
+{
+  "unversionedId": "javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference",
+  "id": "javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference",
+  "title": "Pass by Reference vs Pass by Value",
+  "description": "",
+  "source": "@site/docs/javascript/data-structures/pass-by-value-versus-pass-by-reference.md",
+  "sourceDirName": "javascript/data-structures",
+  "slug": "/javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference",
+  "permalink": "/docs/javascript/data-structures/javascript-pass-by-value-versus-pass-by-reference",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/javascript/data-structures/pass-by-value-versus-pass-by-reference.md",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/docs/tags/javascript"
+    },
+    {
+      "label": "array",
+      "permalink": "/docs/tags/array"
+    },
+    {
+      "label": "object",
+      "permalink": "/docs/tags/object"
+    },
+    {
+      "label": "shallow",
+      "permalink": "/docs/tags/shallow"
+    },
+    {
+      "label": "deep",
+      "permalink": "/docs/tags/deep"
+    },
+    {
+      "label": "value",
+      "permalink": "/docs/tags/value"
+    },
+    {
+      "label": "reference",
+      "permalink": "/docs/tags/reference"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "id": "javascript-pass-by-value-versus-pass-by-reference",
+    "slug": "javascript-pass-by-value-versus-pass-by-reference",
+    "title": "Pass by Reference vs Pass by Value",
+    "authors": [
+      {
+        "name": "Ramsey Gavin",
+        "title": "Software Engineer II",
+        "url": "https://github.com/rgavin1",
+        "image_url": "https://github.com/rgavin1.png"
+      }
+    ],
+    "tags": [
+      "javascript",
+      "array",
+      "object",
+      "shallow",
+      "deep",
+      "value",
+      "reference"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Object",
+    "permalink": "/docs/javascript/data-structures/javascript-objects"
+  },
+  "next": {
+    "title": "Shallow vs Deep Copy",
+    "permalink": "/docs/javascript/data-structures/javascript-shallow-deep-copy"
+  }
+}
