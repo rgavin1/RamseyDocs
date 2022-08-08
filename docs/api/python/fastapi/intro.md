@@ -13,7 +13,7 @@ tags: [python, venv, fastapi, api]
 [Mozilla's HTTP Response Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 :::
 
-### Step 1: Setup the virtual environment. Follow this link to [How to setup a Virtual Environment on a Mac](../setup-venv-mac.md)
+<!-- ### Step 1: Setup the virtual environment. Follow this link to [How to setup a Virtual Environment on a Mac](../setup-venv-mac.md) -->
 
 ### Step 2: Install Fastapi in the newly created venv
 
@@ -72,4 +72,4 @@ INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 
 This should appear in the browser
 
-![](../assets/images/verify-server-is-working.png)
+<!-- ![](../assets/images/verify-server-is-working.png) -->

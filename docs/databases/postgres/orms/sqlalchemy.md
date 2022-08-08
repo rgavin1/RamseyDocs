@@ -251,6 +251,6 @@ def create_item(item: pydantic.Schema, db: Session = Depends(get_db)):
   return {"status": "success"}
 ```
 
-:::info Response Status Code
+<!-- :::info Response Status Code
   Find tutorial for adding status codes to response. [Response Status Code](../../../api/python/status_codes/intro.md) 
-:::
+::: -->
