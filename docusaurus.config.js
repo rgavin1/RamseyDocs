@@ -56,7 +56,7 @@ const config = {
             label: 'Docs',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
-          // {to: '/projects', label: 'Projects', position: 'left'},
+          {to: '/projects', label: 'Projects', position: 'left'},
           {
             href: 'https://docs.google.com/document/d/1VJbWwDzkFFdqsd7jgXwnCkru6C1_LZ71/edit?usp=sharing&ouid=101921997517040462460&rtpof=true&sd=true',
             label: 'Resume',
